@@ -1,0 +1,31 @@
+import { Component } from '@angular/core';
+import { BaseIcon } from 'primeng/baseicon';
+import * as i0 from "@angular/core";
+export class AngleRightIcon extends BaseIcon {
+}
+AngleRightIcon.ɵfac = i0.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "15.2.4", ngImport: i0, type: AngleRightIcon, deps: null, target: i0.ɵɵFactoryTarget.Component });
+AngleRightIcon.ɵcmp = i0.ɵɵngDeclareComponent({ minVersion: "14.0.0", version: "15.2.4", type: AngleRightIcon, isStandalone: true, selector: "AngleRightIcon", usesInheritance: true, ngImport: i0, template: `
+        <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg" [attr.aria-label]="ariaLabel" [attr.aria-hidden]="ariaHidden" [attr.role]="role" [class]="getClassNames()">
+            <path
+                d="M5.25 11.1728C5.14929 11.1694 5.05033 11.1455 4.9592 11.1025C4.86806 11.0595 4.78666 10.9984 4.72 10.9228C4.57955 10.7822 4.50066 10.5916 4.50066 10.3928C4.50066 10.1941 4.57955 10.0035 4.72 9.86283L7.72 6.86283L4.72 3.86283C4.66067 3.71882 4.64765 3.55991 4.68275 3.40816C4.71785 3.25642 4.79932 3.11936 4.91585 3.01602C5.03238 2.91268 5.17819 2.84819 5.33305 2.83149C5.4879 2.81479 5.64411 2.84671 5.78 2.92283L9.28 6.42283C9.42045 6.56346 9.49934 6.75408 9.49934 6.95283C9.49934 7.15158 9.42045 7.34221 9.28 7.48283L5.78 10.9228C5.71333 10.9984 5.63193 11.0595 5.5408 11.1025C5.44966 11.1455 5.35071 11.1694 5.25 11.1728Z"
+                fill="currentColor"
+            />
+        </svg>
+    `, isInline: true });
+i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "15.2.4", ngImport: i0, type: AngleRightIcon, decorators: [{
+            type: Component,
+            args: [{
+                    selector: 'AngleRightIcon',
+                    standalone: true,
+                    imports: [BaseIcon],
+                    template: `
+        <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg" [attr.aria-label]="ariaLabel" [attr.aria-hidden]="ariaHidden" [attr.role]="role" [class]="getClassNames()">
+            <path
+                d="M5.25 11.1728C5.14929 11.1694 5.05033 11.1455 4.9592 11.1025C4.86806 11.0595 4.78666 10.9984 4.72 10.9228C4.57955 10.7822 4.50066 10.5916 4.50066 10.3928C4.50066 10.1941 4.57955 10.0035 4.72 9.86283L7.72 6.86283L4.72 3.86283C4.66067 3.71882 4.64765 3.55991 4.68275 3.40816C4.71785 3.25642 4.79932 3.11936 4.91585 3.01602C5.03238 2.91268 5.17819 2.84819 5.33305 2.83149C5.4879 2.81479 5.64411 2.84671 5.78 2.92283L9.28 6.42283C9.42045 6.56346 9.49934 6.75408 9.49934 6.95283C9.49934 7.15158 9.42045 7.34221 9.28 7.48283L5.78 10.9228C5.71333 10.9984 5.63193 11.0595 5.5408 11.1025C5.44966 11.1455 5.35071 11.1694 5.25 11.1728Z"
+                fill="currentColor"
+            />
+        </svg>
+    `
+                }]
+        }] });
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiYW5nbGVyaWdodC5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uLy4uLy4uLy4uL3NyYy9hcHAvY29tcG9uZW50cy9pY29ucy9hbmdsZXJpZ2h0L2FuZ2xlcmlnaHQudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUEsT0FBTyxFQUFFLFNBQVMsRUFBRSxNQUFNLGVBQWUsQ0FBQztBQUMxQyxPQUFPLEVBQUUsUUFBUSxFQUFFLE1BQU0sa0JBQWtCLENBQUM7O0FBZTVDLE1BQU0sT0FBTyxjQUFlLFNBQVEsUUFBUTs7MkdBQS9CLGNBQWM7K0ZBQWQsY0FBYyxpR0FUYjs7Ozs7OztLQU9UOzJGQUVRLGNBQWM7a0JBYjFCLFNBQVM7bUJBQUM7b0JBQ1AsUUFBUSxFQUFFLGdCQUFnQjtvQkFDMUIsVUFBVSxFQUFFLElBQUk7b0JBQ2hCLE9BQU8sRUFBRSxDQUFDLFFBQVEsQ0FBQztvQkFDbkIsUUFBUSxFQUFFOzs7Ozs7O0tBT1Q7aUJBQ0oiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyBDb21wb25lbnQgfSBmcm9tICdAYW5ndWxhci9jb3JlJztcclxuaW1wb3J0IHsgQmFzZUljb24gfSBmcm9tICdwcmltZW5nL2Jhc2VpY29uJztcclxuXHJcbkBDb21wb25lbnQoe1xyXG4gICAgc2VsZWN0b3I6ICdBbmdsZVJpZ2h0SWNvbicsXHJcbiAgICBzdGFuZGFsb25lOiB0cnVlLFxyXG4gICAgaW1wb3J0czogW0Jhc2VJY29uXSxcclxuICAgIHRlbXBsYXRlOiBgXHJcbiAgICAgICAgPHN2ZyB3aWR0aD1cIjE0XCIgaGVpZ2h0PVwiMTRcIiB2aWV3Qm94PVwiMCAwIDE0IDE0XCIgZmlsbD1cIm5vbmVcIiB4bWxucz1cImh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnXCIgW2F0dHIuYXJpYS1sYWJlbF09XCJhcmlhTGFiZWxcIiBbYXR0ci5hcmlhLWhpZGRlbl09XCJhcmlhSGlkZGVuXCIgW2F0dHIucm9sZV09XCJyb2xlXCIgW2NsYXNzXT1cImdldENsYXNzTmFtZXMoKVwiPlxyXG4gICAgICAgICAgICA8cGF0aFxyXG4gICAgICAgICAgICAgICAgZD1cIk01LjI1IDExLjE3MjhDNS4xNDkyOSAxMS4xNjk0IDUuMDUwMzMgMTEuMTQ1NSA0Ljk1OTIgMTEuMTAyNUM0Ljg2ODA2IDExLjA1OTUgNC43ODY2NiAxMC45OTg0IDQuNzIgMTAuOTIyOEM0LjU3OTU1IDEwLjc4MjIgNC41MDA2NiAxMC41OTE2IDQuNTAwNjYgMTAuMzkyOEM0LjUwMDY2IDEwLjE5NDEgNC41Nzk1NSAxMC4wMDM1IDQuNzIgOS44NjI4M0w3LjcyIDYuODYyODNMNC43MiAzLjg2MjgzQzQuNjYwNjcgMy43MTg4MiA0LjY0NzY1IDMuNTU5OTEgNC42ODI3NSAzLjQwODE2QzQuNzE3ODUgMy4yNTY0MiA0Ljc5OTMyIDMuMTE5MzYgNC45MTU4NSAzLjAxNjAyQzUuMDMyMzggMi45MTI2OCA1LjE3ODE5IDIuODQ4MTkgNS4zMzMwNSAyLjgzMTQ5QzUuNDg3OSAyLjgxNDc5IDUuNjQ0MTEgMi44NDY3MSA1Ljc4IDIuOTIyODNMOS4yOCA2LjQyMjgzQzkuNDIwNDUgNi41NjM0NiA5LjQ5OTM0IDYuNzU0MDggOS40OTkzNCA2Ljk1MjgzQzkuNDk5MzQgNy4xNTE1OCA5LjQyMDQ1IDcuMzQyMjEgOS4yOCA3LjQ4MjgzTDUuNzggMTAuOTIyOEM1LjcxMzMzIDEwLjk5ODQgNS42MzE5MyAxMS4wNTk1IDUuNTQwOCAxMS4xMDI1QzUuNDQ5NjYgMTEuMTQ1NSA1LjM1MDcxIDExLjE2OTQgNS4yNSAxMS4xNzI4WlwiXHJcbiAgICAgICAgICAgICAgICBmaWxsPVwiY3VycmVudENvbG9yXCJcclxuICAgICAgICAgICAgLz5cclxuICAgICAgICA8L3N2Zz5cclxuICAgIGBcclxufSlcclxuZXhwb3J0IGNsYXNzIEFuZ2xlUmlnaHRJY29uIGV4dGVuZHMgQmFzZUljb24ge31cclxuIl19

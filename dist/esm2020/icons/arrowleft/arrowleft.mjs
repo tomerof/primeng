@@ -1,0 +1,49 @@
+import { Component } from '@angular/core';
+import { BaseIcon } from 'primeng/baseicon';
+import * as i0 from "@angular/core";
+export class ArrowLeftIcon extends BaseIcon {
+}
+ArrowLeftIcon.ɵfac = i0.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "15.2.4", ngImport: i0, type: ArrowLeftIcon, deps: null, target: i0.ɵɵFactoryTarget.Component });
+ArrowLeftIcon.ɵcmp = i0.ɵɵngDeclareComponent({ minVersion: "14.0.0", version: "15.2.4", type: ArrowLeftIcon, isStandalone: true, selector: "ArrowLeftIcon", usesInheritance: true, ngImport: i0, template: `
+        <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg" [attr.aria-label]="ariaLabel" [attr.aria-hidden]="ariaHidden" [attr.role]="role" [class]="getClassNames()">
+            <g clip-path="url(#clip0_326_12477)">
+                <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M5.83743 13.0373C5.91964 13.0714 6.00783 13.0887 6.09683 13.0883C6.18584 13.0887 6.27403 13.0714 6.35623 13.0373C6.43844 13.0031 6.513 12.9529 6.57554 12.8896C6.7024 12.7626 6.77366 12.5904 6.77366 12.4109C6.77366 12.2314 6.7024 12.0592 6.57554 11.9322L2.31232 7.66896H13.3226C13.5022 7.66896 13.6745 7.59759 13.8016 7.47055C13.9286 7.34351 14 7.17121 14 6.99154C14 6.81188 13.9286 6.63958 13.8016 6.51254C13.6745 6.3855 13.5022 6.31413 13.3226 6.31413H2.31232L6.57554 2.0509C6.6952 1.92248 6.76035 1.75263 6.75725 1.57714C6.75415 1.40164 6.68306 1.23419 6.55894 1.11008C6.43483 0.985963 6.26738 0.914869 6.09189 0.911772C5.91639 0.908676 5.74654 0.973819 5.61812 1.09348L0.216461 6.49514C0.210349 6.50082 0.204331 6.50662 0.198411 6.51254C0.0713707 6.63958 0 6.81188 0 6.99154C0 7.17121 0.0713707 7.34351 0.198411 7.47055C0.20434 7.47648 0.210366 7.48229 0.216488 7.48797L5.61812 12.8896C5.68067 12.9529 5.75523 13.0031 5.83743 13.0373Z"
+                    fill="currentColor"
+                />
+            </g>
+            <defs>
+                <clipPath id="clip0_326_12477">
+                    <rect width="14" height="14" fill="white" />
+                </clipPath>
+            </defs>
+        </svg>
+    `, isInline: true });
+i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "15.2.4", ngImport: i0, type: ArrowLeftIcon, decorators: [{
+            type: Component,
+            args: [{
+                    selector: 'ArrowLeftIcon',
+                    standalone: true,
+                    imports: [BaseIcon],
+                    template: `
+        <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg" [attr.aria-label]="ariaLabel" [attr.aria-hidden]="ariaHidden" [attr.role]="role" [class]="getClassNames()">
+            <g clip-path="url(#clip0_326_12477)">
+                <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M5.83743 13.0373C5.91964 13.0714 6.00783 13.0887 6.09683 13.0883C6.18584 13.0887 6.27403 13.0714 6.35623 13.0373C6.43844 13.0031 6.513 12.9529 6.57554 12.8896C6.7024 12.7626 6.77366 12.5904 6.77366 12.4109C6.77366 12.2314 6.7024 12.0592 6.57554 11.9322L2.31232 7.66896H13.3226C13.5022 7.66896 13.6745 7.59759 13.8016 7.47055C13.9286 7.34351 14 7.17121 14 6.99154C14 6.81188 13.9286 6.63958 13.8016 6.51254C13.6745 6.3855 13.5022 6.31413 13.3226 6.31413H2.31232L6.57554 2.0509C6.6952 1.92248 6.76035 1.75263 6.75725 1.57714C6.75415 1.40164 6.68306 1.23419 6.55894 1.11008C6.43483 0.985963 6.26738 0.914869 6.09189 0.911772C5.91639 0.908676 5.74654 0.973819 5.61812 1.09348L0.216461 6.49514C0.210349 6.50082 0.204331 6.50662 0.198411 6.51254C0.0713707 6.63958 0 6.81188 0 6.99154C0 7.17121 0.0713707 7.34351 0.198411 7.47055C0.20434 7.47648 0.210366 7.48229 0.216488 7.48797L5.61812 12.8896C5.68067 12.9529 5.75523 13.0031 5.83743 13.0373Z"
+                    fill="currentColor"
+                />
+            </g>
+            <defs>
+                <clipPath id="clip0_326_12477">
+                    <rect width="14" height="14" fill="white" />
+                </clipPath>
+            </defs>
+        </svg>
+    `
+                }]
+        }] });
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiYXJyb3dsZWZ0LmpzIiwic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsiLi4vLi4vLi4vLi4vc3JjL2FwcC9jb21wb25lbnRzL2ljb25zL2Fycm93bGVmdC9hcnJvd2xlZnQudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUEsT0FBTyxFQUFFLFNBQVMsRUFBRSxNQUFNLGVBQWUsQ0FBQztBQUMxQyxPQUFPLEVBQUUsUUFBUSxFQUFFLE1BQU0sa0JBQWtCLENBQUM7O0FBd0I1QyxNQUFNLE9BQU8sYUFBYyxTQUFRLFFBQVE7OzBHQUE5QixhQUFhOzhGQUFiLGFBQWEsZ0dBbEJaOzs7Ozs7Ozs7Ozs7Ozs7O0tBZ0JUOzJGQUVRLGFBQWE7a0JBdEJ6QixTQUFTO21CQUFDO29CQUNQLFFBQVEsRUFBRSxlQUFlO29CQUN6QixVQUFVLEVBQUUsSUFBSTtvQkFDaEIsT0FBTyxFQUFFLENBQUMsUUFBUSxDQUFDO29CQUNuQixRQUFRLEVBQUU7Ozs7Ozs7Ozs7Ozs7Ozs7S0FnQlQ7aUJBQ0oiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyBDb21wb25lbnQgfSBmcm9tICdAYW5ndWxhci9jb3JlJztcclxuaW1wb3J0IHsgQmFzZUljb24gfSBmcm9tICdwcmltZW5nL2Jhc2VpY29uJztcclxuXHJcbkBDb21wb25lbnQoe1xyXG4gICAgc2VsZWN0b3I6ICdBcnJvd0xlZnRJY29uJyxcclxuICAgIHN0YW5kYWxvbmU6IHRydWUsXHJcbiAgICBpbXBvcnRzOiBbQmFzZUljb25dLFxyXG4gICAgdGVtcGxhdGU6IGBcclxuICAgICAgICA8c3ZnIHdpZHRoPVwiMTRcIiBoZWlnaHQ9XCIxNFwiIHZpZXdCb3g9XCIwIDAgMTQgMTRcIiBmaWxsPVwibm9uZVwiIHhtbG5zPVwiaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmdcIiBbYXR0ci5hcmlhLWxhYmVsXT1cImFyaWFMYWJlbFwiIFthdHRyLmFyaWEtaGlkZGVuXT1cImFyaWFIaWRkZW5cIiBbYXR0ci5yb2xlXT1cInJvbGVcIiBbY2xhc3NdPVwiZ2V0Q2xhc3NOYW1lcygpXCI+XHJcbiAgICAgICAgICAgIDxnIGNsaXAtcGF0aD1cInVybCgjY2xpcDBfMzI2XzEyNDc3KVwiPlxyXG4gICAgICAgICAgICAgICAgPHBhdGhcclxuICAgICAgICAgICAgICAgICAgICBmaWxsLXJ1bGU9XCJldmVub2RkXCJcclxuICAgICAgICAgICAgICAgICAgICBjbGlwLXJ1bGU9XCJldmVub2RkXCJcclxuICAgICAgICAgICAgICAgICAgICBkPVwiTTUuODM3NDMgMTMuMDM3M0M1LjkxOTY0IDEzLjA3MTQgNi4wMDc4MyAxMy4wODg3IDYuMDk2ODMgMTMuMDg4M0M2LjE4NTg0IDEzLjA4ODcgNi4yNzQwMyAxMy4wNzE0IDYuMzU2MjMgMTMuMDM3M0M2LjQzODQ0IDEzLjAwMzEgNi41MTMgMTIuOTUyOSA2LjU3NTU0IDEyLjg4OTZDNi43MDI0IDEyLjc2MjYgNi43NzM2NiAxMi41OTA0IDYuNzczNjYgMTIuNDEwOUM2Ljc3MzY2IDEyLjIzMTQgNi43MDI0IDEyLjA1OTIgNi41NzU1NCAxMS45MzIyTDIuMzEyMzIgNy42Njg5NkgxMy4zMjI2QzEzLjUwMjIgNy42Njg5NiAxMy42NzQ1IDcuNTk3NTkgMTMuODAxNiA3LjQ3MDU1QzEzLjkyODYgNy4zNDM1MSAxNCA3LjE3MTIxIDE0IDYuOTkxNTRDMTQgNi44MTE4OCAxMy45Mjg2IDYuNjM5NTggMTMuODAxNiA2LjUxMjU0QzEzLjY3NDUgNi4zODU1IDEzLjUwMjIgNi4zMTQxMyAxMy4zMjI2IDYuMzE0MTNIMi4zMTIzMkw2LjU3NTU0IDIuMDUwOUM2LjY5NTIgMS45MjI0OCA2Ljc2MDM1IDEuNzUyNjMgNi43NTcyNSAxLjU3NzE0QzYuNzU0MTUgMS40MDE2NCA2LjY4MzA2IDEuMjM0MTkgNi41NTg5NCAxLjExMDA4QzYuNDM0ODMgMC45ODU5NjMgNi4yNjczOCAwLjkxNDg2OSA2LjA5MTg5IDAuOTExNzcyQzUuOTE2MzkgMC45MDg2NzYgNS43NDY1NCAwLjk3MzgxOSA1LjYxODEyIDEuMDkzNDhMMC4yMTY0NjEgNi40OTUxNEMwLjIxMDM0OSA2LjUwMDgyIDAuMjA0MzMxIDYuNTA2NjIgMC4xOTg0MTEgNi41MTI1NEMwLjA3MTM3MDcgNi42Mzk1OCAwIDYuODExODggMCA2Ljk5MTU0QzAgNy4xNzEyMSAwLjA3MTM3MDcgNy4zNDM1MSAwLjE5ODQxMSA3LjQ3MDU1QzAuMjA0MzQgNy40NzY0OCAwLjIxMDM2NiA3LjQ4MjI5IDAuMjE2NDg4IDcuNDg3OTdMNS42MTgxMiAxMi44ODk2QzUuNjgwNjcgMTIuOTUyOSA1Ljc1NTIzIDEzLjAwMzEgNS44Mzc0MyAxMy4wMzczWlwiXHJcbiAgICAgICAgICAgICAgICAgICAgZmlsbD1cImN1cnJlbnRDb2xvclwiXHJcbiAgICAgICAgICAgICAgICAvPlxyXG4gICAgICAgICAgICA8L2c+XHJcbiAgICAgICAgICAgIDxkZWZzPlxyXG4gICAgICAgICAgICAgICAgPGNsaXBQYXRoIGlkPVwiY2xpcDBfMzI2XzEyNDc3XCI+XHJcbiAgICAgICAgICAgICAgICAgICAgPHJlY3Qgd2lkdGg9XCIxNFwiIGhlaWdodD1cIjE0XCIgZmlsbD1cIndoaXRlXCIgLz5cclxuICAgICAgICAgICAgICAgIDwvY2xpcFBhdGg+XHJcbiAgICAgICAgICAgIDwvZGVmcz5cclxuICAgICAgICA8L3N2Zz5cclxuICAgIGBcclxufSlcclxuZXhwb3J0IGNsYXNzIEFycm93TGVmdEljb24gZXh0ZW5kcyBCYXNlSWNvbiB7fVxyXG4iXX0=
