@@ -64,10 +64,11 @@ const hideAnimation = animation([animate('{{transition}}', style({ transform: '{
                 *ngIf="visible"
                 [style.width]="config.width"
                 [style.height]="config.height"
+                [attr.aria-labelledby]="config.ariaLabelledBy"
             >
                 <div *ngIf="config.resizable" class="p-resizable-handle" style="z-index: 90;" (mousedown)="initResize($event)"></div>
                 <div #titlebar class="p-dialog-header" (mousedown)="initDrag($event)" *ngIf="config.showHeader === false ? false : true">
-                    <span class="p-dialog-title">{{ config.header }}</span>
+                    <span class="p-dialog-title" [attr.id]="config.ariaLabelledBy">{{ config.header }}</span>
                     <div class="p-dialog-header-icons">
                         <button *ngIf="config.maximizable" type="button" [ngClass]="{ 'p-dialog-header-icon p-dialog-header-maximize p-link': true }" (click)="maximize()" (keydown.enter)="maximize()" tabindex="-1" pRipple>
                             <span class="p-dialog-header-maximize-icon" [ngClass]="maximized ? minimizeIcon : maximizeIcon"></span>

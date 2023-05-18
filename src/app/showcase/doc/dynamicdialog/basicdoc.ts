@@ -38,7 +38,8 @@ export class BasicDoc implements OnDestroy {
             width: '70%',
             contentStyle: { overflow: 'auto' },
             baseZIndex: 10000,
-            maximizable: true
+            maximizable: true,
+            ariaLabelledBy: 'product-selection-dialog-title'
         });
 
         this.ref.onClose.subscribe((product: Product) => {
@@ -82,7 +83,7 @@ import { ProductListDemo } from './productlistdemo';
     providers: [DialogService, MessageService]
 })
 export class DynamicDialogBasicDemo implements OnDestroy {
-    
+
     constructor(public dialogService: DialogService, public messageService: MessageService) {}
 
     ref: DynamicDialogRef;
