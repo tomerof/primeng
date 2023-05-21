@@ -20,14 +20,14 @@ import {
     ViewEncapsulation
 } from '@angular/core';
 import { NG_VALUE_ACCESSOR } from '@angular/forms';
-import { OverlayOptions, OverlayService, PrimeNGConfig, PrimeTemplate, SharedModule } from 'primeng/api';
-import { DomHandler } from 'primeng/dom';
-import { Overlay, OverlayModule } from 'primeng/overlay';
-import { RippleModule } from 'primeng/ripple';
-import { ObjectUtils } from 'primeng/utils';
-import { ChevronDownIcon } from 'primeng/icons/chevrondown';
-import { AngleRightIcon } from 'primeng/icons/angleright';
-import { TimesIcon } from 'primeng/icons/times';
+import { OverlayOptions, OverlayService, PrimeNGConfig, PrimeTemplate, SharedModule } from 'primeng-atm/api';
+import { DomHandler } from 'primeng-atm/dom';
+import { Overlay, OverlayModule } from 'primeng-atm/overlay';
+import { RippleModule } from 'primeng-atm/ripple';
+import { ObjectUtils } from 'primeng-atm/utils';
+import { ChevronDownIcon } from 'primeng-atm/icons/chevrondown';
+import { AngleRightIcon } from 'primeng-atm/icons/angleright';
+import { TimesIcon } from 'primeng-atm/icons/times';
 
 export const CASCADESELECT_VALUE_ACCESSOR: any = {
     provide: NG_VALUE_ACCESSOR,

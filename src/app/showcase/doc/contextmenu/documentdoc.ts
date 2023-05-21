@@ -1,5 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { MenuItem } from 'primeng/api';
+import { MenuItem } from 'primeng-atm/api';
 import { Code } from '../../domain/code';
 
 @Component({
@@ -163,7 +163,7 @@ export class DocumentDoc implements OnInit {
 
         typescript: `
 import { Component, OnInit } from '@angular/core';
-import { MenuItem } from 'primeng/api';
+import { MenuItem } from 'primeng-atm/api';
 
 @Component({
     selector: 'context-menu-document-demo',
@@ -305,7 +305,7 @@ export class ContextMenuDocumentDemo implements OnInit {
         module: `
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
-import { ContextMenuModule } from 'primeng/contextmenu';
+import { ContextMenuModule } from 'primeng-atm/contextmenu';
 import { ContextMenuDemo } from './contextmenudemo';
 
 @NgModule({

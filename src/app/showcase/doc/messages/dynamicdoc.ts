@@ -1,5 +1,5 @@
 import { Component, Input } from '@angular/core';
-import { Message } from 'primeng/api';
+import { Message } from 'primeng-atm/api';
 import { Code } from '../../domain/code';
 
 @Component({
@@ -49,7 +49,7 @@ export class DynamicDoc {
 </div>`,
         typescript: `
 import { Component, OnInit } from '@angular/core';
-import { Message } from 'primeng/api';
+import { Message } from 'primeng-atm/api';
 
 @Component({
     selector: 'messages-dynamic-demo',

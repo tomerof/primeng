@@ -1,6 +1,6 @@
 import { NgModule, Directive, ElementRef, HostListener, Input, forwardRef, Output, EventEmitter, Inject, PLATFORM_ID } from '@angular/core';
 import { CommonModule, DOCUMENT, isPlatformBrowser } from '@angular/common';
-import { DomHandler } from 'primeng/dom';
+import { DomHandler } from 'primeng-atm/dom';
 import { Validator, AbstractControl, NG_VALIDATORS } from '@angular/forms';
 
 export const KEYFILTER_VALIDATOR: any = {

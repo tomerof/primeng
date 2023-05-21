@@ -21,11 +21,11 @@ import {
     ViewEncapsulation,
     ViewRef
 } from '@angular/core';
-import { OverlayService, PrimeNGConfig, PrimeTemplate, SharedModule } from 'primeng/api';
-import { ConnectedOverlayScrollHandler, DomHandler } from 'primeng/dom';
-import { TimesIcon } from 'primeng/icons/times';
-import { RippleModule } from 'primeng/ripple';
-import { ZIndexUtils } from 'primeng/utils';
+import { OverlayService, PrimeNGConfig, PrimeTemplate, SharedModule } from 'primeng-atm/api';
+import { ConnectedOverlayScrollHandler, DomHandler } from 'primeng-atm/dom';
+import { TimesIcon } from 'primeng-atm/icons/times';
+import { RippleModule } from 'primeng-atm/ripple';
+import { ZIndexUtils } from 'primeng-atm/utils';
 import { Subscription } from 'rxjs';
 
 @Component({

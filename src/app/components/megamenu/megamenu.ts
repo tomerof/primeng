@@ -1,11 +1,11 @@
 import { NgModule, Component, ElementRef, Input, Renderer2, ChangeDetectionStrategy, ViewEncapsulation, ChangeDetectorRef, AfterContentInit, ContentChildren, QueryList, TemplateRef, Inject, PLATFORM_ID } from '@angular/core';
 import { CommonModule, DOCUMENT, isPlatformBrowser } from '@angular/common';
-import { MegaMenuItem, MenuItem, PrimeTemplate, SharedModule } from 'primeng/api';
+import { MegaMenuItem, MenuItem, PrimeTemplate, SharedModule } from 'primeng-atm/api';
 import { RouterModule } from '@angular/router';
-import { RippleModule } from 'primeng/ripple';
-import { TooltipModule } from 'primeng/tooltip';
-import { AngleDownIcon } from 'primeng/icons/angledown';
-import { AngleRightIcon } from 'primeng/icons/angleright';
+import { RippleModule } from 'primeng-atm/ripple';
+import { TooltipModule } from 'primeng-atm/tooltip';
+import { AngleDownIcon } from 'primeng-atm/icons/angledown';
+import { AngleRightIcon } from 'primeng-atm/icons/angleright';
 
 @Component({
     selector: 'p-megaMenu',

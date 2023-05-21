@@ -19,11 +19,11 @@ import {
     TemplateRef,
     ViewEncapsulation
 } from '@angular/core';
-import { PrimeNGConfig, PrimeTemplate, SharedModule } from 'primeng/api';
-import { DomHandler } from 'primeng/dom';
-import { RippleModule } from 'primeng/ripple';
-import { ZIndexUtils } from 'primeng/utils';
-import { TimesIcon } from 'primeng/icons/times';
+import { PrimeNGConfig, PrimeTemplate, SharedModule } from 'primeng-atm/api';
+import { DomHandler } from 'primeng-atm/dom';
+import { RippleModule } from 'primeng-atm/ripple';
+import { ZIndexUtils } from 'primeng-atm/utils';
+import { TimesIcon } from 'primeng-atm/icons/times';
 
 const showAnimation = animation([style({ transform: '{{transform}}', opacity: 0 }), animate('{{transition}}')]);
 

@@ -1,12 +1,12 @@
 import { NgModule, Component, ElementRef, OnDestroy, Input, Output, EventEmitter, Renderer2, ViewChild, Inject, forwardRef, ChangeDetectorRef, ChangeDetectionStrategy, ViewEncapsulation, ViewRef, PLATFORM_ID } from '@angular/core';
 import { trigger, style, transition, animate, AnimationEvent } from '@angular/animations';
 import { CommonModule, DOCUMENT, isPlatformBrowser } from '@angular/common';
-import { DomHandler, ConnectedOverlayScrollHandler } from 'primeng/dom';
-import { MenuItem, OverlayService, PrimeNGConfig } from 'primeng/api';
-import { ZIndexUtils } from 'primeng/utils';
+import { DomHandler, ConnectedOverlayScrollHandler } from 'primeng-atm/dom';
+import { MenuItem, OverlayService, PrimeNGConfig } from 'primeng-atm/api';
+import { ZIndexUtils } from 'primeng-atm/utils';
 import { RouterModule } from '@angular/router';
-import { RippleModule } from 'primeng/ripple';
-import { TooltipModule } from 'primeng/tooltip';
+import { RippleModule } from 'primeng-atm/ripple';
+import { TooltipModule } from 'primeng-atm/tooltip';
 
 @Component({
     selector: '[pMenuItemContent]',

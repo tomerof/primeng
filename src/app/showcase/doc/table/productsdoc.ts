@@ -1,5 +1,5 @@
 import { ChangeDetectionStrategy, ChangeDetectorRef, Component, Input, OnInit, ViewChild } from '@angular/core';
-import { ConfirmationService, MessageService } from 'primeng/api';
+import { ConfirmationService, MessageService } from 'primeng-atm/api';
 import { Code } from '../../domain/code';
 import { Product } from '../../domain/product';
 import { AppDocSectionTextComponent } from '../../layout/doc/docsectiontext/app.docsectiontext.component';
@@ -67,7 +67,7 @@ import { ProductService } from '../../service/productservice';
                             <p-tableCheckbox [value]="product"></p-tableCheckbox>
                         </td>
                         <td>{{ product.name }}</td>
-                        <td><img [src]="'https://primefaces.org/cdn/primeng/images/demo/product/' + product.image" [alt]="product.name" width="50" class="shadow-4" /></td>
+                        <td><img [src]="'https://primefaces.org/cdn/primeng-atm/images/demo/product/' + product.image" [alt]="product.name" width="50" class="shadow-4" /></td>
                         <td>{{ product.price | currency: 'USD' }}</td>
                         <td>{{ product.category }}</td>
                         <td><p-rating [ngModel]="product.rating" [readonly]="true" [cancel]="false"></p-rating></td>
@@ -275,7 +275,7 @@ export class ProductsDoc implements OnInit {
                 <p-tableCheckbox [value]="product"></p-tableCheckbox>
             </td>
             <td>{{ product.name }}</td>
-            <td><img [src]="'https://primefaces.org/cdn/primeng/images/demo/product/' + product.image" [alt]="product.name" width="50" class="shadow-4" /></td>
+            <td><img [src]="'https://primefaces.org/cdn/primeng-atm/images/demo/product/' + product.image" [alt]="product.name" width="50" class="shadow-4" /></td>
             <td>{{ product.price | currency: 'USD' }}</td>
             <td>{{ product.category }}</td>
             <td><p-rating [ngModel]="product.rating" [readonly]="true" [cancel]="false"></p-rating></td>
@@ -349,7 +349,7 @@ export class ProductsDoc implements OnInit {
                     <p-tableCheckbox [value]="product"></p-tableCheckbox>
                 </td>
                 <td>{{ product.name }}</td>
-                <td><img [src]="'https://primefaces.org/cdn/primeng/images/demo/product/' + product.image" [alt]="product.name" width="50" class="shadow-4" /></td>
+                <td><img [src]="'https://primefaces.org/cdn/primeng-atm/images/demo/product/' + product.image" [alt]="product.name" width="50" class="shadow-4" /></td>
                 <td>{{ product.price | currency: 'USD' }}</td>
                 <td>{{ product.category }}</td>
                 <td><p-rating [ngModel]="product.rating" [readonly]="true" [cancel]="false"></p-rating></td>
@@ -369,7 +369,7 @@ export class ProductsDoc implements OnInit {
 </div>`,
         typescript: `
 import { Component, OnInit } from '@angular/core';
-import { ConfirmationService, MessageService } from 'primeng/api';
+import { ConfirmationService, MessageService } from 'primeng-atm/api';
 import { Product } from '../../domain/product';
 import { ProductService } from '../../service/productservice';
 

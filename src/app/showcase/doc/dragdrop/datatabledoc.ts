@@ -14,7 +14,7 @@ import { ProductService } from '../../service/productservice';
                 <div *ngFor="let product of availableProducts">
                     <div class="product-item" pDraggable="products" (onDragStart)="dragStart(product)" (onDragEnd)="dragEnd()">
                         <div class="image-container">
-                            <img src="https://primefaces.org/cdn/primeng/images/demo/product/{{ product.image }}" [alt]="product.name" class="product-image" />
+                            <img src="https://primefaces.org/cdn/primeng-atm/images/demo/product/{{ product.image }}" [alt]="product.name" class="product-image" />
                         </div>
                         <div class="product-list-detail">
                             <h5 class="mb-2">{{ product.name }}</h5>
@@ -116,7 +116,7 @@ export class DataTableDoc implements OnInit {
         <div *ngFor="let product of availableProducts">
             <div class="product-item" pDraggable="products" (onDragStart)="dragStart(product)" (onDragEnd)="dragEnd()">
                 <div class="image-container">
-                        <img src="https://primefaces.org/cdn/primeng/images/demo/product/{{ product.image }}"[alt]="product.name" class="product-image" />
+                        <img src="https://primefaces.org/cdn/primeng-atm/images/demo/product/{{ product.image }}"[alt]="product.name" class="product-image" />
                 </div>
                 <div class="product-list-detail">
                     <h5 class="mb-2">{{product.name}}</h5>
@@ -157,7 +157,7 @@ export class DataTableDoc implements OnInit {
         <div *ngFor="let product of availableProducts">
             <div class="product-item" pDraggable="products" (onDragStart)="dragStart(product)" (onDragEnd)="dragEnd()">
                 <div class="image-container">
-                        <img src="https://primefaces.org/cdn/primeng/images/demo/product/{{ product.image }}"[alt]="product.name" class="product-image" />
+                        <img src="https://primefaces.org/cdn/primeng-atm/images/demo/product/{{ product.image }}"[alt]="product.name" class="product-image" />
                 </div>
                 <div class="product-list-detail">
                     <h5 class="mb-2">{{product.name}}</h5>
@@ -242,7 +242,7 @@ export class DragDropDataTableDemo implements OnInit {
             }
         }
         return index;
-    } 
+    }
 
     getSeverity(status: string) {
         switch (status) {
@@ -260,63 +260,63 @@ export class DragDropDataTableDemo implements OnInit {
     .drag-column {
         padding-right: .5em;
     }
-    
+
     .drop-column {
         border: 1px solid transparent;
         transition: border-color .2s;
-    
+
         &.p-draggable-enter {
-            border-color: var(--primary-color); 
+            border-color: var(--primary-color);
         }
     }
-    
+
     .product-item {
         display: flex;
         align-items: center;
         padding: 1rem;
         width: 100%;
         border-bottom: 1px solid var(--surface-d);
-    
+
         img {
             width: 75px;
             box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
             margin-right: 1rem;
         }
-    
+
         .product-list-detail {
             flex: 1 1 0;
         }
-    
+
         .product-list-action {
             display: flex;
             flex-direction: column;
             align-items: flex-end;
         }
-    
+
         .product-category-icon {
             vertical-align: middle;
             margin-right: .5rem;
         }
-    
+
         .product-category {
             vertical-align: middle;
             line-height: 1;
         }
     }
-    
+
     [pDraggable] {
         cursor: move;
     }
-    
+
     @media screen and (max-width: 576px) {
         .product-item {
             flex-wrap: wrap;
-    
+
             .image-container {
                 width: 100%;
                 text-align: center;
             }
-    
+
             img {
                 margin: 0 0 1rem 0;
                 width: 100px;

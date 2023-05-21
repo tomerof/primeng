@@ -22,18 +22,18 @@ import {
     ViewEncapsulation
 } from '@angular/core';
 import { ControlValueAccessor, NG_VALUE_ACCESSOR } from '@angular/forms';
-import { OverlayService, PrimeNGConfig, PrimeTemplate, SharedModule, TranslationKeys } from 'primeng/api';
-import { ButtonModule } from 'primeng/button';
-import { ConnectedOverlayScrollHandler, DomHandler } from 'primeng/dom';
-import { RippleModule } from 'primeng/ripple';
-import { ObjectUtils, UniqueComponentId, ZIndexUtils } from 'primeng/utils';
+import { OverlayService, PrimeNGConfig, PrimeTemplate, SharedModule, TranslationKeys } from 'primeng-atm/api';
+import { ButtonModule } from 'primeng-atm/button';
+import { ConnectedOverlayScrollHandler, DomHandler } from 'primeng-atm/dom';
+import { RippleModule } from 'primeng-atm/ripple';
+import { ObjectUtils, UniqueComponentId, ZIndexUtils } from 'primeng-atm/utils';
 import { Subscription } from 'rxjs';
-import { ChevronLeftIcon } from 'primeng/icons/chevronleft';
-import { ChevronRightIcon } from 'primeng/icons/chevronright';
-import { ChevronUpIcon } from 'primeng/icons/chevronup';
-import { ChevronDownIcon } from 'primeng/icons/chevrondown';
-import { TimesIcon } from 'primeng/icons/times';
-import { CalendarIcon } from 'primeng/icons/calendar';
+import { ChevronLeftIcon } from 'primeng-atm/icons/chevronleft';
+import { ChevronRightIcon } from 'primeng-atm/icons/chevronright';
+import { ChevronUpIcon } from 'primeng-atm/icons/chevronup';
+import { ChevronDownIcon } from 'primeng-atm/icons/chevrondown';
+import { TimesIcon } from 'primeng-atm/icons/times';
+import { CalendarIcon } from 'primeng-atm/icons/calendar';
 
 export const CALENDAR_VALUE_ACCESSOR: any = {
     provide: NG_VALUE_ACCESSOR,
@@ -2338,7 +2338,7 @@ export class Calendar implements OnInit, OnDestroy, ControlValueAccessor {
     }
 
     onUserInput(event) {
-        // IE 11 Workaround for input placeholder : https://github.com/primefaces/primeng/issues/2026
+        // IE 11 Workaround for input placeholder : https://github.com/primefaces/primeng-atm/issues/2026
         if (!this.isKeydown) {
             return;
         }

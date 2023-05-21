@@ -1,5 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { MenuItem } from 'primeng/api';
+import { MenuItem } from 'primeng-atm/api';
 import { Code } from '../../domain/code';
 
 @Component({
@@ -11,7 +11,7 @@ import { Code } from '../../domain/code';
         <div class="card">
             <p-menubar [model]="items">
                 <ng-template pTemplate="start">
-                    <img src="https://primefaces.org/cdn/primeng/images/primeng.svg" height="40" class="mr-2" />
+                    <img src="https://primefaces.org/cdn/primeng-atm/images/primeng.svg" height="40" class="mr-2" />
                 </ng-template>
                 <ng-template pTemplate="end">
                     <input type="text" pInputText placeholder="Search" class="w-full" />
@@ -158,7 +158,7 @@ export class TemplateDoc implements OnInit {
         basic: `
 <p-menubar [model]="items">
     <ng-template pTemplate="start">
-        <img src="https://primefaces.org/cdn/primeng/images/primeng.svg" height="40" class="mr-2" />
+        <img src="https://primefaces.org/cdn/primeng-atm/images/primeng.svg" height="40" class="mr-2" />
     </ng-template>
     <ng-template pTemplate="end">
         <input type="text" pInputText placeholder="Search" class="w-full" />
@@ -169,7 +169,7 @@ export class TemplateDoc implements OnInit {
 <div class="card">
     <p-menubar [model]="items">
         <ng-template pTemplate="start">
-            <img src="https://primefaces.org/cdn/primeng/images/primeng.svg" height="40" class="mr-2" />
+            <img src="https://primefaces.org/cdn/primeng-atm/images/primeng.svg" height="40" class="mr-2" />
         </ng-template>
         <ng-template pTemplate="end">
             <input type="text" pInputText placeholder="Search" class="w-full" />
@@ -179,7 +179,7 @@ export class TemplateDoc implements OnInit {
 
         typescript: `
 import { Component, OnInit } from '@angular/core';
-import { MenuItem } from 'primeng/api';
+import { MenuItem } from 'primeng-atm/api';
 
 @Component({
     selector: 'menubar-template-demo',

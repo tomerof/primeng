@@ -22,18 +22,18 @@ import {
     ViewChild,
     ViewEncapsulation
 } from '@angular/core';
-import { BlockableUI, PrimeNGConfig, PrimeTemplate, SharedModule, TranslationKeys, TreeDragDropService, TreeNode } from 'primeng/api';
-import { DomHandler } from 'primeng/dom';
-import { RippleModule } from 'primeng/ripple';
-import { Scroller, ScrollerModule, ScrollerOptions } from 'primeng/scroller';
-import { ObjectUtils } from 'primeng/utils';
+import { BlockableUI, PrimeNGConfig, PrimeTemplate, SharedModule, TranslationKeys, TreeDragDropService, TreeNode } from 'primeng-atm/api';
+import { DomHandler } from 'primeng-atm/dom';
+import { RippleModule } from 'primeng-atm/ripple';
+import { Scroller, ScrollerModule, ScrollerOptions } from 'primeng-atm/scroller';
+import { ObjectUtils } from 'primeng-atm/utils';
 import { Subscription } from 'rxjs';
-import { CheckIcon } from 'primeng/icons/check';
-import { ChevronDownIcon } from 'primeng/icons/chevrondown';
-import { ChevronRightIcon } from 'primeng/icons/chevronright';
-import { MinusIcon } from 'primeng/icons/minus';
-import { SearchIcon } from 'primeng/icons/search';
-import { SpinnerIcon } from 'primeng/icons/spinner';
+import { CheckIcon } from 'primeng-atm/icons/check';
+import { ChevronDownIcon } from 'primeng-atm/icons/chevrondown';
+import { ChevronRightIcon } from 'primeng-atm/icons/chevronright';
+import { MinusIcon } from 'primeng-atm/icons/minus';
+import { SearchIcon } from 'primeng-atm/icons/search';
+import { SpinnerIcon } from 'primeng-atm/icons/spinner';
 
 @Component({
     selector: 'p-treeNode',

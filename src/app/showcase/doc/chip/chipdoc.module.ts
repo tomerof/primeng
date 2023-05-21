@@ -1,7 +1,7 @@
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
-import { ChipModule } from 'primeng/chip';
+import { ChipModule } from 'primeng-atm/chip';
 import { AppDocModule } from '../../layout/doc/app.doc.module';
 import { AppCodeModule } from '../../layout/doc/code/app.code.component';
 import { AccessibilityDoc } from './accessibilitydoc';

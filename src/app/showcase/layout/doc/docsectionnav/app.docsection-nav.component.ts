@@ -1,8 +1,8 @@
 import { DOCUMENT, Location } from '@angular/common';
 import { Router } from '@angular/router';
 import { Component, ElementRef, Inject, Input, NgZone, OnDestroy, OnInit, Renderer2, ViewChild } from '@angular/core';
-import { DomHandler } from 'primeng/dom';
-import { ObjectUtils } from 'primeng/utils';
+import { DomHandler } from 'primeng-atm/dom';
+import { ObjectUtils } from 'primeng-atm/utils';
 import { Subscription } from 'rxjs';
 import { Doc } from 'src/app/showcase/domain/doc';
 

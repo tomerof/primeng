@@ -1,8 +1,8 @@
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
-import { ButtonModule } from 'primeng/button';
-import { TagModule } from 'primeng/tag';
+import { ButtonModule } from 'primeng-atm/button';
+import { TagModule } from 'primeng-atm/tag';
 import { AppDocModule } from '../../layout/doc/app.doc.module';
 import { AppCodeModule } from '../../layout/doc/code/app.code.component';
 import { StyleDoc } from './styledoc';

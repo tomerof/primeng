@@ -21,12 +21,12 @@ import {
     ViewEncapsulation
 } from '@angular/core';
 import { ActivatedRoute, Router, RouterModule } from '@angular/router';
-import { MenuItem, PrimeTemplate, SharedModule } from 'primeng/api';
-import { DomHandler } from 'primeng/dom';
-import { RippleModule } from 'primeng/ripple';
-import { TooltipModule } from 'primeng/tooltip';
-import { ChevronLeftIcon } from 'primeng/icons/chevronleft';
-import { ChevronRightIcon } from 'primeng/icons/chevronright';
+import { MenuItem, PrimeTemplate, SharedModule } from 'primeng-atm/api';
+import { DomHandler } from 'primeng-atm/dom';
+import { RippleModule } from 'primeng-atm/ripple';
+import { TooltipModule } from 'primeng-atm/tooltip';
+import { ChevronLeftIcon } from 'primeng-atm/icons/chevronleft';
+import { ChevronRightIcon } from 'primeng-atm/icons/chevronright';
 
 @Component({
     selector: 'p-tabMenu',

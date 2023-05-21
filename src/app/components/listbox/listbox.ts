@@ -19,14 +19,14 @@ import {
     OnDestroy
 } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { SharedModule, PrimeTemplate, Footer, Header, FilterService, TranslationKeys, PrimeNGConfig } from 'primeng/api';
-import { DomHandler } from 'primeng/dom';
-import { ObjectUtils } from 'primeng/utils';
+import { SharedModule, PrimeTemplate, Footer, Header, FilterService, TranslationKeys, PrimeNGConfig } from 'primeng-atm/api';
+import { DomHandler } from 'primeng-atm/dom';
+import { ObjectUtils } from 'primeng-atm/utils';
 import { NG_VALUE_ACCESSOR, ControlValueAccessor } from '@angular/forms';
-import { RippleModule } from 'primeng/ripple';
+import { RippleModule } from 'primeng-atm/ripple';
 import { Subscription } from 'rxjs';
-import { SearchIcon } from 'primeng/icons/search';
-import { CheckIcon } from 'primeng/icons/check';
+import { SearchIcon } from 'primeng-atm/icons/search';
+import { CheckIcon } from 'primeng-atm/icons/check';
 
 export const LISTBOX_VALUE_ACCESSOR: any = {
     provide: NG_VALUE_ACCESSOR,

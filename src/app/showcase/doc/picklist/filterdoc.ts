@@ -26,7 +26,7 @@ import { ProductService } from '../../service/productservice';
             >
                 <ng-template let-product pTemplate="item">
                     <div class="flex flex-wrap p-2 align-items-center gap-3">
-                        <img class="w-4rem shadow-2 flex-shrink-0 border-round" src="https://primefaces.org/cdn/primeng/images/demo/product/{{ product.image }}" alt="{item.name}" />
+                        <img class="w-4rem shadow-2 flex-shrink-0 border-round" src="https://primefaces.org/cdn/primeng-atm/images/demo/product/{{ product.image }}" alt="{item.name}" />
                         <div class="flex-1 flex flex-column gap-2">
                             <span class="font-bold">{{ product.name }}</span>
                             <div class="flex align-products-center gap-2">
@@ -64,7 +64,7 @@ export class FilterDoc {
     [targetStyle]="{ height: '30rem' }" filterBy="name" sourceFilterPlaceholder="Search by name" targetFilterPlaceholder="Search by name" breakpoint="1400px">
     <ng-template let-product pTemplate="item">
         <div class="flex flex-wrap p-2 align-items-center gap-3">
-            <img class="w-4rem shadow-2 flex-shrink-0 border-round" src="https://primefaces.org/cdn/primeng/images/demo/product/{{ product.image }}" alt="{item.name}" />
+            <img class="w-4rem shadow-2 flex-shrink-0 border-round" src="https://primefaces.org/cdn/primeng-atm/images/demo/product/{{ product.image }}" alt="{item.name}" />
             <div class="flex-1 flex flex-column gap-2">
                 <span class="font-bold">{{ product.name }}</span>
                 <div class="flex align-products-center gap-2">
@@ -83,7 +83,7 @@ export class FilterDoc {
         [targetStyle]="{ height: '30rem' }" filterBy="name" sourceFilterPlaceholder="Search by name" targetFilterPlaceholder="Search by name" breakpoint="1400px">
         <ng-template let-product pTemplate="item">
             <div class="flex flex-wrap p-2 align-items-center gap-3">
-                <img class="w-4rem shadow-2 flex-shrink-0 border-round" src="https://primefaces.org/cdn/primeng/images/demo/product/{{ product.image }}" alt="{item.name}" />
+                <img class="w-4rem shadow-2 flex-shrink-0 border-round" src="https://primefaces.org/cdn/primeng-atm/images/demo/product/{{ product.image }}" alt="{item.name}" />
                 <div class="flex-1 flex flex-column gap-2">
                     <span class="font-bold">{{ product.name }}</span>
                     <div class="flex align-products-center gap-2">
@@ -120,7 +120,7 @@ export class PicklistFilterDemo {
 }`,
 
         data: `
-/* ProductService */        
+/* ProductService */
 {
     id: '1000',
     code: 'f230fh0g3',

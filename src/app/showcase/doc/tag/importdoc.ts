@@ -14,6 +14,6 @@ export class ImportDoc {
     @Input() title: string;
 
     code: Code = {
-        typescript: `import { TagModule } from 'primeng/tag';`
+        typescript: `import { TagModule } from 'primeng-atm/tag';`
     };
 }

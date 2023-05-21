@@ -1,6 +1,6 @@
 import { Component, Input, OnDestroy } from '@angular/core';
-import { MessageService } from 'primeng/api';
-import { DialogService, DynamicDialogRef } from 'primeng/dynamicdialog';
+import { MessageService } from 'primeng-atm/api';
+import { DialogService, DynamicDialogRef } from 'primeng-atm/dynamicdialog';
 import { Code } from '../../domain/code';
 import { Product } from '../../domain/product';
 import { ProductListDemo } from './productlistdemo';
@@ -72,8 +72,8 @@ export class BasicDoc implements OnDestroy {
 
         typescript: `
 import { Component, OnDestroy } from '@angular/core';
-import { MessageService } from 'primeng/api';
-import { DialogService, DynamicDialogRef } from 'primeng/dynamicdialog';
+import { MessageService } from 'primeng-atm/api';
+import { DialogService, DynamicDialogRef } from 'primeng-atm/dynamicdialog';
 import { Product } from '../../domain/product';
 import { ProductListDemo } from './productlistdemo';
 
@@ -142,7 +142,7 @@ export interface Product {
             path: 'src/app/demo/productlistdemo.ts',
             name: 'ProductListDemo',
             content: `import { Component, OnInit } from '@angular/core';
-import { DynamicDialogRef } from 'primeng/dynamicdialog';
+import { DynamicDialogRef } from 'primeng-atm/dynamicdialog';
 import { Product } from '../../domain/product';
 import { ProductService } from '../../service/productservice';
 
@@ -160,7 +160,7 @@ import { ProductService } from '../../service/productservice';
         <ng-template pTemplate="body" let-product>
             <tr>
                 <td>{{ product.name }}</td>
-                <td><img src="https://primefaces.org/cdn/primeng/images/demo/product/{{ product.image }}" [alt]="product.image" class="w-4rem h-4rem shadow-2" /></td>
+                <td><img src="https://primefaces.org/cdn/primeng-atm/images/demo/product/{{ product.image }}" [alt]="product.image" class="w-4rem h-4rem shadow-2" /></td>
                 <td>{{ product.price }}</td>
                 <td>
                     <p-tag [value]="product.inventoryStatus" [severity]="getSeverity(product.inventoryStatus)"></p-tag>

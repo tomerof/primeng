@@ -1,10 +1,10 @@
 import { animate, state, style, transition, trigger } from '@angular/animations';
 import { CommonModule } from '@angular/common';
 import { AfterContentInit, ChangeDetectionStrategy, ChangeDetectorRef, Component, ContentChildren, ElementRef, EventEmitter, forwardRef, Inject, Input, NgModule, OnDestroy, Output, QueryList, TemplateRef, ViewEncapsulation } from '@angular/core';
-import { BlockableUI, Header, PrimeTemplate, SharedModule } from 'primeng/api';
+import { BlockableUI, Header, PrimeTemplate, SharedModule } from 'primeng-atm/api';
 import { Subscription } from 'rxjs';
-import { ChevronRightIcon } from 'primeng/icons/chevronright';
-import { ChevronDownIcon } from 'primeng/icons/chevrondown';
+import { ChevronRightIcon } from 'primeng-atm/icons/chevronright';
+import { ChevronDownIcon } from 'primeng-atm/icons/chevrondown';
 
 let idx: number = 0;
 

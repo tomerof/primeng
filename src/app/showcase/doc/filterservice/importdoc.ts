@@ -14,6 +14,6 @@ export class ImportDoc {
     @Input() title: string;
 
     code: Code = {
-        typescript: `import { FilterService } from 'primeng/api';`
+        typescript: `import { FilterService } from 'primeng-atm/api';`
     };
 }

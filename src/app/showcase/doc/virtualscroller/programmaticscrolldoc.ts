@@ -1,5 +1,5 @@
 import { Component, Input, OnInit, ViewChild } from '@angular/core';
-import { VirtualScroller } from 'primeng/virtualscroller';
+import { VirtualScroller } from 'primeng-atm/virtualscroller';
 import { Code } from '../../domain/code';
 
 @Component({
@@ -65,7 +65,7 @@ export class ProgrammaticScrollDoc implements OnInit {
 
         typescript: `
 import { Component, OnInit, ViewChild } from '@angular/core';
-import { VirtualScroller } from 'primeng/virtualscroller';
+import { VirtualScroller } from 'primeng-atm/virtualscroller';
 
 @Component({
     selector: 'virtual-scroller-programmatic-scroll-demo',

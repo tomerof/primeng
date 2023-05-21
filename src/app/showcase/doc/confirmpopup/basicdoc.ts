@@ -1,5 +1,5 @@
 import { Component, Input } from '@angular/core';
-import { ConfirmationService, MessageService } from 'primeng/api';
+import { ConfirmationService, MessageService } from 'primeng-atm/api';
 import { Code } from '../../domain/code';
 
 @Component({
@@ -53,8 +53,8 @@ export class BasicDoc {
 
         typescript: `
 import { Component } from '@angular/core';
-import { ConfirmationService, MessageService } from 'primeng/api';
-        
+import { ConfirmationService, MessageService } from 'primeng-atm/api';
+
 @Component({
     selector: 'confirm-popup-basic-demo',
     templateUrl: './confirm-popup-basic-demo.html',
@@ -62,7 +62,7 @@ import { ConfirmationService, MessageService } from 'primeng/api';
 })
 export class ConfirmPopupBasicDemo {
     constructor(private confirmationService: ConfirmationService, private messageService: MessageService) {}
-    
+
     confirm(event: Event) {
         this.confirmationService.confirm({
             target: event.target,

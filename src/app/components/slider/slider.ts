@@ -1,7 +1,7 @@
 import { CommonModule, DOCUMENT, isPlatformBrowser } from '@angular/common';
 import { ChangeDetectionStrategy, ChangeDetectorRef, Component, ElementRef, EventEmitter, forwardRef, Inject, Input, NgModule, NgZone, OnDestroy, Output, PLATFORM_ID, Renderer2, ViewChild, ViewEncapsulation } from '@angular/core';
 import { ControlValueAccessor, NG_VALUE_ACCESSOR } from '@angular/forms';
-import { DomHandler } from 'primeng/dom';
+import { DomHandler } from 'primeng-atm/dom';
 
 export const SLIDER_VALUE_ACCESSOR: any = {
     provide: NG_VALUE_ACCESSOR,

@@ -39,7 +39,7 @@ export class ResponsiveDoc {
 
     code: Code = {
         basic: `
-import { PrimeNGConfig, OverlayOptions, ResponsiveOverlayDirectionType } from 'primeng/api';
+import { PrimeNGConfig, OverlayOptions, ResponsiveOverlayDirectionType } from 'primeng-atm/api';
 
 const responsiveOptions: ResponsiveOverlayOptions = {
     // style?: any;                                     // Style of component in given breakpoint or media query

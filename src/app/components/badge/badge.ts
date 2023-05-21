@@ -1,8 +1,8 @@
 import { CommonModule, DOCUMENT } from '@angular/common';
 import { AfterViewInit, ChangeDetectionStrategy, Component, Directive, ElementRef, Inject, Input, NgModule, OnDestroy, Renderer2, ViewEncapsulation } from '@angular/core';
-import { SharedModule } from 'primeng/api';
-import { DomHandler } from 'primeng/dom';
-import { UniqueComponentId } from 'primeng/utils';
+import { SharedModule } from 'primeng-atm/api';
+import { DomHandler } from 'primeng-atm/dom';
+import { UniqueComponentId } from 'primeng-atm/utils';
 
 type BadgeDirectiveIconPosition = 'left' | 'right' | 'top' | 'bottom';
 type BadgeSize = 'large' | 'xlarge';

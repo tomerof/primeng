@@ -1,5 +1,5 @@
 import { Component, Input } from '@angular/core';
-import { SelectItem } from 'primeng/api';
+import { SelectItem } from 'primeng-atm/api';
 import { Code } from '../../domain/code';
 
 @Component({
@@ -35,7 +35,7 @@ export class VirtualScrollDoc {
 
     code: Code = {
         basic: `
-<p-dropdown [options]="items" [(ngModel)]="selectedItem" placeholder="Select Item" 
+<p-dropdown [options]="items" [(ngModel)]="selectedItem" placeholder="Select Item"
     [virtualScroll]="true" [virtualScrollItemSize]="38"></p-dropdown>`,
 
         html: `
@@ -44,7 +44,7 @@ export class VirtualScrollDoc {
 </div>`,
 
         typescript: `
-import { SelectItem } from 'primeng/api';
+import { SelectItem } from 'primeng-atm/api';
 import { Component } from '@angular/core';
 
 @Component({
@@ -53,7 +53,7 @@ import { Component } from '@angular/core';
 })
 export class DropdownVirtualscrollDemo {
     items: SelectItem[];
-    
+
     selectedItem: string;
 
     constructor() {

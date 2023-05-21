@@ -1,16 +1,16 @@
 {
-    "name": "primeng",
-    "version": "15.4.1",
+    "name": "primeng-atm",
+    "version": "15.4.2",
     "repository": {
         "type": "git",
-        "url": "https://github.com/primefaces/primeng"
+        "url": "https://github.com/tomerof/primeng"
     },
     "keywords": [
         "angular"
     ],
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/primefaces/primeng/issues"
+        "url": "https://github.com/tomerof/primeng/issues"
     },
     "exports": {
         "./resources/": "./resources/"

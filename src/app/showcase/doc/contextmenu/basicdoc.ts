@@ -1,5 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { MenuItem } from 'primeng/api';
+import { MenuItem } from 'primeng-atm/api';
 import { Code } from '../../domain/code';
 
 @Component({
@@ -9,7 +9,7 @@ import { Code } from '../../domain/code';
             <p>ContextMenu can be attached to a particular element whose local template variable name is defined using the <i>target</i> property.</p>
         </app-docsectiontext>
         <div class="card flex justify-content-center">
-            <img #img src="https://primefaces.org/cdn/primeng/images/demo/nature/nature3.jpg" alt="Logo" aria-haspopup="true" class="max-w-full" />
+            <img #img src="https://primefaces.org/cdn/primeng-atm/images/demo/nature/nature3.jpg" alt="Logo" aria-haspopup="true" class="max-w-full" />
             <p-contextMenu [target]="img" [model]="items"></p-contextMenu>
         </div>
         <app-code [code]="code" selector="context-menu-basic-demo"></app-code>
@@ -153,18 +153,18 @@ export class BasicDoc implements OnInit {
 
     code: Code = {
         basic: `
-<img #img src="https://primefaces.org/cdn/primeng/images/demo/nature/nature3.jpg" alt="Logo" aria-haspopup="true" class="max-w-full">
+<img #img src="https://primefaces.org/cdn/primeng-atm/images/demo/nature/nature3.jpg" alt="Logo" aria-haspopup="true" class="max-w-full">
 <p-contextMenu [target]="img" [model]="items"></p-contextMenu>`,
 
         html: `
 <div class="card flex justify-content-center">
-    <img #img src="https://primefaces.org/cdn/primeng/images/demo/nature/nature3.jpg" alt="Logo" aria-haspopup="true" class="max-w-full">
+    <img #img src="https://primefaces.org/cdn/primeng-atm/images/demo/nature/nature3.jpg" alt="Logo" aria-haspopup="true" class="max-w-full">
     <p-contextMenu [target]="img" [model]="items"></p-contextMenu>
 </div>`,
 
         typescript: `
 import { Component, OnInit } from '@angular/core';
-import { MenuItem } from 'primeng/api';
+import { MenuItem } from 'primeng-atm/api';
 
 @Component({
     selector: 'context-menu-basic-demo',

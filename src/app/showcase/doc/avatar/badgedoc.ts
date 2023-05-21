@@ -8,7 +8,7 @@ import { Code } from '../../domain/code';
             <p>A <i>badge</i> can be added to an Avatar with the <a href="#" [routerLink]="['/badge']">Badge</a> directive.</p>
         </app-docsectiontext>
         <div class="card flex justify-content-center">
-            <p-avatar image="https://primefaces.org/cdn/primeng/images/demo/avatar/amyelsner.png" pBadge value="4" severity="danger"></p-avatar>
+            <p-avatar image="https://primefaces.org/cdn/primeng-atm/images/demo/avatar/amyelsner.png" pBadge value="4" severity="danger"></p-avatar>
         </div>
         <app-code [code]="code" selector="avatar-badge-demo"></app-code>
     </section>`
@@ -20,10 +20,10 @@ export class BadgeDoc {
 
     code: Code = {
         basic: `
-<p-avatar image="https://primefaces.org/cdn/primeng/images/demo/avatar/amyelsner.png" pBadge value="4" severity="danger"></p-avatar>`,
+<p-avatar image="https://primefaces.org/cdn/primeng-atm/images/demo/avatar/amyelsner.png" pBadge value="4" severity="danger"></p-avatar>`,
         html: `
 <div class="card flex justify-content-center">
-    <p-avatar image="https://primefaces.org/cdn/primeng/images/demo/avatar/amyelsner.png" pBadge value="4" severity="danger"></p-avatar>
+    <p-avatar image="https://primefaces.org/cdn/primeng-atm/images/demo/avatar/amyelsner.png" pBadge value="4" severity="danger"></p-avatar>
 </div>`,
         typescript: `
 import { Component } from '@angular/core';

@@ -1,5 +1,5 @@
 import { Component, Input } from '@angular/core';
-import { MessageService } from 'primeng/api';
+import { MessageService } from 'primeng-atm/api';
 import { Code } from '../../domain/code';
 
 @Component({
@@ -41,7 +41,7 @@ export class BasicDoc {
 </div>`,
         typescript: `
 import { Component } from '@angular/core';
-import { MessageService } from 'primeng/api';
+import { MessageService } from 'primeng-atm/api';
 
 @Component({
     selector: 'toast-basic-demo',

@@ -1,8 +1,8 @@
 import { CommonModule, isPlatformBrowser } from '@angular/common';
 import { AfterViewInit, ChangeDetectorRef, Directive, ElementRef, HostListener, Inject, Input, NgModule, NgZone, OnDestroy, PLATFORM_ID, Renderer2, SimpleChanges } from '@angular/core';
-import { PrimeNGConfig } from 'primeng/api';
-import { ConnectedOverlayScrollHandler, DomHandler } from 'primeng/dom';
-import { ZIndexUtils } from 'primeng/utils';
+import { PrimeNGConfig } from 'primeng-atm/api';
+import { ConnectedOverlayScrollHandler, DomHandler } from 'primeng-atm/dom';
+import { ZIndexUtils } from 'primeng-atm/utils';
 
 export interface TooltipOptions {
     tooltipLabel?: string;

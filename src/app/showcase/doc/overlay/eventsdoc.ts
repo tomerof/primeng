@@ -18,7 +18,7 @@ export class EventsDoc {
 
     code: Code = {
         typescript: `
-import { PrimeNGConfig, OverlayOptions, OverlayOnBeforeShowEvent, OverlayOnShowEvent, OverlayOnBeforeHideEvent, OverlayOnHideEvent } from 'primeng/api';
+import { PrimeNGConfig, OverlayOptions, OverlayOnBeforeShowEvent, OverlayOnShowEvent, OverlayOnBeforeHideEvent, OverlayOnHideEvent } from 'primeng-atm/api';
 import { AnimationEvent } from '@angular/animations';
 
 this.primengConfig.overlayOptions: OverlayOptions = {

@@ -1,7 +1,7 @@
 import { ChangeDetectionStrategy, ChangeDetectorRef, Component, Input, OnInit, ViewChild } from '@angular/core';
 import { Code } from '../../domain/code';
 import { Product } from '../../domain/product';
-import { SortEvent } from 'primeng/api';
+import { SortEvent } from 'primeng-atm/api';
 import { ProductService } from '../../service/productservice';
 import { AppDocSectionTextComponent } from '../../layout/doc/docsectiontext/app.docsectiontext.component';
 
@@ -123,7 +123,7 @@ export class CustomSortDoc implements OnInit {
 import { Component, OnInit } from '@angular/core';
 import { Product } from '../../domain/product';
 import { ProductService } from '../../service/productservice';
-import { SortEvent } from 'primeng/api';
+import { SortEvent } from 'primeng-atm/api';
 
 @Component({
     selector: 'table-custom-sort-demo',

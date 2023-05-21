@@ -1,5 +1,5 @@
 import { Component, Input } from '@angular/core';
-import { MenuItem, MessageService } from 'primeng/api';
+import { MenuItem, MessageService } from 'primeng-atm/api';
 import { Code } from '../../domain/code';
 
 @Component({
@@ -90,7 +90,7 @@ export class TextDoc {
 
         typescript: `
 import { Component } from '@angular/core';
-import { MenuItem, MessageService } from 'primeng/api';
+import { MenuItem, MessageService } from 'primeng-atm/api';
 
 @Component({
     selector: 'split-button-text-demo',

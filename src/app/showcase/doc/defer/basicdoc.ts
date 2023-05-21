@@ -1,5 +1,5 @@
 import { Component, Input } from '@angular/core';
-import { MessageService } from 'primeng/api';
+import { MessageService } from 'primeng-atm/api';
 import { Code } from '../../domain/code';
 
 @Component({
@@ -13,7 +13,7 @@ import { Code } from '../../domain/code';
             <p-toast></p-toast>
             <div pDefer (onLoad)="onLoad()">
                 <ng-template>
-                    <img class="w-full md:w-30rem md:block md:mx-auto" src="https://primefaces.org/cdn/primeng/images/demo/nature/nature1.jpg" alt="Prime" />
+                    <img class="w-full md:w-30rem md:block md:mx-auto" src="https://primefaces.org/cdn/primeng-atm/images/demo/nature/nature1.jpg" alt="Prime" />
                 </ng-template>
             </div>
         </div>
@@ -36,7 +36,7 @@ export class BasicDoc {
         basic: `
 <div pDefer (onLoad)="onLoad()">
     <ng-template>
-        <img class="w-full md:w-30rem md:block md:mx-auto" src="https://primefaces.org/cdn/primeng/images/demo/nature/nature1.jpg" alt="Prime" />
+        <img class="w-full md:w-30rem md:block md:mx-auto" src="https://primefaces.org/cdn/primeng-atm/images/demo/nature/nature1.jpg" alt="Prime" />
     </ng-template>
 </div>`,
         html: `
@@ -47,7 +47,7 @@ export class BasicDoc {
     <p-toast></p-toast>
     <div pDefer (onLoad)="initData()">
         <ng-template>
-            <img class="w-full md:w-30rem md:block md:mx-auto" src="https://primefaces.org/cdn/primeng/images/demo/nature/nature1.jpg" alt="Prime" />
+            <img class="w-full md:w-30rem md:block md:mx-auto" src="https://primefaces.org/cdn/primeng-atm/images/demo/nature/nature1.jpg" alt="Prime" />
         </ng-template>
     </div>
 </div>`,

@@ -14,6 +14,6 @@ export class ImportDoc {
     @Input() title: string;
 
     code: Code = {
-        typescript: `import { DynamicDialogModule } from 'primeng/dynamicdialog';`
+        typescript: `import { DynamicDialogModule } from 'primeng-atm/dynamicdialog';`
     };
 }

@@ -23,9 +23,9 @@ import {
     ViewChild,
     ViewEncapsulation
 } from '@angular/core';
-import { PrimeTemplate, SharedModule } from 'primeng/api';
-import { DomHandler } from 'primeng/dom';
-import { SpinnerIcon } from 'primeng/icons/spinner';
+import { PrimeTemplate, SharedModule } from 'primeng-atm/api';
+import { DomHandler } from 'primeng-atm/dom';
+import { SpinnerIcon } from 'primeng-atm/icons/spinner';
 
 export type ScrollerToType = 'to-start' | 'to-end' | undefined;
 

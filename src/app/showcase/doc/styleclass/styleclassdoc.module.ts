@@ -5,9 +5,9 @@ import { AppDocModule } from '../../layout/doc/app.doc.module';
 import { AppCodeModule } from '../../layout/doc/code/app.code.component';
 import { ToggleClassDoc } from './toggleclassdoc';
 import { ImportDoc } from './importdoc';
-import { StyleClassModule } from 'primeng/styleclass';
-import { ButtonModule } from 'primeng/button';
-import { InputTextModule } from 'primeng/inputtext';
+import { StyleClassModule } from 'primeng-atm/styleclass';
+import { ButtonModule } from 'primeng-atm/button';
+import { InputTextModule } from 'primeng-atm/inputtext';
 import { AnimationDoc } from './animationdoc';
 import { PropsDoc } from './propsdoc';
 

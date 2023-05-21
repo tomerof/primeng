@@ -16,7 +16,7 @@ import { Code } from '../../domain/code';
                     </div>
                 </ng-template>
                 <ng-template pTemplate="content">
-                    <img src="https://primefaces.org/cdn/primeng/images/demo/galleria/galleria5.jpg" alt="Nature" />
+                    <img src="https://primefaces.org/cdn/primeng-atm/images/demo/galleria/galleria5.jpg" alt="Nature" />
                 </ng-template>
             </p-inplace>
         </div>
@@ -38,7 +38,7 @@ export class ImageDoc {
         </div>
     </ng-template>
     <ng-template pTemplate="content">
-        <img src="https://primefaces.org/cdn/primeng/images/demo/galleria/galleria5.jpg" alt="Nature" />
+        <img src="https://primefaces.org/cdn/primeng-atm/images/demo/galleria/galleria5.jpg" alt="Nature" />
     </ng-template>
 </p-inplace>`,
         html: `
@@ -51,7 +51,7 @@ export class ImageDoc {
             </div>
         </ng-template>
         <ng-template pTemplate="content">
-            <img src="https://primefaces.org/cdn/primeng/images/demo/galleria/galleria5.jpg" alt="Nature" />
+            <img src="https://primefaces.org/cdn/primeng-atm/images/demo/galleria/galleria5.jpg" alt="Nature" />
         </ng-template>
     </p-inplace>
 </div>`,

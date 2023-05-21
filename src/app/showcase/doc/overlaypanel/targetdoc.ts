@@ -16,7 +16,7 @@ import { Code } from '../../domain/code';
                 <span>Target Element</span>
             </div>
             <p-overlayPanel #op>
-                <img src="https://primefaces.org/cdn/primeng/images/demo/product/bamboo-watch.jpg" alt="product" />
+                <img src="https://primefaces.org/cdn/primeng-atm/images/demo/product/bamboo-watch.jpg" alt="product" />
             </p-overlayPanel>
         </div>
         <app-code [code]="code" selector="overlay-panel-target-demo"></app-code>
@@ -34,7 +34,7 @@ export class TargetDoc {
     <span>Target Element</span>
 </div>
 <p-overlayPanel #op>
-    <img src="https://primefaces.org/cdn/primeng/images/demo/product/bamboo-watch.jpg" alt="product" />
+    <img src="https://primefaces.org/cdn/primeng-atm/images/demo/product/bamboo-watch.jpg" alt="product" />
 </p-overlayPanel>`,
 
         html: `
@@ -44,7 +44,7 @@ export class TargetDoc {
         <span>Target Element</span>
     </div>
     <p-overlayPanel #op>
-        <img src="https://primefaces.org/cdn/primeng/images/demo/product/bamboo-watch.jpg" alt="product" />
+        <img src="https://primefaces.org/cdn/primeng-atm/images/demo/product/bamboo-watch.jpg" alt="product" />
     </p-overlayPanel>
 </div>`,
 

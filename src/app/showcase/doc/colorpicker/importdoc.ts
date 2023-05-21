@@ -14,6 +14,6 @@ export class ImportDoc {
     @Input() title: string;
 
     code: Code = {
-        typescript: `import { ColorPickerModule } from 'primeng/colorpicker';`
+        typescript: `import { ColorPickerModule } from 'primeng-atm/colorpicker';`
     };
 }

@@ -9,7 +9,7 @@ import { Code } from '../../domain/code';
         </app-docsectiontext>
         <div class="card flex justify-content-center">
             <p-button styleClass="p-button-outlined">
-                <img alt="logo" src="https://primefaces.org/cdn/primeng/images/primeng-icon.svg" style="width: 1.5rem" />
+                <img alt="logo" src="https://primefaces.org/cdn/primeng-atm/images/primeng-icon.svg" style="width: 1.5rem" />
                 <span class="ml-2 font-bold">PrimeNG</span>
             </p-button>
         </div>
@@ -24,14 +24,14 @@ export class TemplateDoc {
     code: Code = {
         basic: `
 <p-button styleClass="p-button-outlined">
-    <img alt="logo" src="https://primefaces.org/cdn/primeng/images/primeng-icon.svg" style="width: 1.5rem" />
+    <img alt="logo" src="https://primefaces.org/cdn/primeng-atm/images/primeng-icon.svg" style="width: 1.5rem" />
     <span class="ml-2 font-bold">PrimeNG</span>
 </p-button>`,
 
         html: `
 <div class="card flex justify-content-center">
     <p-button styleClass="p-button-outlined">
-        <img alt="logo" src="https://primefaces.org/cdn/primeng/images/primeng-icon.svg" style="width: 1.5rem" />
+        <img alt="logo" src="https://primefaces.org/cdn/primeng-atm/images/primeng-icon.svg" style="width: 1.5rem" />
         <span class="ml-2 font-bold">PrimeNG</span>
     </p-button>
 </div>`,

@@ -22,14 +22,14 @@ import {
     PLATFORM_ID
 } from '@angular/core';
 import { CommonModule, isPlatformBrowser } from '@angular/common';
-import { TooltipModule } from 'primeng/tooltip';
-import { RippleModule } from 'primeng/ripple';
-import { SharedModule, PrimeTemplate, BlockableUI } from 'primeng/api';
-import { DomHandler } from 'primeng/dom';
+import { TooltipModule } from 'primeng-atm/tooltip';
+import { RippleModule } from 'primeng-atm/ripple';
+import { SharedModule, PrimeTemplate, BlockableUI } from 'primeng-atm/api';
+import { DomHandler } from 'primeng-atm/dom';
 import { Subscription } from 'rxjs';
-import { TimesIcon } from 'primeng/icons/times';
-import { ChevronRightIcon } from 'primeng/icons/chevronright';
-import { ChevronLeftIcon } from 'primeng/icons/chevronleft';
+import { TimesIcon } from 'primeng-atm/icons/times';
+import { ChevronRightIcon } from 'primeng-atm/icons/chevronright';
+import { ChevronLeftIcon } from 'primeng-atm/icons/chevronleft';
 
 let idx: number = 0;
 

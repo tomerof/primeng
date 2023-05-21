@@ -17,7 +17,7 @@ import { ProductService } from '../../service/productservice';
                 <ng-template let-product pTemplate="item">
                     <div class="border-1 surface-border border-round m-2 text-center py-5 px-3">
                         <div class="mb-3">
-                            <img src="https://primefaces.org/cdn/primeng/images/demo/product/{{ product.image }}" [alt]="product.name" class="w-6 shadow-2" />
+                            <img src="https://primefaces.org/cdn/primeng-atm/images/demo/product/{{ product.image }}" [alt]="product.name" class="w-6 shadow-2" />
                         </div>
                         <div>
                             <h4 class="mb-1">{{ product.name }}</h4>
@@ -94,7 +94,7 @@ export class TemplateDoc implements OnInit {
         <div class="product-item">
             <div class="product-item-content">
                 <div class="mb-3">
-                    <img src="https://primefaces.org/cdn/primeng/images/demo/product/{{ product.image }}" [alt]="product.name" class="product-image" />
+                    <img src="https://primefaces.org/cdn/primeng-atm/images/demo/product/{{ product.image }}" [alt]="product.name" class="product-image" />
                 </div>
                 <div>
                     <h4 class="mb-1">{{ product.name }}</h4>
@@ -123,7 +123,7 @@ export class TemplateDoc implements OnInit {
             <div class="product-item">
                 <div class="product-item-content">
                     <div class="mb-3">
-                        <img src="https://primefaces.org/cdn/primeng/images/demo/product/{{ product.image }}" [alt]="product.name" class="product-image" />
+                        <img src="https://primefaces.org/cdn/primeng-atm/images/demo/product/{{ product.image }}" [alt]="product.name" class="product-image" />
                     </div>
                     <div>
                         <h4 class="mb-1">{{ product.name }}</h4>
@@ -205,7 +205,7 @@ export class CarouselTemplateDemo implements OnInit{
             text-align: center;
             padding: 2rem 0;
         }
-    
+
         .product-image {
             width: 50%;
             box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23)
@@ -213,7 +213,7 @@ export class CarouselTemplateDemo implements OnInit{
     }
 }`,
         data: `
-/* ProductService */        
+/* ProductService */
 {
     id: '1000',
     code: 'f230fh0g3',

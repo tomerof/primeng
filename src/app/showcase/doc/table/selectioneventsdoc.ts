@@ -1,5 +1,5 @@
 import { ChangeDetectionStrategy, ChangeDetectorRef, Component, Input, OnInit, ViewChild } from '@angular/core';
-import { MessageService } from 'primeng/api';
+import { MessageService } from 'primeng-atm/api';
 import { Code } from '../../domain/code';
 import { Product } from '../../domain/product';
 import { AppDocSectionTextComponent } from '../../layout/doc/docsectiontext/app.docsectiontext.component';
@@ -112,7 +112,7 @@ export class SelectionEventsDoc implements OnInit {
 </div>`,
         typescript: `
 import { Component, Input, OnInit } from '@angular/core';
-import { MessageService } from 'primeng/api';
+import { MessageService } from 'primeng-atm/api';
 import { Product } from '../../domain/product';
 import { ProductService } from '../../service/productservice';
 

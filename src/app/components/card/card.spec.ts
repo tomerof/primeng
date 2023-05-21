@@ -3,13 +3,13 @@ import { By } from '@angular/platform-browser';
 import { Card } from './card';
 import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 import { Component, NO_ERRORS_SCHEMA } from '@angular/core';
-import { Footer, Header } from 'primeng/api';
+import { Footer, Header } from 'primeng-atm/api';
 import { ButtonModule } from '../button/button';
 
 @Component({
     template: `<p-card [header]="header" [subheader]="subheader" [style]="style" [styleClass]="styleClass">
         <p-header>
-            <img src="Card" src="https://primefaces.org/cdn/primeng/images/usercard.png" />
+            <img src="Card" src="https://primefaces.org/cdn/primeng-atm/images/usercard.png" />
         </p-header>
         <div>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore sed consequuntur error repudiandae numquam deserunt quisquam repellat libero asperiores earum nam nobis, culpa ratione quam perferendis esse, cupiditate neque quas!

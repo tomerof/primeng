@@ -1,7 +1,7 @@
 import { CommonModule } from '@angular/common';
 import { ChangeDetectionStrategy, ChangeDetectorRef, Component, EventEmitter, forwardRef, Input, NgModule, Output } from '@angular/core';
 import { ControlValueAccessor, NG_VALUE_ACCESSOR } from '@angular/forms';
-import { RippleModule } from 'primeng/ripple';
+import { RippleModule } from 'primeng-atm/ripple';
 
 type ToggleButtonIconPosition = 'left' | 'right';
 

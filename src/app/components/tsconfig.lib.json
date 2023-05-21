@@ -17,7 +17,7 @@
         "skipLibCheck": true,
         "types": [],
         "paths": {
-            "primeng/*": ["src/app/components/*/public_api"]
+            "primeng-atm/*": ["src/app/components/*/public_api"]
         }
     },
     "angularCompilerOptions": {
@@ -27,8 +27,8 @@
         "enableI18nLegacyMessageIdFormat": false,
         "strictInjectionParameters": true,
         "strictInputAccessModifiers": true,
-        "flatModuleOutFile": "primeng.js",
-        "flatModuleId": "primeng"
+        "flatModuleOutFile": "primeng-atm.js",
+        "flatModuleId": "primeng-atm"
     },
     "files": [
         "./public_api.ts"

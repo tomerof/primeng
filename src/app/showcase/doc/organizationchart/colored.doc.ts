@@ -1,5 +1,5 @@
 import { Component, Input } from '@angular/core';
-import { TreeNode } from 'primeng/api';
+import { TreeNode } from 'primeng-atm/api';
 import { Code } from '../../domain/code';
 
 @Component({
@@ -33,7 +33,7 @@ export class ColoredDoc {
             type: 'person',
             styleClass: 'bg-indigo-500 text-white',
             data: {
-                image: 'https://primefaces.org/cdn/primeng/images/avatar/amyelsner.png',
+                image: 'https://primefaces.org/cdn/primeng-atm/images/avatar/amyelsner.png',
                 name: 'Amy Elsner',
                 title: 'CEO'
             },
@@ -43,7 +43,7 @@ export class ColoredDoc {
                     type: 'person',
                     styleClass: 'bg-purple-500 text-white',
                     data: {
-                        image: 'https://primefaces.org/cdn/primeng/images/avatar/annafali.png',
+                        image: 'https://primefaces.org/cdn/primeng-atm/images/avatar/annafali.png',
                         name: 'Anna Fali',
                         title: 'CMO'
                     },
@@ -65,7 +65,7 @@ export class ColoredDoc {
                     type: 'person',
                     styleClass: 'bg-teal-500 text-white',
                     data: {
-                        image: 'https://primefaces.org/cdn/primeng/images/avatar/stephenshaw.png',
+                        image: 'https://primefaces.org/cdn/primeng-atm/images/avatar/stephenshaw.png',
                         name: 'Stephen Shaw',
                         title: 'CTO'
                     },
@@ -111,7 +111,7 @@ export class ColoredDoc {
 
         typescript: `
 import { Component } from '@angular/core';
-import { TreeNode } from 'primeng/api';
+import { TreeNode } from 'primeng-atm/api';
 
 @Component({
     selector: 'organization-chart-colored-demo',
@@ -124,7 +124,7 @@ export class OrganizationChartColoredDemo {
             type: 'person',
             styleClass: 'bg-indigo-500 text-white',
             data: {
-                image: 'https://primefaces.org/cdn/primeng/images/avatar/amyelsner.png',
+                image: 'https://primefaces.org/cdn/primeng-atm/images/avatar/amyelsner.png',
                 name: 'Amy Elsner',
                 title: 'CEO'
             },
@@ -134,7 +134,7 @@ export class OrganizationChartColoredDemo {
                     type: 'person',
                     styleClass: 'bg-purple-500 text-white',
                     data: {
-                        image: 'https://primefaces.org/cdn/primeng/images/avatar/annafali.png',
+                        image: 'https://primefaces.org/cdn/primeng-atm/images/avatar/annafali.png',
                         name: 'Anna Fali',
                         title: 'CMO'
                     },
@@ -156,7 +156,7 @@ export class OrganizationChartColoredDemo {
                     type: 'person',
                     styleClass: 'bg-teal-500 text-white',
                     data: {
-                        image: 'https://primefaces.org/cdn/primeng/images/avatar/stephenshaw.png',
+                        image: 'https://primefaces.org/cdn/primeng-atm/images/avatar/stephenshaw.png',
                         name: 'Stephen Shaw',
                         title: 'CTO'
                     },

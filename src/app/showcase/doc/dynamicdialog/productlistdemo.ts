@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { DynamicDialogRef } from 'primeng/dynamicdialog';
+import { DynamicDialogRef } from 'primeng-atm/dynamicdialog';
 import { Product } from '../../domain/product';
 import { ProductService } from '../../service/productservice';
 
@@ -17,7 +17,7 @@ import { ProductService } from '../../service/productservice';
         <ng-template pTemplate="body" let-product>
             <tr>
                 <td>{{ product.name }}</td>
-                <td><img src="https://primefaces.org/cdn/primeng/images/demo/product/{{ product.image }}" [alt]="product.image" class="w-4rem h-4rem shadow-2" /></td>
+                <td><img src="https://primefaces.org/cdn/primeng-atm/images/demo/product/{{ product.image }}" [alt]="product.image" class="w-4rem h-4rem shadow-2" /></td>
                 <td>{{ product.price }}</td>
                 <td>
                     <p-tag [value]="product.inventoryStatus" [severity]="getSeverity(product.inventoryStatus)"></p-tag>

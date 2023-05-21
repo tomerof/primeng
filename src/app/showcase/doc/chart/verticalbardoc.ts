@@ -111,7 +111,7 @@ export class ChartVerticalBarDemo implements OnInit {
         const textColor = documentStyle.getPropertyValue('--text-color');
         const textColorSecondary = documentStyle.getPropertyValue('--text-color-secondary');
         const surfaceBorder = documentStyle.getPropertyValue('--surface-border');
-        
+
         this.data = {
             labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
             datasets: [
@@ -170,7 +170,7 @@ export class ChartVerticalBarDemo implements OnInit {
         module: `
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
-import { ChartModule } from 'primeng/chart';
+import { ChartModule } from 'primeng-atm/chart';
 import { ChartDemo } from './chartdemo';
 
 @NgModule({

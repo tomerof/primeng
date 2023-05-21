@@ -17,8 +17,8 @@ import {
     AfterViewChecked
 } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { SharedModule, Header, PrimeTemplate } from 'primeng/api';
-import { DomHandler } from 'primeng/dom';
+import { SharedModule, Header, PrimeTemplate } from 'primeng-atm/api';
+import { DomHandler } from 'primeng-atm/dom';
 import { NG_VALUE_ACCESSOR, ControlValueAccessor } from '@angular/forms';
 import Quill from 'quill';
 

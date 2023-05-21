@@ -14,6 +14,6 @@ export class ImportDoc {
     @Input() title: string;
 
     code: Code = {
-        typescript: `import { BadgeModule } from 'primeng/badge';`
+        typescript: `import { BadgeModule } from 'primeng-atm/badge';`
     };
 }

@@ -1,5 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { FilterService, SelectItemGroup } from 'primeng/api';
+import { FilterService, SelectItemGroup } from 'primeng-atm/api';
 import { Code } from '../../domain/code';
 
 @Component({
@@ -12,7 +12,7 @@ import { Code } from '../../domain/code';
             <p-autoComplete [(ngModel)]="selectedCity" [group]="true" [suggestions]="filteredGroups" (completeMethod)="filterGroupedCity($event)" field="label" [dropdown]="true">
                 <ng-template let-group pTemplate="group">
                     <div class="flex align-items-center">
-                        <img src="https://primefaces.org/cdn/primeng/images/demo/flag/flag_placeholder.png" [class]="'mr-2 flag flag-' + group.value" style="width: 20px" />
+                        <img src="https://primefaces.org/cdn/primeng-atm/images/demo/flag/flag_placeholder.png" [class]="'mr-2 flag flag-' + group.value" style="width: 20px" />
                         <span>{{ group.label }}</span>
                     </div>
                 </ng-template>
@@ -89,11 +89,11 @@ export class GroupedDoc implements OnInit {
 
     code: Code = {
         basic: `
-<p-autoComplete [(ngModel)]="selectedCity" [group]="true" [suggestions]="filteredGroups" 
+<p-autoComplete [(ngModel)]="selectedCity" [group]="true" [suggestions]="filteredGroups"
     (completeMethod)="filterGroupedCity($event)" field="label" [dropdown]="true">
     <ng-template let-group pTemplate="group">
         <div class="flex align-items-center">
-            <img src="https://primefaces.org/cdn/primeng/images/demo/flag/flag_placeholder.png" [class]="'mr-2 flag flag-' + group.value" style="width: 20px" />
+            <img src="https://primefaces.org/cdn/primeng-atm/images/demo/flag/flag_placeholder.png" [class]="'mr-2 flag flag-' + group.value" style="width: 20px" />
             <span>{{ group.label }}</span>
         </div>
     </ng-template>
@@ -104,7 +104,7 @@ export class GroupedDoc implements OnInit {
     <p-autoComplete [(ngModel)]="selectedCity" [group]="true" [suggestions]="filteredGroups" (completeMethod)="filterGroupedCity($event)" field="label" [dropdown]="true">
         <ng-template let-group pTemplate="group">
             <div class="flex align-items-center">
-                <img src="https://primefaces.org/cdn/primeng/images/demo/flag/flag_placeholder.png" [class]="'mr-2 flag flag-' + group.value" style="width: 20px" />
+                <img src="https://primefaces.org/cdn/primeng-atm/images/demo/flag/flag_placeholder.png" [class]="'mr-2 flag flag-' + group.value" style="width: 20px" />
                 <span>{{ group.label }}</span>
             </div>
         </ng-template>
@@ -113,7 +113,7 @@ export class GroupedDoc implements OnInit {
 
         typescript: `
 import { Component, OnInit } from '@angular/core';
-import { FilterService, SelectItemGroup } from 'primeng/api';
+import { FilterService, SelectItemGroup } from 'primeng-atm/api';
 
 @Component({
     selector: 'autocomplete-grouped-demo',

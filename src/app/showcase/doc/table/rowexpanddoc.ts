@@ -32,7 +32,7 @@ import { ProductService } from '../../service/productservice';
                             <button type="button" pButton pRipple [pRowToggler]="product" class="p-button-text p-button-rounded p-button-plain" [icon]="expanded ? 'pi pi-chevron-down' : 'pi pi-chevron-right'"></button>
                         </td>
                         <td>{{ product.name }}</td>
-                        <td><img [src]="'https://primefaces.org/cdn/primeng/images/demo/product/' + product.image" [alt]="product.name" width="50" class="shadow-4" /></td>
+                        <td><img [src]="'https://primefaces.org/cdn/primeng-atm/images/demo/product/' + product.image" [alt]="product.name" width="50" class="shadow-4" /></td>
                         <td>{{ product.price | currency: 'USD' }}</td>
                         <td>{{ product.category }}</td>
                         <td><p-rating [ngModel]="product.rating" [readonly]="true" [cancel]="false"></p-rating></td>
@@ -142,7 +142,7 @@ export class RowExpandDoc implements OnInit {
                 <button type="button" pButton pRipple [pRowToggler]="product" class="p-button-text p-button-rounded p-button-plain" [icon]="expanded ? 'pi pi-chevron-down' : 'pi pi-chevron-right'"></button>
             </td>
             <td>{{ product.name }}</td>
-            <td><img [src]="'https://primefaces.org/cdn/primeng/images/demo/product/' + product.image" [alt]="product.name" width="50" class="shadow-4" /></td>
+            <td><img [src]="'https://primefaces.org/cdn/primeng-atm/images/demo/product/' + product.image" [alt]="product.name" width="50" class="shadow-4" /></td>
             <td>{{ product.price | currency: 'USD' }}</td>
             <td>{{ product.category }}</td>
             <td><p-rating [ngModel]="product.rating" [readonly]="true" [cancel]="false"></p-rating></td>
@@ -209,7 +209,7 @@ export class RowExpandDoc implements OnInit {
                     <button type="button" pButton pRipple [pRowToggler]="product" class="p-button-text p-button-rounded p-button-plain" [icon]="expanded ? 'pi pi-chevron-down' : 'pi pi-chevron-right'"></button>
                 </td>
                 <td>{{ product.name }}</td>
-                <td><img [src]="'https://primefaces.org/cdn/primeng/images/demo/product/' + product.image" [alt]="product.name" width="50" class="shadow-4" /></td>
+                <td><img [src]="'https://primefaces.org/cdn/primeng-atm/images/demo/product/' + product.image" [alt]="product.name" width="50" class="shadow-4" /></td>
                 <td>{{ product.price | currency: 'USD' }}</td>
                 <td>{{ product.category }}</td>
                 <td><p-rating [ngModel]="product.rating" [readonly]="true" [cancel]="false"></p-rating></td>

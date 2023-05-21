@@ -10,7 +10,7 @@ import { Code } from '../../domain/code';
         <div class="card">
             <p-messages severity="info">
                 <ng-template pTemplate>
-                    <img src="https://primefaces.org/cdn/primeng/images/primeng.svg" width="32" />
+                    <img src="https://primefaces.org/cdn/primeng-atm/images/primeng.svg" width="32" />
                     <div class="ml-2">Always bet on Prime.</div>
                 </ng-template>
             </p-messages>
@@ -27,7 +27,7 @@ export class StaticDoc {
         basic: `
 <p-messages severity="info">
     <ng-template pTemplate>
-        <img src="https://primefaces.org/cdn/primeng/images/primeng.svg" width="32" />
+        <img src="https://primefaces.org/cdn/primeng-atm/images/primeng.svg" width="32" />
         <div class="ml-2">Always bet on Prime.</div>
     </ng-template>
 </p-messages>`,
@@ -35,7 +35,7 @@ export class StaticDoc {
 <div class="card">
     <p-messages severity="info">
         <ng-template pTemplate>
-            <img src="https://primefaces.org/cdn/primeng/images/primeng.svg" width="32" />
+            <img src="https://primefaces.org/cdn/primeng-atm/images/primeng.svg" width="32" />
             <div class="ml-2">Always bet on Prime.</div>
         </ng-template>
     </p-messages>

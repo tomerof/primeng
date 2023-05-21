@@ -14,6 +14,6 @@ export class ImportDoc {
     @Input() title: string;
 
     code: Code = {
-        typescript: `import { FileUploadModule } from 'primeng/fileupload';`
+        typescript: `import { FileUploadModule } from 'primeng-atm/fileupload';`
     };
 }

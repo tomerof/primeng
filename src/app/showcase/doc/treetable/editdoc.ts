@@ -1,5 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { TreeNode } from 'primeng/api';
+import { TreeNode } from 'primeng-atm/api';
 import { Code } from '../../domain/code';
 import { NodeService } from '../../service/nodeservice';
 
@@ -109,7 +109,7 @@ export class EditDoc implements OnInit {
 
         typescript: `
 import { Component, OnInit } from '@angular/core';
-import { TreeNode } from 'primeng/api';
+import { TreeNode } from 'primeng-atm/api';
 import { NodeService } from '../../service/nodeservice';
 
 @Component({

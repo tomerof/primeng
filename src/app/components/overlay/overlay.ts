@@ -22,9 +22,9 @@ import {
     ViewEncapsulation
 } from '@angular/core';
 import { NG_VALUE_ACCESSOR } from '@angular/forms';
-import { OverlayModeType, OverlayOptions, OverlayService, PrimeNGConfig, PrimeTemplate, ResponsiveOverlayOptions, SharedModule } from 'primeng/api';
-import { ConnectedOverlayScrollHandler, DomHandler } from 'primeng/dom';
-import { ObjectUtils, ZIndexUtils } from 'primeng/utils';
+import { OverlayModeType, OverlayOptions, OverlayService, PrimeNGConfig, PrimeTemplate, ResponsiveOverlayOptions, SharedModule } from 'primeng-atm/api';
+import { ConnectedOverlayScrollHandler, DomHandler } from 'primeng-atm/dom';
+import { ObjectUtils, ZIndexUtils } from 'primeng-atm/utils';
 
 export const OVERLAY_VALUE_ACCESSOR: any = {
     provide: NG_VALUE_ACCESSOR,

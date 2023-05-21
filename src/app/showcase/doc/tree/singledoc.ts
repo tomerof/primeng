@@ -1,6 +1,6 @@
 import { Component, Input, OnInit, ViewChild } from '@angular/core';
 import { Code } from '../../domain/code';
-import { TreeNode } from 'primeng/api';
+import { TreeNode } from 'primeng-atm/api';
 import { NodeService } from '../../service/nodeservice';
 import { AppDocSectionTextComponent } from '../../layout/doc/docsectiontext/app.docsectiontext.component';
 
@@ -44,7 +44,7 @@ export class SingleDoc implements OnInit {
 
         typescript: `
 import { Component, OnInit } from '@angular/core';
-import { TreeNode } from 'primeng/api';
+import { TreeNode } from 'primeng-atm/api';
 import { NodeService } from '../../service/nodeservice';
 
 @Component({
@@ -55,7 +55,7 @@ export class TreeSingleDemo implements OnInit {
     files: TreeNode[];
 
     selectedFile: TreeNode;
-    
+
     constructor(private nodeService: NodeService) {}
 
     ngOnInit() {

@@ -26,7 +26,7 @@
         "resolveJsonModule": true,
         "esModuleInterop": true,
         "paths": {
-            "primeng/*": ["src/app/components/*/public_api"]
+            "primeng-atm/*": ["src/app/components/*/public_api"]
         }
     },
     "angularCompilerOptions": {

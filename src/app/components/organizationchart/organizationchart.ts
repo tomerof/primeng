@@ -1,12 +1,12 @@
 import { NgModule, Component, ElementRef, Input, Output, AfterContentInit, EventEmitter, TemplateRef, Inject, forwardRef, ContentChildren, QueryList, ChangeDetectionStrategy, ViewEncapsulation, ChangeDetectorRef, OnDestroy } from '@angular/core';
 import { trigger, state, style, transition, animate } from '@angular/animations';
 import { CommonModule } from '@angular/common';
-import { SharedModule } from 'primeng/api';
-import { TreeNode } from 'primeng/api';
-import { PrimeTemplate } from 'primeng/api';
+import { SharedModule } from 'primeng-atm/api';
+import { TreeNode } from 'primeng-atm/api';
+import { PrimeTemplate } from 'primeng-atm/api';
 import { Subject, Subscription } from 'rxjs';
-import { ChevronDownIcon } from 'primeng/icons/chevrondown';
-import { ChevronUpIcon } from 'primeng/icons/chevronup';
+import { ChevronDownIcon } from 'primeng-atm/icons/chevrondown';
+import { ChevronUpIcon } from 'primeng-atm/icons/chevronup';
 
 @Component({
     selector: '[pOrganizationChartNode]',

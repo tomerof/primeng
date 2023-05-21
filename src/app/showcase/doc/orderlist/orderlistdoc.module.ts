@@ -1,7 +1,7 @@
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
-import { OrderListModule } from 'primeng/orderlist';
+import { OrderListModule } from 'primeng-atm/orderlist';
 import { AppDocModule } from '../../layout/doc/app.doc.module';
 import { AppCodeModule } from '../../layout/doc/code/app.code.component';
 import { PropsDoc } from './propsdoc';
@@ -14,7 +14,7 @@ import { EventsDoc } from './eventsdoc';
 import { MethodsDoc } from './methodsdoc';
 import { TemplatesDoc } from './templatesdoc';
 import { AccessibilityDoc } from './accessibilitydoc';
-import { TagModule } from 'primeng/tag';
+import { TagModule } from 'primeng-atm/tag';
 
 @NgModule({
     imports: [CommonModule, AppCodeModule, AppDocModule, OrderListModule, RouterModule, TagModule],

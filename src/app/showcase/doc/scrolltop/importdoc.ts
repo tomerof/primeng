@@ -14,6 +14,6 @@ export class ImportDoc {
     @Input() title: string;
 
     code: Code = {
-        typescript: `import { ScrollTopModule } from 'primeng/scrolltop';`
+        typescript: `import { ScrollTopModule } from 'primeng-atm/scrolltop';`
     };
 }

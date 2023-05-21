@@ -8,7 +8,7 @@ import { Code } from '../../domain/code';
             <p>
                 Themes are created with SASS using the <i>primeng-sass-theme</i> project available at <a href="http://github.com/primefaces/primeng-sass-theme">github</a>. This repository contains all the scss files for the components and the
                 variables of the built-in themes so that you may customize an existing theme or create your own. The scss variables used in a theme are available at the
-                <a href="https://www.primefaces.org/designer/api/primeng/15.0.0">SASS API</a> documentation.
+                <a href="https://www.primefaces.org/designer/api/primeng-atm/15.0.0">SASS API</a> documentation.
             </p>
             <p>
                 There are 3 alternatives to create your own theme. First option is using the Visual Editor, second one is compiling a theme with command line sass and final alternative is embedding scss files within your project to let your build

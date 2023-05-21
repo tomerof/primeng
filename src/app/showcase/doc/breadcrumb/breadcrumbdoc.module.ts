@@ -1,7 +1,7 @@
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
-import { BreadcrumbModule } from 'primeng/breadcrumb';
+import { BreadcrumbModule } from 'primeng-atm/breadcrumb';
 import { AppDocModule } from '../../layout/doc/app.doc.module';
 import { AppCodeModule } from '../../layout/doc/code/app.code.component';
 import { StyleDoc } from './styledoc';

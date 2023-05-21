@@ -1,5 +1,5 @@
 import { ChangeDetectionStrategy, ChangeDetectorRef, Component, Input, OnInit, ViewChild } from '@angular/core';
-import { Table } from 'primeng/table';
+import { Table } from 'primeng-atm/table';
 import { Code } from '../../domain/code';
 import { Customer, Representative } from '../../domain/customer';
 import { AppDocSectionTextComponent } from '../../layout/doc/docsectiontext/app.docsectiontext.component';
@@ -54,7 +54,7 @@ import { CustomerService } from '../../service/customerservice';
                                     <p-multiSelect [ngModel]="value" [options]="representatives" placeholder="Any" (onChange)="filter($event.value)" optionLabel="name">
                                         <ng-template let-option pTemplate="item">
                                             <div class="inline-block vertical-align-middle">
-                                                <img [alt]="option.label" src="https://primefaces.org/cdn/primeng/images/demo/avatar/{{ option.image }}" width="24" class="vertical-align-middle" />
+                                                <img [alt]="option.label" src="https://primefaces.org/cdn/primeng-atm/images/demo/avatar/{{ option.image }}" width="24" class="vertical-align-middle" />
                                                 <span class="ml-1 mt-1">{{ option.name }}</span>
                                             </div>
                                         </ng-template>
@@ -84,11 +84,11 @@ import { CustomerService } from '../../service/customerservice';
                             {{ customer.name }}
                         </td>
                         <td>
-                            <img src="https://primefaces.org/cdn/primeng/images/demo/flag/flag_placeholder.png" [class]="'flag flag-' + customer.country.code" style="width: 20px" />
+                            <img src="https://primefaces.org/cdn/primeng-atm/images/demo/flag/flag_placeholder.png" [class]="'flag flag-' + customer.country.code" style="width: 20px" />
                             <span class="ml-1 vertical-align-middle">{{ customer.country.name }}</span>
                         </td>
                         <td>
-                            <img [alt]="customer.representative.name" src="https://primefaces.org/cdn/primeng/images/demo/avatar/{{ customer.representative.image }}" width="32" style="vertical-align: middle" />
+                            <img [alt]="customer.representative.name" src="https://primefaces.org/cdn/primeng-atm/images/demo/avatar/{{ customer.representative.image }}" width="32" style="vertical-align: middle" />
                             <span class="ml-1 vertical-align-middle">{{ customer.representative.name }}</span>
                         </td>
                         <td>
@@ -229,7 +229,7 @@ export class FilterRowDoc implements OnInit {
                         <p-multiSelect [ngModel]="value" [options]="representatives" placeholder="Any" (onChange)="filter($event.value)" optionLabel="name">
                             <ng-template let-option pTemplate="item">
                                 <div class="inline-block vertical-align-middle">
-                                    <img [alt]="option.label" src="https://primefaces.org/cdn/primeng/images/demo/avatar/{{ option.image }}" width="24" class="vertical-align-middle" />
+                                    <img [alt]="option.label" src="https://primefaces.org/cdn/primeng-atm/images/demo/avatar/{{ option.image }}" width="24" class="vertical-align-middle" />
                                     <span class="ml-1 mt-1">{{ option.name }}</span>
                                 </div>
                             </ng-template>
@@ -259,11 +259,11 @@ export class FilterRowDoc implements OnInit {
                 {{ customer.name }}
             </td>
             <td>
-                <img src="https://primefaces.org/cdn/primeng/images/demo/flag/flag_placeholder.png" [class]="'flag flag-' + customer.country.code" style="width: 20px" />
+                <img src="https://primefaces.org/cdn/primeng-atm/images/demo/flag/flag_placeholder.png" [class]="'flag flag-' + customer.country.code" style="width: 20px" />
                 <span class="ml-1 vertical-align-middle">{{ customer.country.name }}</span>
             </td>
             <td>
-                <img [alt]="customer.representative.name" src="https://primefaces.org/cdn/primeng/images/demo/avatar/{{ customer.representative.image }}" width="32" style="vertical-align: middle" />
+                <img [alt]="customer.representative.name" src="https://primefaces.org/cdn/primeng-atm/images/demo/avatar/{{ customer.representative.image }}" width="32" style="vertical-align: middle" />
                 <span class="ml-1 vertical-align-middle">{{ customer.representative.name }}</span>
             </td>
             <td>
@@ -324,7 +324,7 @@ export class FilterRowDoc implements OnInit {
                             <p-multiSelect [ngModel]="value" [options]="representatives" placeholder="Any" (onChange)="filter($event.value)" optionLabel="name">
                                 <ng-template let-option pTemplate="item">
                                     <div class="inline-block vertical-align-middle">
-                                        <img [alt]="option.label" src="https://primefaces.org/cdn/primeng/images/demo/avatar/{{ option.image }}" width="24" class="vertical-align-middle" />
+                                        <img [alt]="option.label" src="https://primefaces.org/cdn/primeng-atm/images/demo/avatar/{{ option.image }}" width="24" class="vertical-align-middle" />
                                         <span class="ml-1 mt-1">{{ option.name }}</span>
                                     </div>
                                 </ng-template>
@@ -354,11 +354,11 @@ export class FilterRowDoc implements OnInit {
                     {{ customer.name }}
                 </td>
                 <td>
-                    <img src="https://primefaces.org/cdn/primeng/images/demo/flag/flag_placeholder.png" [class]="'flag flag-' + customer.country.code" style="width: 20px" />
+                    <img src="https://primefaces.org/cdn/primeng-atm/images/demo/flag/flag_placeholder.png" [class]="'flag flag-' + customer.country.code" style="width: 20px" />
                     <span class="ml-1 vertical-align-middle">{{ customer.country.name }}</span>
                 </td>
                 <td>
-                    <img [alt]="customer.representative.name" src="https://primefaces.org/cdn/primeng/images/demo/avatar/{{ customer.representative.image }}" width="32" style="vertical-align: middle" />
+                    <img [alt]="customer.representative.name" src="https://primefaces.org/cdn/primeng-atm/images/demo/avatar/{{ customer.representative.image }}" width="32" style="vertical-align: middle" />
                     <span class="ml-1 vertical-align-middle">{{ customer.representative.name }}</span>
                 </td>
                 <td>
@@ -378,7 +378,7 @@ export class FilterRowDoc implements OnInit {
 </div>`,
         typescript: `
 import { Component, OnInit } from '@angular/core';
-import { Table } from 'primeng/table';
+import { Table } from 'primeng-atm/table';
 import { Customer, Representative } from '../../domain/customer';
 import { CustomerService } from '../../service/customerservice';
 

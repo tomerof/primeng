@@ -24,16 +24,16 @@ import {
     ViewEncapsulation
 } from '@angular/core';
 import { DomSanitizer } from '@angular/platform-browser';
-import { BlockableUI, Message, PrimeNGConfig, PrimeTemplate, SharedModule, TranslationKeys } from 'primeng/api';
-import { ButtonModule } from 'primeng/button';
-import { DomHandler } from 'primeng/dom';
-import { MessagesModule } from 'primeng/messages';
-import { ProgressBarModule } from 'primeng/progressbar';
-import { RippleModule } from 'primeng/ripple';
+import { BlockableUI, Message, PrimeNGConfig, PrimeTemplate, SharedModule, TranslationKeys } from 'primeng-atm/api';
+import { ButtonModule } from 'primeng-atm/button';
+import { DomHandler } from 'primeng-atm/dom';
+import { MessagesModule } from 'primeng-atm/messages';
+import { ProgressBarModule } from 'primeng-atm/progressbar';
+import { RippleModule } from 'primeng-atm/ripple';
 import { Subscription } from 'rxjs';
-import { PlusIcon } from 'primeng/icons/plus';
-import { UploadIcon } from 'primeng/icons/upload';
-import { TimesIcon } from 'primeng/icons/times';
+import { PlusIcon } from 'primeng-atm/icons/plus';
+import { UploadIcon } from 'primeng-atm/icons/upload';
+import { TimesIcon } from 'primeng-atm/icons/times';
 
 @Component({
     selector: 'p-fileUpload',

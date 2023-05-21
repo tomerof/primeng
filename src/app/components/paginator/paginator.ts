@@ -1,15 +1,15 @@
 import { NgModule, Component, OnInit, Input, Output, ChangeDetectorRef, EventEmitter, TemplateRef, OnChanges, SimpleChanges, ChangeDetectionStrategy, ViewEncapsulation, AfterContentInit, ContentChildren, QueryList } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
-import { DropdownModule } from 'primeng/dropdown';
-import { PrimeTemplate, SelectItem } from 'primeng/api';
-import { RippleModule } from 'primeng/ripple';
-import { SharedModule } from 'primeng/api';
-import { InputNumberModule } from 'primeng/inputnumber';
-import { AngleDoubleLeftIcon } from 'primeng/icons/angledoubleleft';
-import { AngleDoubleRightIcon } from 'primeng/icons/angledoubleright';
-import { AngleLeftIcon } from 'primeng/icons/angleleft';
-import { AngleRightIcon } from 'primeng/icons/angleright';
+import { DropdownModule } from 'primeng-atm/dropdown';
+import { PrimeTemplate, SelectItem } from 'primeng-atm/api';
+import { RippleModule } from 'primeng-atm/ripple';
+import { SharedModule } from 'primeng-atm/api';
+import { InputNumberModule } from 'primeng-atm/inputnumber';
+import { AngleDoubleLeftIcon } from 'primeng-atm/icons/angledoubleleft';
+import { AngleDoubleRightIcon } from 'primeng-atm/icons/angledoubleright';
+import { AngleLeftIcon } from 'primeng-atm/icons/angleleft';
+import { AngleRightIcon } from 'primeng-atm/icons/angleright';
 
 @Component({
     selector: 'p-paginator',

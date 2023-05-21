@@ -19,22 +19,22 @@ import {
     PLATFORM_ID
 } from '@angular/core';
 import { CommonModule, DOCUMENT, isPlatformBrowser } from '@angular/common';
-import { ButtonModule } from 'primeng/button';
-import { SharedModule, PrimeTemplate, FilterService } from 'primeng/api';
-import { DomHandler } from 'primeng/dom';
-import { RippleModule } from 'primeng/ripple';
+import { ButtonModule } from 'primeng-atm/button';
+import { SharedModule, PrimeTemplate, FilterService } from 'primeng-atm/api';
+import { DomHandler } from 'primeng-atm/dom';
+import { RippleModule } from 'primeng-atm/ripple';
 import { CdkDragDrop, DragDropModule, moveItemInArray, transferArrayItem } from '@angular/cdk/drag-drop';
-import { ObjectUtils, UniqueComponentId } from 'primeng/utils';
-import { AngleDoubleDownIcon } from 'primeng/icons/angledoubledown';
-import { AngleDoubleLeftIcon } from 'primeng/icons/angledoubleleft';
-import { AngleDoubleRightIcon } from 'primeng/icons/angledoubleright';
-import { AngleDoubleUpIcon } from 'primeng/icons/angledoubleup';
-import { AngleDownIcon } from 'primeng/icons/angledown';
-import { AngleLeftIcon } from 'primeng/icons/angleleft';
-import { AngleRightIcon } from 'primeng/icons/angleright';
-import { AngleUpIcon } from 'primeng/icons/angleup';
-import { SearchIcon } from 'primeng/icons/search';
-import { HomeIcon } from 'primeng/icons/home';
+import { ObjectUtils, UniqueComponentId } from 'primeng-atm/utils';
+import { AngleDoubleDownIcon } from 'primeng-atm/icons/angledoubledown';
+import { AngleDoubleLeftIcon } from 'primeng-atm/icons/angledoubleleft';
+import { AngleDoubleRightIcon } from 'primeng-atm/icons/angledoubleright';
+import { AngleDoubleUpIcon } from 'primeng-atm/icons/angledoubleup';
+import { AngleDownIcon } from 'primeng-atm/icons/angledown';
+import { AngleLeftIcon } from 'primeng-atm/icons/angleleft';
+import { AngleRightIcon } from 'primeng-atm/icons/angleright';
+import { AngleUpIcon } from 'primeng-atm/icons/angleup';
+import { SearchIcon } from 'primeng-atm/icons/search';
+import { HomeIcon } from 'primeng-atm/icons/home';
 
 export interface PickListFilterOptions {
     filter?: (value?: any) => void;
@@ -1118,17 +1118,17 @@ export class PickList implements AfterViewChecked, AfterContentInit {
                     .p-picklist[${this.id}] {
                         flex-direction: column;
                     }
-    
+
                     .p-picklist[${this.id}] .p-picklist-buttons {
                         padding: var(--content-padding);
                         flex-direction: row;
                     }
-    
+
                     .p-picklist[${this.id}] .p-picklist-buttons .p-button {
                         margin-right: var(--inline-spacing);
                         margin-bottom: 0;
                     }
-    
+
                     .p-picklist[${this.id}] .p-picklist-buttons .p-button:last-child {
                         margin-right: 0;
                     }

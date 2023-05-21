@@ -28,11 +28,11 @@
 import { CommonModule, DOCUMENT, isPlatformBrowser } from '@angular/common';
 import { ChangeDetectionStrategy, ChangeDetectorRef, Component, ContentChildren, ElementRef, EventEmitter, forwardRef, Inject, Input, NgModule, OnInit, Output, PLATFORM_ID, QueryList, TemplateRef, ViewChild, ViewEncapsulation } from '@angular/core';
 import { ControlValueAccessor, NG_VALUE_ACCESSOR } from '@angular/forms';
-import { AutoFocusModule } from 'primeng/autofocus';
-import { DomHandler } from 'primeng/dom';
-import { InputTextModule } from 'primeng/inputtext';
-import { TimesIcon } from 'primeng/icons/times';
-import { PrimeTemplate, SharedModule } from 'primeng/api';
+import { AutoFocusModule } from 'primeng-atm/autofocus';
+import { DomHandler } from 'primeng-atm/dom';
+import { InputTextModule } from 'primeng-atm/inputtext';
+import { TimesIcon } from 'primeng-atm/icons/times';
+import { PrimeTemplate, SharedModule } from 'primeng-atm/api';
 
 export const INPUTMASK_VALUE_ACCESSOR: any = {
     provide: NG_VALUE_ACCESSOR,
@@ -77,7 +77,7 @@ export const INPUTMASK_VALUE_ACCESSOR: any = {
             <span *ngIf="clearIconTemplate" class="p-inputmask-clear-icon" (click)="clear()">
                 <ng-template *ngTemplateOutlet="clearIconTemplate"></ng-template>
             </span>
-            
+
         </ng-container>
 
     `,

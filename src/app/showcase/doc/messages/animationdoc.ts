@@ -1,5 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { Message } from 'primeng/api';
+import { Message } from 'primeng-atm/api';
 import { Code } from '../../domain/code';
 
 @Component({
@@ -37,7 +37,7 @@ export class AnimationDoc implements OnInit {
 </div>`,
         typescript: `
 import { Component, OnInit } from '@angular/core';
-import { Message } from 'primeng/api';
+import { Message } from 'primeng-atm/api';
 
 @Component({
     selector: 'messages-animation-demo',

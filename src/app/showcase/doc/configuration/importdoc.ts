@@ -5,7 +5,7 @@ import { Code } from '../../domain/code';
     selector: 'import-doc',
     template: ` <section>
         <app-docsectiontext [title]="title" [id]="id">
-            <p>Configuration is managed by the <i>PrimeNGConfig</i> instance imported from <i>primeng/api</i> and injected via dependency injection.</p>
+            <p>Configuration is managed by the <i>PrimeNGConfig</i> instance imported from <i>primeng-atm/api</i> and injected via dependency injection.</p>
         </app-docsectiontext>
         <app-code [code]="code" [hideToggleCode]="true"></app-code>
     </section>`
@@ -16,6 +16,6 @@ export class ImportDoc {
     @Input() title: string;
 
     code: Code = {
-        typescript: `import { PrimeNGConfig } from 'primeng/api';`
+        typescript: `import { PrimeNGConfig } from 'primeng-atm/api';`
     };
 }

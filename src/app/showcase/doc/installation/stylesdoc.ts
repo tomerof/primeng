@@ -25,14 +25,14 @@ export class StylesDoc {
     code1: Code = {
         typescript: `...
 "styles": [
-    "node_modules/primeng/resources/themes/lara-light-blue/theme.css",
-    "node_modules/primeng/resources/primeng.min.css",
+    "node_modules/primeng-atm/resources/themes/lara-light-blue/theme.css",
+    "node_modules/primeng-atm/resources/primeng.min.css",
     ...
 ]`
     };
 
     code2: Code = {
-        scss: `@import "primeng/resources/themes/lara-light-blue/theme.css";
-@import "primeng/resources/primeng.css";`
+        scss: `@import "primeng-atm/resources/themes/lara-light-blue/theme.css";
+@import "primeng-atm/resources/primeng.css";`
     };
 }

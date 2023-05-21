@@ -1,5 +1,5 @@
 import { Component, Input, OnInit, ViewChild } from '@angular/core';
-import { TreeNode } from 'primeng/api';
+import { TreeNode } from 'primeng-atm/api';
 import { Code } from '../../domain/code';
 import { AppDocSectionTextComponent } from '../../layout/doc/docsectiontext/app.docsectiontext.component';
 
@@ -115,7 +115,7 @@ export class PaginatorBasicDoc implements OnInit {
 
         typescript: `
 import { Component, OnInit } from '@angular/core';
-import { TreeNode } from 'primeng/api';
+import { TreeNode } from 'primeng-atm/api';
 
 @Component({
     selector: 'tree-table-paginator-basic-demo',
@@ -130,14 +130,14 @@ export class TreeTablePaginatorBasicDemo implements OnInit {
         this.files = [];
         for(let i = 0; i < 50; i++) {
             let node = {
-                data:{  
+                data:{
                     name: 'Item ' + i,
                     size: Math.floor(Math.random() * 1000) + 1 + 'kb',
                     type: 'Type ' + i
                 },
                 children: [
                     {
-                        data: {  
+                        data: {
                             name: 'Item ' + i + ' - 0',
                             size: Math.floor(Math.random() * 1000) + 1 + 'kb',
                             type: 'Type ' + i

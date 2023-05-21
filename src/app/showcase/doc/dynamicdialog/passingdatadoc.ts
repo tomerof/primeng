@@ -1,5 +1,5 @@
 import { Component, Input } from '@angular/core';
-import { DialogService, DynamicDialogRef } from 'primeng/dynamicdialog';
+import { DialogService, DynamicDialogRef } from 'primeng-atm/dynamicdialog';
 import { Code } from '../../domain/code';
 import { ProductListDemo } from './productlistdemo';
 
@@ -37,7 +37,7 @@ export class PassingDataDoc {
     code: Code = {
         typescript: `
 import { Component } from '@angular/core';
-import { DialogService, DynamicDialogRef } from 'primeng/dynamicdialog';
+import { DialogService, DynamicDialogRef } from 'primeng-atm/dynamicdialog';
 import { ProductListDemo } from './productlistdemo';
 
 @Component({
@@ -47,11 +47,11 @@ import { ProductListDemo } from './productlistdemo';
 export class DynamicDialogDemo {
 
     ref: DynamicDialogRef;
-    
+
     constructor(public dialogService: DialogService) {}
 
     show() {
-        this.ref = this.dialogService.open(ProductListDemo, { 
+        this.ref = this.dialogService.open(ProductListDemo, {
             data: {
                 id: '51gF3'
             },

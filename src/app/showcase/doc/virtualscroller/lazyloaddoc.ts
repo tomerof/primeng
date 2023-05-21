@@ -1,5 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { LazyLoadEvent } from 'primeng/api';
+import { LazyLoadEvent } from 'primeng-atm/api';
 import { Code } from '../../domain/code';
 import { Product } from '../../domain/product';
 import { ProductService } from '../../service/productservice';
@@ -19,7 +19,7 @@ import { ProductService } from '../../service/productservice';
                 <ng-template let-product pTemplate="item">
                     <div class="flex align-items-center p-3 w-full flex-wrap">
                         <div>
-                            <img src="https://primefaces.org/cdn/primeng/images/demo/product/{{ product.image }}" [alt]="product.name" class="mr-3 w-4rem md:w-7rem shadow-2" />
+                            <img src="https://primefaces.org/cdn/primeng-atm/images/demo/product/{{ product.image }}" [alt]="product.name" class="mr-3 w-4rem md:w-7rem shadow-2" />
                         </div>
                         <div class="flex-1">
                             <h5 class="mb-2 text-base">{{ product.name }}</h5>
@@ -95,7 +95,7 @@ export class LazyLoadDoc implements OnInit {
     <ng-template let-product pTemplate="item">
         <div class="flex align-items-center p-3 w-full flex-wrap">
             <div>
-                <img src="https://primefaces.org/cdn/primeng/images/demo/product/{{ product.image }}" [alt]="product.name" class="mr-3 w-4rem md:w-7rem shadow-2" />
+                <img src="https://primefaces.org/cdn/primeng-atm/images/demo/product/{{ product.image }}" [alt]="product.name" class="mr-3 w-4rem md:w-7rem shadow-2" />
             </div>
             <div class="flex-1">
                 <h5 class="mb-2 text-base">{{ product.name }}</h5>
@@ -131,7 +131,7 @@ export class LazyLoadDoc implements OnInit {
         <ng-template let-product pTemplate="item">
             <div class="flex align-items-center p-3 w-full flex-wrap">
                 <div>
-                    <img src="https://primefaces.org/cdn/primeng/images/demo/product/{{ product.image }}" [alt]="product.name" class="mr-3 w-4rem md:w-7rem shadow-2" />
+                    <img src="https://primefaces.org/cdn/primeng-atm/images/demo/product/{{ product.image }}" [alt]="product.name" class="mr-3 w-4rem md:w-7rem shadow-2" />
                 </div>
                 <div class="flex-1">
                     <h5 class="mb-2 text-base">{{ product.name }}</h5>
@@ -163,7 +163,7 @@ export class LazyLoadDoc implements OnInit {
 
         typescript: `
 import { Component, OnInit } from '@angular/core';
-import { LazyLoadEvent } from 'primeng/api';
+import { LazyLoadEvent } from 'primeng-atm/api';
 import { Product } from '../../domain/product';
 import { ProductService } from 'src/service/productservice';
 
@@ -208,7 +208,7 @@ export class VirtualScrollerLazyLoadDemo implements OnInit {
 }`,
 
         data: `
-/* ProductService */        
+/* ProductService */
 {
     id: '1000',
     code: 'f230fh0g3',

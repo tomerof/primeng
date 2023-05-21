@@ -1,9 +1,9 @@
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
-import { ScrollerModule } from 'primeng/scroller';
-import { SkeletonModule } from 'primeng/skeleton';
-import { SpinnerModule } from 'primeng/spinner';
+import { ScrollerModule } from 'primeng-atm/scroller';
+import { SkeletonModule } from 'primeng-atm/skeleton';
+import { SpinnerModule } from 'primeng-atm/spinner';
 import { AppDocModule } from '../../layout/doc/app.doc.module';
 import { AppCodeModule } from '../../layout/doc/code/app.code.component';
 import { BasicDoc } from './basicdoc';
@@ -20,7 +20,7 @@ import { ScrollOptionsDoc } from './scrolloptionsdoc';
 import { StyleDoc } from './styledoc';
 import { TemplateDoc } from './templatedoc';
 import { TemplatesDoc } from './templatesdoc';
-import { ButtonModule } from 'primeng/button';
+import { ButtonModule } from 'primeng-atm/button';
 import { ProgrammaticDoc } from './programmaticdoc';
 import { AccessibilityDoc } from './accessibilitydoc';
 

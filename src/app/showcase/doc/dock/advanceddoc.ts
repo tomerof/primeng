@@ -1,6 +1,6 @@
 import { Component, Input, OnDestroy, OnInit } from '@angular/core';
-import { MenuItem, MessageService } from 'primeng/api';
-import { TerminalService } from 'primeng/terminal';
+import { MenuItem, MessageService } from 'primeng-atm/api';
+import { TerminalService } from 'primeng-atm/terminal';
 import { Subscription } from 'rxjs';
 import { Code } from '../../domain/code';
 import { NodeService } from '../../service/nodeservice';
@@ -104,7 +104,7 @@ export class AdvancedDoc implements OnInit, OnDestroy {
                     positionLeft: 15,
                     showDelay: 1000
                 },
-                icon: 'https://primefaces.org/cdn/primeng/images/dock/finder.svg',
+                icon: 'https://primefaces.org/cdn/primeng-atm/images/dock/finder.svg',
                 command: () => {
                     this.displayFinder = true;
                 }
@@ -118,7 +118,7 @@ export class AdvancedDoc implements OnInit, OnDestroy {
                     positionLeft: 15,
                     showDelay: 1000
                 },
-                icon: 'https://primefaces.org/cdn/primeng/images/dock/terminal.svg',
+                icon: 'https://primefaces.org/cdn/primeng-atm/images/dock/terminal.svg',
                 command: () => {
                     this.displayTerminal = true;
                 }
@@ -132,7 +132,7 @@ export class AdvancedDoc implements OnInit, OnDestroy {
                     positionLeft: 15,
                     showDelay: 1000
                 },
-                icon: 'https://primefaces.org/cdn/primeng/images/dock/appstore.svg',
+                icon: 'https://primefaces.org/cdn/primeng-atm/images/dock/appstore.svg',
                 command: () => {
                     this.messageService.add({ severity: 'error', summary: 'An unexpected error occurred while signing in.', detail: 'UNTRUSTED_CERT_TITLE' });
                 }
@@ -146,7 +146,7 @@ export class AdvancedDoc implements OnInit, OnDestroy {
                     positionLeft: 15,
                     showDelay: 1000
                 },
-                icon: 'https://primefaces.org/cdn/primeng/images/dock/safari.svg',
+                icon: 'https://primefaces.org/cdn/primeng-atm/images/dock/safari.svg',
                 command: () => {
                     this.messageService.add({ severity: 'warn', summary: 'Safari has stopped working' });
                 }
@@ -160,7 +160,7 @@ export class AdvancedDoc implements OnInit, OnDestroy {
                     positionLeft: 15,
                     showDelay: 1000
                 },
-                icon: 'https://primefaces.org/cdn/primeng/images/dock/photos.svg',
+                icon: 'https://primefaces.org/cdn/primeng-atm/images/dock/photos.svg',
                 command: () => {
                     this.displayGalleria = true;
                 }
@@ -174,7 +174,7 @@ export class AdvancedDoc implements OnInit, OnDestroy {
                     positionLeft: 15,
                     showDelay: 1000
                 },
-                icon: 'https://primefaces.org/cdn/primeng/images/dock/github.svg'
+                icon: 'https://primefaces.org/cdn/primeng-atm/images/dock/github.svg'
             },
             {
                 label: 'Trash',
@@ -185,7 +185,7 @@ export class AdvancedDoc implements OnInit, OnDestroy {
                     positionLeft: 15,
                     showDelay: 1000
                 },
-                icon: 'https://primefaces.org/cdn/primeng/images/dock/trash.png',
+                icon: 'https://primefaces.org/cdn/primeng-atm/images/dock/trash.png',
                 command: () => {
                     this.messageService.add({ severity: 'info', summary: 'Empty Trash' });
                 }
@@ -473,8 +473,8 @@ export class AdvancedDoc implements OnInit, OnDestroy {
 
         typescript: `
 import { Component, OnDestroy, OnInit } from '@angular/core';
-import { MenuItem, MessageService } from 'primeng/api';
-import { TerminalService } from 'primeng/terminal';
+import { MenuItem, MessageService } from 'primeng-atm/api';
+import { TerminalService } from 'primeng-atm/terminal';
 import { Subscription } from 'rxjs';
 import { NodeService } from '../../service/nodeservice';
 import { PhotoService } from '../../service/photoservice';
@@ -517,7 +517,7 @@ export class DockAdvancedDemo implements OnInit {
                     positionLeft: 15,
                     showDelay: 1000
                 },
-                icon: 'https://primefaces.org/cdn/primeng/images/dock/finder.svg',
+                icon: 'https://primefaces.org/cdn/primeng-atm/images/dock/finder.svg',
                 command: () => {
                     this.displayFinder = true;
                 }
@@ -531,7 +531,7 @@ export class DockAdvancedDemo implements OnInit {
                     positionLeft: 15,
                     showDelay: 1000
                 },
-                icon: 'https://primefaces.org/cdn/primeng/images/dock/terminal.svg',
+                icon: 'https://primefaces.org/cdn/primeng-atm/images/dock/terminal.svg',
                 command: () => {
                     this.displayTerminal = true;
                 }
@@ -545,7 +545,7 @@ export class DockAdvancedDemo implements OnInit {
                     positionLeft: 15,
                     showDelay: 1000
                 },
-                icon: 'https://primefaces.org/cdn/primeng/images/dock/appstore.svg',
+                icon: 'https://primefaces.org/cdn/primeng-atm/images/dock/appstore.svg',
                 command: () => {
                     this.messageService.add({ severity: 'error', summary: 'An unexpected error occurred while signing in.', detail: 'UNTRUSTED_CERT_TITLE' });
                 }
@@ -559,7 +559,7 @@ export class DockAdvancedDemo implements OnInit {
                     positionLeft: 15,
                     showDelay: 1000
                 },
-                icon: 'https://primefaces.org/cdn/primeng/images/dock/safari.svg',
+                icon: 'https://primefaces.org/cdn/primeng-atm/images/dock/safari.svg',
                 command: () => {
                     this.messageService.add({ severity: 'warn', summary: 'Safari has stopped working' });
                 }
@@ -573,7 +573,7 @@ export class DockAdvancedDemo implements OnInit {
                     positionLeft: 15,
                     showDelay: 1000
                 },
-                icon: 'https://primefaces.org/cdn/primeng/images/dock/photos.svg',
+                icon: 'https://primefaces.org/cdn/primeng-atm/images/dock/photos.svg',
                 command: () => {
                     this.displayGalleria = true;
                 }
@@ -587,7 +587,7 @@ export class DockAdvancedDemo implements OnInit {
                     positionLeft: 15,
                     showDelay: 1000
                 },
-                icon: 'https://primefaces.org/cdn/primeng/images/dock/github.svg'
+                icon: 'https://primefaces.org/cdn/primeng-atm/images/dock/github.svg'
             },
             {
                 label: 'Trash',
@@ -598,7 +598,7 @@ export class DockAdvancedDemo implements OnInit {
                     positionLeft: 15,
                     showDelay: 1000
                 },
-                icon: 'https://primefaces.org/cdn/primeng/images/dock/trash.png',
+                icon: 'https://primefaces.org/cdn/primeng-atm/images/dock/trash.png',
                 command: () => {
                     this.messageService.add({ severity: 'info', summary: 'Empty Trash' });
                 }
@@ -789,7 +789,7 @@ export class DockAdvancedDemo implements OnInit {
         width: 100%;
         height: 450px;
         position: relative;
-        background-image: url('https://primefaces.org/cdn/primeng/images/dock/window.jpg');
+        background-image: url('https://primefaces.org/cdn/primeng-atm/images/dock/window.jpg');
         background-repeat: no-repeat;
         background-size: cover;
     }

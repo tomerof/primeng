@@ -5,7 +5,7 @@ import { AppDocSectionTextComponent } from 'src/app/showcase/layout/doc/docsecti
     selector: 'api-doc',
     template: ` <section>
         <app-docsectiontext [title]="title" [id]="id" [level]="3" #docsectiontext>
-            <p>Configuration is managed by the Locale API imported from <i>primeng/config</i>.</p>
+            <p>Configuration is managed by the Locale API imported from <i>primeng-atm/config</i>.</p>
 
             <h3>Locale Options</h3>
         </app-docsectiontext>

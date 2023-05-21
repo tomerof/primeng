@@ -1,5 +1,5 @@
 import { Component, Input } from '@angular/core';
-import { MessageService } from 'primeng/api';
+import { MessageService } from 'primeng-atm/api';
 import { Car } from '../../domain/car';
 import { Code } from '../../domain/code';
 import { CarService } from '../../service/carservice';
@@ -111,7 +111,7 @@ export class DataTableDoc {
 </div>`,
         typescript: `
 import { Component, Input } from '@angular/core';
-import { MessageService } from 'primeng/api';
+import { MessageService } from 'primeng-atm/api';
 import { Car } from '../../domain/car';
 import { Code } from '../../domain/code';
 import { CarService } from '../../service/carservice';

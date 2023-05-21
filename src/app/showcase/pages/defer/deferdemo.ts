@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { MessageService } from 'primeng/api';
+import { MessageService } from 'primeng-atm/api';
 import { EventsDoc } from '../../doc/defer/eventsdoc';
 import { BasicDoc } from '../../doc/defer/basicdoc';
 import { ImportDoc } from '../../doc/defer/importdoc';

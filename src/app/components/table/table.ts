@@ -30,27 +30,27 @@ import {
     ViewEncapsulation
 } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { BlockableUI, FilterMatchMode, FilterMetadata, FilterOperator, FilterService, OverlayService, PrimeNGConfig, PrimeTemplate, SelectItem, SharedModule, SortMeta, TableState, TranslationKeys } from 'primeng/api';
-import { ButtonModule } from 'primeng/button';
-import { CalendarModule } from 'primeng/calendar';
-import { ConnectedOverlayScrollHandler, DomHandler } from 'primeng/dom';
-import { DropdownModule } from 'primeng/dropdown';
-import { InputNumberModule } from 'primeng/inputnumber';
-import { InputTextModule } from 'primeng/inputtext';
-import { PaginatorModule } from 'primeng/paginator';
-import { Scroller, ScrollerModule, ScrollerOptions } from 'primeng/scroller';
-import { SelectButtonModule } from 'primeng/selectbutton';
-import { TriStateCheckboxModule } from 'primeng/tristatecheckbox';
-import { ObjectUtils, UniqueComponentId, ZIndexUtils } from 'primeng/utils';
+import { BlockableUI, FilterMatchMode, FilterMetadata, FilterOperator, FilterService, OverlayService, PrimeNGConfig, PrimeTemplate, SelectItem, SharedModule, SortMeta, TableState, TranslationKeys } from 'primeng-atm/api';
+import { ButtonModule } from 'primeng-atm/button';
+import { CalendarModule } from 'primeng-atm/calendar';
+import { ConnectedOverlayScrollHandler, DomHandler } from 'primeng-atm/dom';
+import { DropdownModule } from 'primeng-atm/dropdown';
+import { InputNumberModule } from 'primeng-atm/inputnumber';
+import { InputTextModule } from 'primeng-atm/inputtext';
+import { PaginatorModule } from 'primeng-atm/paginator';
+import { Scroller, ScrollerModule, ScrollerOptions } from 'primeng-atm/scroller';
+import { SelectButtonModule } from 'primeng-atm/selectbutton';
+import { TriStateCheckboxModule } from 'primeng-atm/tristatecheckbox';
+import { ObjectUtils, UniqueComponentId, ZIndexUtils } from 'primeng-atm/utils';
 import { Subject, Subscription } from 'rxjs';
-import { ArrowDownIcon } from 'primeng/icons/arrowdown';
-import { ArrowUpIcon } from 'primeng/icons/arrowup';
-import { CheckIcon } from 'primeng/icons/check';
-import { FilterIcon } from 'primeng/icons/filter';
-import { SortAltIcon } from 'primeng/icons/sortalt';
-import { SortAmountDownIcon } from 'primeng/icons/sortamountdown';
-import { SortAmountUpAltIcon } from 'primeng/icons/sortamountupalt';
-import { SpinnerIcon } from 'primeng/icons/spinner';
+import { ArrowDownIcon } from 'primeng-atm/icons/arrowdown';
+import { ArrowUpIcon } from 'primeng-atm/icons/arrowup';
+import { CheckIcon } from 'primeng-atm/icons/check';
+import { FilterIcon } from 'primeng-atm/icons/filter';
+import { SortAltIcon } from 'primeng-atm/icons/sortalt';
+import { SortAmountDownIcon } from 'primeng-atm/icons/sortamountdown';
+import { SortAmountUpAltIcon } from 'primeng-atm/icons/sortamountupalt';
+import { SpinnerIcon } from 'primeng-atm/icons/spinner';
 
 @Injectable()
 export class TableService {
@@ -2556,24 +2556,24 @@ export class Table implements OnInit, AfterViewInit, AfterContentInit, Blockable
         #${this.id}-table > .p-datatable-tfoot > tr > td {
             display: none !important;
         }
-    
+
         #${this.id}-table > .p-datatable-tbody > tr > td {
             display: flex;
             width: 100% !important;
             align-items: center;
             justify-content: space-between;
         }
-    
+
         #${this.id}-table > .p-datatable-tbody > tr > td:not(:last-child) {
             border: 0 none;
         }
-    
+
         #${this.id}.p-datatable-gridlines > .p-datatable-wrapper > .p-datatable-table > .p-datatable-tbody > tr > td:last-child {
             border-top: 0;
             border-right: 0;
             border-left: 0;
         }
-    
+
         #${this.id}-table > .p-datatable-tbody > tr > td > .p-column-title {
             display: block;
         }

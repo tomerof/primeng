@@ -7,7 +7,7 @@ export class JsonService {
 
     getVersions() {
         return this.http
-            .get<any>('https://www.primefaces.org/primeng/versions.json')
+            .get<any>('https://www.primefaces.org/primeng-atm/versions.json')
             .toPromise()
             .then((res) => res.versions)
             .then((data) => {

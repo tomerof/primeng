@@ -1,7 +1,7 @@
 import { isPlatformBrowser } from '@angular/common';
 import { Component, Inject, OnInit, PLATFORM_ID } from '@angular/core';
 import { Router } from '@angular/router';
-import { PrimeNGConfig } from 'primeng/api';
+import { PrimeNGConfig } from 'primeng-atm/api';
 import { Subscription } from 'rxjs';
 import { AppConfig } from '../domain/appconfig';
 import { AppConfigService } from '../service/appconfigservice';

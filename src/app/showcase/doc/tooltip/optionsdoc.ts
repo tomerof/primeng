@@ -1,5 +1,5 @@
 import { Component, Input } from '@angular/core';
-import { TooltipOptions } from 'primeng/tooltip';
+import { TooltipOptions } from 'primeng-atm/tooltip';
 import { Code } from '../../domain/code';
 
 @Component({
@@ -37,7 +37,7 @@ export class OptionsDoc {
 
         typescript: `
 import { Component } from '@angular/core';
-import { TooltipOptions } from 'primeng/tooltip';
+import { TooltipOptions } from 'primeng-atm/tooltip';
 
 @Component({
     selector: 'tooltip-options-demo',

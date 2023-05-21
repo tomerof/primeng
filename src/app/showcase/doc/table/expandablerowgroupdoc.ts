@@ -25,7 +25,7 @@ import { CustomerService } from '../../service/customerservice';
                     <tr>
                         <td colspan="5">
                             <button type="button" pButton pRipple [pRowToggler]="customer" class="p-button-text p-button-rounded p-button-plain mr-2" [icon]="expanded ? 'pi pi-chevron-down' : 'pi pi-chevron-right'"></button>
-                            <img [alt]="customer.representative.name" src="https://primefaces.org/cdn/primeng/images/demo/avatar/{{ customer.representative.image }}" width="32" style="vertical-align: middle" />
+                            <img [alt]="customer.representative.name" src="https://primefaces.org/cdn/primeng-atm/images/demo/avatar/{{ customer.representative.image }}" width="32" style="vertical-align: middle" />
                             <span class="font-bold ml-2">{{ customer.representative.name }}</span>
                         </td>
                     </tr>
@@ -42,7 +42,7 @@ import { CustomerService } from '../../service/customerservice';
                             {{ customer.name }}
                         </td>
                         <td>
-                            <img src="https://primefaces.org/cdn/primeng/images/demo/flag/flag_placeholder.png" [class]="'flag flag-' + customer.country.code" style="width: 20px" />
+                            <img src="https://primefaces.org/cdn/primeng-atm/images/demo/flag/flag_placeholder.png" [class]="'flag flag-' + customer.country.code" style="width: 20px" />
                             <span class="ml-1 vertical-align-middle">{{ customer.country.name }}</span>
                         </td>
                         <td>
@@ -129,7 +129,7 @@ export class ExpandableRowGroupDoc implements OnInit {
         <tr>
             <td colspan="5">
                 <button type="button" pButton pRipple [pRowToggler]="customer" class="p-button-text p-button-rounded p-button-plain mr-2" [icon]="expanded ? 'pi pi-chevron-down' : 'pi pi-chevron-right'"></button>
-                <img [alt]="customer.representative.name" src="https://primefaces.org/cdn/primeng/images/demo/avatar/{{customer.representative.image}}" width="32" style="vertical-align: middle" />
+                <img [alt]="customer.representative.name" src="https://primefaces.org/cdn/primeng-atm/images/demo/avatar/{{customer.representative.image}}" width="32" style="vertical-align: middle" />
                 <span class="font-bold ml-2">{{customer.representative.name}}</span>
             </td>
         </tr>
@@ -146,7 +146,7 @@ export class ExpandableRowGroupDoc implements OnInit {
                 {{customer.name}}
             </td>
             <td>
-                <img src="https://primefaces.org/cdn/primeng/images/demo/flag/flag_placeholder.png" [class]="'flag flag-' + customer.country.code" style="width: 20px">
+                <img src="https://primefaces.org/cdn/primeng-atm/images/demo/flag/flag_placeholder.png" [class]="'flag flag-' + customer.country.code" style="width: 20px">
                 <span class="ml-1 vertical-align-middle">{{customer.country.name}}</span>
             </td>
             <td>
@@ -177,7 +177,7 @@ export class ExpandableRowGroupDoc implements OnInit {
             <tr>
                 <td colspan="5">
                     <button type="button" pButton pRipple [pRowToggler]="customer" class="p-button-text p-button-rounded p-button-plain mr-2" [icon]="expanded ? 'pi pi-chevron-down' : 'pi pi-chevron-right'"></button>
-                    <img [alt]="customer.representative.name" src="https://primefaces.org/cdn/primeng/images/demo/avatar/{{customer.representative.image}}" width="32" style="vertical-align: middle" />
+                    <img [alt]="customer.representative.name" src="https://primefaces.org/cdn/primeng-atm/images/demo/avatar/{{customer.representative.image}}" width="32" style="vertical-align: middle" />
                     <span class="font-bold ml-2">{{customer.representative.name}}</span>
                 </td>
             </tr>
@@ -194,7 +194,7 @@ export class ExpandableRowGroupDoc implements OnInit {
                     {{customer.name}}
                 </td>
                 <td>
-                    <img src="https://primefaces.org/cdn/primeng/images/demo/flag/flag_placeholder.png" [class]="'flag flag-' + customer.country.code" style="width: 20px">
+                    <img src="https://primefaces.org/cdn/primeng-atm/images/demo/flag/flag_placeholder.png" [class]="'flag flag-' + customer.country.code" style="width: 20px">
                     <span class="ml-1 vertical-align-middle">{{customer.country.name}}</span>
                 </td>
                 <td>

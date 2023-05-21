@@ -1,5 +1,5 @@
 import { Component, Input } from '@angular/core';
-import { SelectItemGroup } from 'primeng/api';
+import { SelectItemGroup } from 'primeng-atm/api';
 import { Code } from '../../domain/code';
 
 interface Country {
@@ -17,7 +17,7 @@ interface Country {
             <p-listbox [options]="groupedCities" [group]="true" [(ngModel)]="selectedCountry" [listStyle]="{ 'max-height': '250px' }" [style]="{ width: '15rem' }">
                 <ng-template let-group pTemplate="group">
                     <div class="flex align-items-center">
-                        <img src="https://primefaces.org/cdn/primeng/images/demo/flag/flag_placeholder.png" [class]="'mr-2 flag flag-' + group.value" style="width: 20px" />
+                        <img src="https://primefaces.org/cdn/primeng-atm/images/demo/flag/flag_placeholder.png" [class]="'mr-2 flag flag-' + group.value" style="width: 20px" />
                         <span>{{ group.label }}</span>
                     </div>
                 </ng-template>
@@ -75,7 +75,7 @@ export class GroupDoc {
 <p-listbox [options]="groupedCities" [group]="true" [(ngModel)]="selectedCountry" [listStyle]="{ 'max-height': '250px' }" [style]="{ width: '15rem' }">
     <ng-template let-group pTemplate="group">
         <div class="flex align-items-center">
-            <img src="https://primefaces.org/cdn/primeng/images/demo/flag/flag_placeholder.png" [class]="'mr-2 flag flag-' + group.value" style="width: 20px" />
+            <img src="https://primefaces.org/cdn/primeng-atm/images/demo/flag/flag_placeholder.png" [class]="'mr-2 flag flag-' + group.value" style="width: 20px" />
             <span>{{ group.label }}</span>
         </div>
     </ng-template>
@@ -86,7 +86,7 @@ export class GroupDoc {
     <p-listbox [options]="groupedCities" [group]="true" [(ngModel)]="selectedCountry" [listStyle]="{ 'max-height': '250px' }" [style]="{ width: '15rem' }">
         <ng-template let-group pTemplate="group">
             <div class="flex align-items-center">
-                <img src="https://primefaces.org/cdn/primeng/images/demo/flag/flag_placeholder.png" [class]="'mr-2 flag flag-' + group.value" style="width: 20px" />
+                <img src="https://primefaces.org/cdn/primeng-atm/images/demo/flag/flag_placeholder.png" [class]="'mr-2 flag flag-' + group.value" style="width: 20px" />
                 <span>{{ group.label }}</span>
             </div>
         </ng-template>
@@ -95,7 +95,7 @@ export class GroupDoc {
 
         typescript: `
 import { Component } from '@angular/core';
-import { SelectItemGroup } from 'primeng/api';
+import { SelectItemGroup } from 'primeng-atm/api';
 
 interface Country {
     name: string,

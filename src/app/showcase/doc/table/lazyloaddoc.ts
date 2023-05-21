@@ -1,5 +1,5 @@
 import { ChangeDetectionStrategy, ChangeDetectorRef, Component, Input, OnInit } from '@angular/core';
-import { LazyLoadEvent } from 'primeng/api';
+import { LazyLoadEvent } from 'primeng-atm/api';
 import { Code } from '../../domain/code';
 import { Customer, Representative } from '../../domain/customer';
 import { CustomerService } from '../../service/customerservice';
@@ -58,7 +58,7 @@ import { CustomerService } from '../../service/customerservice';
                                     <p-multiSelect [ngModel]="value" appendTo="body" [options]="representatives" placeholder="Any" (onChange)="filter($event.value)" optionLabel="name" [maxSelectedLabels]="1" [selectedItemsLabel]="'{0} items'">
                                         <ng-template let-option pTemplate="item">
                                             <div class="inline-block vertical-align-middle">
-                                                <img [alt]="option.label" src="https://primefaces.org/cdn/primeng/images/demo/avatar/{{ option.image }}" width="24" class="vertical-align-middle" />
+                                                <img [alt]="option.label" src="https://primefaces.org/cdn/primeng-atm/images/demo/avatar/{{ option.image }}" width="24" class="vertical-align-middle" />
                                                 <span class="ml-1 mt-1">{{ option.name }}</span>
                                             </div>
                                         </ng-template>
@@ -198,7 +198,7 @@ export class LazyLoadDoc implements OnInit {
                         <p-multiSelect [ngModel]="value" appendTo="body" [options]="representatives" placeholder="Any" (onChange)="filter($event.value)" optionLabel="name" [maxSelectedLabels]="1" [selectedItemsLabel]="'{0} items'">
                             <ng-template let-option pTemplate="item">
                                 <div class="inline-block vertical-align-middle">
-                                    <img [alt]="option.label" src="https://primefaces.org/cdn/primeng/images/demo/avatar/{{ option.image }}" width="24" class="vertical-align-middle" />
+                                    <img [alt]="option.label" src="https://primefaces.org/cdn/primeng-atm/images/demo/avatar/{{ option.image }}" width="24" class="vertical-align-middle" />
                                     <span class="ml-1 mt-1">{{ option.name }}</span>
                                 </div>
                             </ng-template>
@@ -265,7 +265,7 @@ export class LazyLoadDoc implements OnInit {
                             <p-multiSelect [ngModel]="value" appendTo="body" [options]="representatives" placeholder="Any" (onChange)="filter($event.value)" optionLabel="name" [maxSelectedLabels]="1" [selectedItemsLabel]="'{0} items'">
                                 <ng-template let-option pTemplate="item">
                                     <div class="inline-block vertical-align-middle">
-                                        <img [alt]="option.label" src="https://primefaces.org/cdn/primeng/images/demo/avatar/{{ option.image }}" width="24" class="vertical-align-middle" />
+                                        <img [alt]="option.label" src="https://primefaces.org/cdn/primeng-atm/images/demo/avatar/{{ option.image }}" width="24" class="vertical-align-middle" />
                                         <span class="ml-1 mt-1">{{ option.name }}</span>
                                     </div>
                                 </ng-template>
@@ -290,7 +290,7 @@ export class LazyLoadDoc implements OnInit {
 </div>`,
         typescript: `
 import { Component, OnInit } from '@angular/core';
-import { LazyLoadEvent } from 'primeng/api';
+import { LazyLoadEvent } from 'primeng-atm/api';
 import { Customer, Representative } from '../../domain/customer';
 import { CustomerService } from '../../service/customerservice';
 

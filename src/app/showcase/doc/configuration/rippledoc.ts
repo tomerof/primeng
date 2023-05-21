@@ -17,7 +17,7 @@ export class RippleDoc {
 
     code: Code = {
         typescript: `import { Component, OnInit } from '@angular/core';
-import { PrimeNGConfig } from 'primeng/api';
+import { PrimeNGConfig } from 'primeng-atm/api';
 
 @Component({
     selector: 'app-root',

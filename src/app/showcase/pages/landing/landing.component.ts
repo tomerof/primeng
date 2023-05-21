@@ -1,8 +1,8 @@
 import { DOCUMENT, isPlatformBrowser } from '@angular/common';
 import { ChangeDetectorRef, Component, ElementRef, Inject, OnDestroy, OnInit, PLATFORM_ID, Renderer2, ViewChild } from '@angular/core';
 import { Meta, Title } from '@angular/platform-browser';
-import { MenuItem, SelectItem, TreeNode } from 'primeng/api';
-import { Table } from 'primeng/table';
+import { MenuItem, SelectItem, TreeNode } from 'primeng-atm/api';
+import { Table } from 'primeng-atm/table';
 import { AppConfig } from '../../domain/appconfig';
 import { Customer, Representative } from '../../domain/customer';
 import { AppComponent } from '../../layout/app.component';

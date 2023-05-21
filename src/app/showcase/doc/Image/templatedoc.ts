@@ -8,7 +8,7 @@ import { Code } from '../../domain/code';
             <p>An eye icon is displayed by default when the image is hovered in preview mode. Use the <i>indicator</i> template for custom content.</p>
         </app-docsectiontext>
         <div class="card flex justify-content-center">
-            <p-image src="https://primefaces.org/cdn/primeng/images/galleria/galleria1.jpg" [preview]="true" alt="Image" width="250">
+            <p-image src="https://primefaces.org/cdn/primeng-atm/images/galleria/galleria1.jpg" [preview]="true" alt="Image" width="250">
                 <ng-template pTemplate="indicator">
                     <i class="pi pi-check"></i>
                 </ng-template>
@@ -24,7 +24,7 @@ export class TemplateDoc {
 
     code: Code = {
         basic: `
-<p-image src="https://primefaces.org/cdn/primeng/images/galleria/galleria1.jpg" [preview]="true" alt="Image" width="250">
+<p-image src="https://primefaces.org/cdn/primeng-atm/images/galleria/galleria1.jpg" [preview]="true" alt="Image" width="250">
     <ng-template pTemplate="indicator">
         <i class="pi pi-check"></i>
     </ng-template>
@@ -32,7 +32,7 @@ export class TemplateDoc {
 
         html: `
 <div class="card flex justify-content-center">
-    <p-image src="https://primefaces.org/cdn/primeng/images/galleria/galleria1.jpg" [preview]="true" alt="Image" width="250">
+    <p-image src="https://primefaces.org/cdn/primeng-atm/images/galleria/galleria1.jpg" [preview]="true" alt="Image" width="250">
         <ng-template pTemplate="indicator">
             <i class="pi pi-check"></i>
         </ng-template>
@@ -41,7 +41,7 @@ export class TemplateDoc {
 
         typescript: `
 import { Component } from '@angular/core';
-        
+
 @Component({
     selector: 'image-template-demo',
     templateUrl: './image-template-demo.html'

@@ -1,5 +1,5 @@
 import { ChangeDetectionStrategy, ChangeDetectorRef, Component, Input, OnInit } from '@angular/core';
-import { MessageService, MenuItem } from 'primeng/api';
+import { MessageService, MenuItem } from 'primeng-atm/api';
 import { Code } from '../../domain/code';
 import { Product } from '../../domain/product';
 import { ProductService } from '../../service/productservice';
@@ -120,7 +120,7 @@ export class ContextMenuDoc implements OnInit {
 </div>`,
         typescript: `
 import { Component, OnInit } from '@angular/core';
-import { MessageService, MenuItem } from 'primeng/api';
+import { MessageService, MenuItem } from 'primeng-atm/api';
 import { Product } from '../../domain/product';
 import { ProductService } from '../../service/productservice';
 

@@ -1,6 +1,6 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { MessageService } from 'primeng/api';
-import { OverlayPanel } from 'primeng/overlaypanel';
+import { MessageService } from 'primeng-atm/api';
+import { OverlayPanel } from 'primeng-atm/overlaypanel';
 import { Code } from '../../domain/code';
 import { Product } from '../../domain/product';
 import { ProductService } from '../../service/productservice';
@@ -16,7 +16,7 @@ import { ProductService } from '../../service/productservice';
             <p-button (click)="op.toggle($event)" icon="pi pi-search" label="Search"></p-button>
             <div *ngIf="selectedProduct" class="p-5 surface-card shadow-2 border-round">
                 <div class="relative">
-                    <img src="https://primefaces.org/cdn/primeng/images/demo/product/{{ selectedProduct.image }}" [alt]="selectedProduct.name" />
+                    <img src="https://primefaces.org/cdn/primeng-atm/images/demo/product/{{ selectedProduct.image }}" [alt]="selectedProduct.name" />
                 </div>
                 <div class="flex align-items-center justify-content-between mt-3 mb-2">
                     <span class="text-900 font-medium text-xl">{{ selectedProduct.name }}</span>
@@ -37,7 +37,7 @@ import { ProductService } from '../../service/productservice';
                         <ng-template pTemplate="body" let-rowData let-product>
                             <tr [pSelectableRow]="rowData">
                                 <td>{{ product.name }}</td>
-                                <td><img src="https://primefaces.org/cdn/primeng/images/demo/product/{{ product.image }}" [alt]="product.image" class="w-5rem shadow-2" /></td>
+                                <td><img src="https://primefaces.org/cdn/primeng-atm/images/demo/product/{{ product.image }}" [alt]="product.image" class="w-5rem shadow-2" /></td>
                                 <td>{{ product.price }}</td>
                             </tr>
                         </ng-template>
@@ -78,7 +78,7 @@ export class DataTableDoc implements OnInit {
 <p-button (click)="op.toggle($event)" icon="pi pi-search" label="Search"></p-button>
 <div *ngIf="selectedProduct" class="p-5 surface-card shadow-2 border-round">
     <div class="relative">
-        <img src="https://primefaces.org/cdn/primeng/images/demo/product/{{ selectedProduct.image }}" [alt]="selectedProduct.name" />
+        <img src="https://primefaces.org/cdn/primeng-atm/images/demo/product/{{ selectedProduct.image }}" [alt]="selectedProduct.name" />
     </div>
     <div class="flex align-items-center justify-content-between mt-3 mb-2">
         <span class="text-900 font-medium text-xl">{{selectedProduct.name}}</span>
@@ -99,7 +99,7 @@ export class DataTableDoc implements OnInit {
             <ng-template pTemplate="body" let-rowData let-product>
                 <tr [pSelectableRow]="rowData">
                     <td>{{product.name}}</td>
-                    <td><img src="https://primefaces.org/cdn/primeng/images/demo/product/{{ product.image }}"[alt]="product.image" class="w-5rem shadow-2"/></td>
+                    <td><img src="https://primefaces.org/cdn/primeng-atm/images/demo/product/{{ product.image }}"[alt]="product.image" class="w-5rem shadow-2"/></td>
                     <td>{{product.price}}</td>
                 </tr>
             </ng-template>
@@ -113,7 +113,7 @@ export class DataTableDoc implements OnInit {
     <p-button (click)="op.toggle($event)" icon="pi pi-search" label="Search"></p-button>
     <div *ngIf="selectedProduct" class="p-5 surface-card shadow-2 border-round">
         <div class="relative">
-            <img src="https://primefaces.org/cdn/primeng/images/demo/product/{{ selectedProduct.image }}" [alt]="selectedProduct.name" />
+            <img src="https://primefaces.org/cdn/primeng-atm/images/demo/product/{{ selectedProduct.image }}" [alt]="selectedProduct.name" />
         </div>
         <div class="flex align-items-center justify-content-between mt-3 mb-2">
             <span class="text-900 font-medium text-xl">{{selectedProduct.name}}</span>
@@ -134,7 +134,7 @@ export class DataTableDoc implements OnInit {
                 <ng-template pTemplate="body" let-rowData let-product>
                     <tr [pSelectableRow]="rowData">
                         <td>{{product.name}}</td>
-                        <td><img src="https://primefaces.org/cdn/primeng/images/demo/product/{{ product.image }}"[alt]="product.image" class="w-5rem shadow-2"/></td>
+                        <td><img src="https://primefaces.org/cdn/primeng-atm/images/demo/product/{{ product.image }}"[alt]="product.image" class="w-5rem shadow-2"/></td>
                         <td>{{product.price}}</td>
                     </tr>
                 </ng-template>
@@ -145,8 +145,8 @@ export class DataTableDoc implements OnInit {
 
         typescript: `
 import { Component, OnInit } from '@angular/core';
-import { MessageService } from 'primeng/api';
-import { OverlayPanel } from 'primeng/overlaypanel';
+import { MessageService } from 'primeng-atm/api';
+import { OverlayPanel } from 'primeng-atm/overlaypanel';
 import { Product } from '../../domain/product';
 import { ProductService } from '../../service/productservice';
 

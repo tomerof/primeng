@@ -1,5 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { MegaMenuItem } from 'primeng/api';
+import { MegaMenuItem } from 'primeng-atm/api';
 import { Code } from '../../domain/code';
 
 @Component({
@@ -11,7 +11,7 @@ import { Code } from '../../domain/code';
         <div class="card">
             <p-megaMenu [model]="items" styleClass="flex">
                 <ng-template pTemplate="start">
-                    <img src="https://primefaces.org/cdn/primeng/images/primeng.svg" height="40" class="mr-2" />
+                    <img src="https://primefaces.org/cdn/primeng-atm/images/primeng.svg" height="40" class="mr-2" />
                 </ng-template>
                 <ng-template pTemplate="end">
                     <input type="text" pInputText placeholder="Search" />
@@ -151,7 +151,7 @@ export class TemplateDoc implements OnInit {
         basic: `
 <p-megaMenu [model]="items" styleClass="flex">
     <ng-template pTemplate="start">
-        <img src="https://primefaces.org/cdn/primeng/images/primeng.svg" height="40" class="mr-2" />
+        <img src="https://primefaces.org/cdn/primeng-atm/images/primeng.svg" height="40" class="mr-2" />
     </ng-template>
     <ng-template pTemplate="end">
         <input type="text" pInputText placeholder="Search" />
@@ -162,7 +162,7 @@ export class TemplateDoc implements OnInit {
 <div class="card">
     <p-megaMenu [model]="items" styleClass="flex">
         <ng-template pTemplate="start">
-            <img src="https://primefaces.org/cdn/primeng/images/primeng.svg" height="40" class="mr-2" />
+            <img src="https://primefaces.org/cdn/primeng-atm/images/primeng.svg" height="40" class="mr-2" />
         </ng-template>
         <ng-template pTemplate="end">
             <input type="text" pInputText placeholder="Search" />
@@ -172,7 +172,7 @@ export class TemplateDoc implements OnInit {
 
         typescript: `
 import { Component, OnInit } from '@angular/core';
-import { MegaMenuItem } from 'primeng/api';
+import { MegaMenuItem } from 'primeng-atm/api';
 
 @Component({
     selector: 'mega-menu-template-demo',

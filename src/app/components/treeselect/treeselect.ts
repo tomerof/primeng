@@ -2,15 +2,15 @@ import { AnimationEvent } from '@angular/animations';
 import { CommonModule } from '@angular/common';
 import { AfterContentInit, ChangeDetectionStrategy, ChangeDetectorRef, Component, ContentChildren, ElementRef, EventEmitter, forwardRef, Input, NgModule, Output, QueryList, TemplateRef, ViewChild, ViewEncapsulation } from '@angular/core';
 import { NG_VALUE_ACCESSOR } from '@angular/forms';
-import { OverlayOptions, OverlayService, PrimeNGConfig, PrimeTemplate, SharedModule, TreeNode } from 'primeng/api';
-import { DomHandler } from 'primeng/dom';
-import { ChevronDownIcon } from 'primeng/icons/chevrondown';
-import { SearchIcon } from 'primeng/icons/search';
-import { TimesIcon } from 'primeng/icons/times';
-import { Overlay, OverlayModule } from 'primeng/overlay';
-import { RippleModule } from 'primeng/ripple';
-import { Tree, TreeModule } from 'primeng/tree';
-import { ObjectUtils } from 'primeng/utils';
+import { OverlayOptions, OverlayService, PrimeNGConfig, PrimeTemplate, SharedModule, TreeNode } from 'primeng-atm/api';
+import { DomHandler } from 'primeng-atm/dom';
+import { ChevronDownIcon } from 'primeng-atm/icons/chevrondown';
+import { SearchIcon } from 'primeng-atm/icons/search';
+import { TimesIcon } from 'primeng-atm/icons/times';
+import { Overlay, OverlayModule } from 'primeng-atm/overlay';
+import { RippleModule } from 'primeng-atm/ripple';
+import { Tree, TreeModule } from 'primeng-atm/tree';
+import { ObjectUtils } from 'primeng-atm/utils';
 
 export const TREESELECT_VALUE_ACCESSOR: any = {
     provide: NG_VALUE_ACCESSOR,

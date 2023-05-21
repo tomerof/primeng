@@ -24,18 +24,18 @@ import {
     ViewEncapsulation
 } from '@angular/core';
 import { ControlValueAccessor, NG_VALUE_ACCESSOR } from '@angular/forms';
-import { FilterService, Footer, Header, OverlayOptions, OverlayService, PrimeNGConfig, PrimeTemplate, SharedModule, TranslationKeys } from 'primeng/api';
-import { DomHandler } from 'primeng/dom';
-import { Overlay, OverlayModule } from 'primeng/overlay';
-import { RippleModule } from 'primeng/ripple';
-import { Scroller, ScrollerModule, ScrollerOptions } from 'primeng/scroller';
-import { TooltipModule } from 'primeng/tooltip';
-import { ObjectUtils } from 'primeng/utils';
-import { CheckIcon } from 'primeng/icons/check';
-import { SearchIcon } from 'primeng/icons/search';
-import { TimesCircleIcon } from 'primeng/icons/timescircle';
-import { TimesIcon } from 'primeng/icons/times';
-import { ChevronDownIcon } from 'primeng/icons/chevrondown';
+import { FilterService, Footer, Header, OverlayOptions, OverlayService, PrimeNGConfig, PrimeTemplate, SharedModule, TranslationKeys } from 'primeng-atm/api';
+import { DomHandler } from 'primeng-atm/dom';
+import { Overlay, OverlayModule } from 'primeng-atm/overlay';
+import { RippleModule } from 'primeng-atm/ripple';
+import { Scroller, ScrollerModule, ScrollerOptions } from 'primeng-atm/scroller';
+import { TooltipModule } from 'primeng-atm/tooltip';
+import { ObjectUtils } from 'primeng-atm/utils';
+import { CheckIcon } from 'primeng-atm/icons/check';
+import { SearchIcon } from 'primeng-atm/icons/search';
+import { TimesCircleIcon } from 'primeng-atm/icons/timescircle';
+import { TimesIcon } from 'primeng-atm/icons/times';
+import { ChevronDownIcon } from 'primeng-atm/icons/chevrondown';
 
 export const MULTISELECT_VALUE_ACCESSOR: any = {
     provide: NG_VALUE_ACCESSOR,
@@ -68,7 +68,7 @@ export interface MultiselectOnRemoveEvent {
         >
             <div class="p-checkbox p-component">
                 <div class="p-checkbox-box" [ngClass]="{ 'p-highlight': selected }">
-                    <ng-container *ngIf="selected">    
+                    <ng-container *ngIf="selected">
                         <CheckIcon *ngIf="!checkIconTemplate" [styleClass]="'p-checkbox-icon'"/>
                         <span *ngIf="checkIconTemplate" class="p-checkbox-icon">
                             <ng-template *ngTemplateOutlet="checkIconTemplate"></ng-template>
@@ -179,7 +179,7 @@ export class MultiSelectItem {
                 </ng-container>
             </div>
             <div [ngClass]="{ 'p-multiselect-trigger': true }">
-                <ng-container *ngIf="!dropdownIconTemplate"> 
+                <ng-container *ngIf="!dropdownIconTemplate">
                 <span *ngIf="dropdownIcon" class="p-multiselect-trigger-icon" [ngClass]="dropdownIcon"></span>
                 <ChevronDownIcon *ngIf="!dropdownIcon" [styleClass]="'p-multiselect-trigger-icon'" />
             </ng-container>

@@ -2,14 +2,14 @@ import { TestBed, ComponentFixture } from '@angular/core/testing';
 import { By } from '@angular/platform-browser';
 import { FileUpload } from './fileupload';
 import { NoopAnimationsModule } from '@angular/platform-browser/animations';
-import { ProgressBarModule } from 'primeng/progressbar';
-import { ButtonModule } from 'primeng/button';
-import { PrimeTemplate } from 'primeng/api';
-import { MessagesModule } from 'primeng/messages';
+import { ProgressBarModule } from 'primeng-atm/progressbar';
+import { ButtonModule } from 'primeng-atm/button';
+import { PrimeTemplate } from 'primeng-atm/api';
+import { MessagesModule } from 'primeng-atm/messages';
 import { HttpClientModule } from '@angular/common/http';
-import { PlusIcon } from 'primeng/icons/plus';
-import { TimesIcon } from 'primeng/icons/times';
-import { UploadIcon } from 'primeng/icons/upload';
+import { PlusIcon } from 'primeng-atm/icons/plus';
+import { TimesIcon } from 'primeng-atm/icons/times';
+import { UploadIcon } from 'primeng-atm/icons/upload';
 
 describe('FileUpload', () => {
     let fileupload: FileUpload;

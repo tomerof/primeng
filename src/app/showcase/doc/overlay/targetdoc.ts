@@ -29,7 +29,7 @@ export class TargetDoc {
 
     code: Code = {
         basic: `
-import { PrimeNGConfig, OverlayOptions } from 'primeng/api';
+import { PrimeNGConfig, OverlayOptions } from 'primeng-atm/api';
 
 this.primengConfig.overlayOptions: OverlayOptions = {
     appendTo: 'body'

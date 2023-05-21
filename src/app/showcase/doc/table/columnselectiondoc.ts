@@ -1,5 +1,5 @@
 import { ChangeDetectionStrategy, ChangeDetectorRef, Component, Input, OnInit } from '@angular/core';
-import { MessageService } from 'primeng/api';
+import { MessageService } from 'primeng-atm/api';
 import { Code } from '../../domain/code';
 import { Product } from '../../domain/product';
 import { ProductService } from '../../service/productservice';
@@ -117,7 +117,7 @@ export class ColumnSelectionDoc implements OnInit {
 import { Component, OnInit } from '@angular/core';
 import { Product } from '../../domain/product';
 import { ProductService } from '../../service/productservice';
-import { MessageService } from 'primeng/api';
+import { MessageService } from 'primeng-atm/api';
 
 @Component({
     selector: 'table-column-selection-demo',

@@ -19,17 +19,17 @@ import {
     PLATFORM_ID
 } from '@angular/core';
 import { CommonModule, DOCUMENT, isPlatformBrowser } from '@angular/common';
-import { ButtonModule } from 'primeng/button';
-import { SharedModule, PrimeTemplate, FilterService } from 'primeng/api';
-import { DomHandler } from 'primeng/dom';
-import { ObjectUtils, UniqueComponentId } from 'primeng/utils';
-import { RippleModule } from 'primeng/ripple';
+import { ButtonModule } from 'primeng-atm/button';
+import { SharedModule, PrimeTemplate, FilterService } from 'primeng-atm/api';
+import { DomHandler } from 'primeng-atm/dom';
+import { ObjectUtils, UniqueComponentId } from 'primeng-atm/utils';
+import { RippleModule } from 'primeng-atm/ripple';
 import { CdkDragDrop, DragDropModule, moveItemInArray } from '@angular/cdk/drag-drop';
-import { AngleDoubleDownIcon } from 'primeng/icons/angledoubledown';
-import { AngleDoubleUpIcon } from 'primeng/icons/angledoubleup';
-import { AngleUpIcon } from 'primeng/icons/angleup';
-import { AngleDownIcon } from 'primeng/icons/angledown';
-import { SearchIcon } from 'primeng/icons/search';
+import { AngleDoubleDownIcon } from 'primeng-atm/icons/angledoubledown';
+import { AngleDoubleUpIcon } from 'primeng-atm/icons/angledoubleup';
+import { AngleUpIcon } from 'primeng-atm/icons/angleup';
+import { AngleDownIcon } from 'primeng-atm/icons/angledown';
+import { SearchIcon } from 'primeng-atm/icons/search';
 
 export interface OrderListFilterOptions {
     filter?: (value?: any) => void;
@@ -53,11 +53,11 @@ export interface OrderListFilterOptions {
                     <ng-template *ngTemplateOutlet="moveTopIconTemplate"></ng-template>
                 </button>
                 <button type="button" [disabled]="moveDisabled()" pButton pRipple class="p-button-icon-only" (click)="moveDown()">
-                    <AngleDownIcon *ngIf="!moveDownIconTemplate"/>    
+                    <AngleDownIcon *ngIf="!moveDownIconTemplate"/>
                     <ng-template *ngTemplateOutlet="moveDownIconTemplate"></ng-template>
                 </button>
                 <button type="button" [disabled]="moveDisabled()" pButton pRipple class="p-button-icon-only" (click)="moveBottom()">
-                    <AngleDoubleDownIcon *ngIf="!moveBottomIconTemplate"/>    
+                    <AngleDoubleDownIcon *ngIf="!moveBottomIconTemplate"/>
                     <ng-template *ngTemplateOutlet="moveBottomIconTemplate"></ng-template>
                 </button>
             </div>
@@ -564,17 +564,17 @@ export class OrderList implements AfterViewChecked, AfterContentInit {
                         .p-orderlist[${this.id}] {
                             flex-direction: column;
                         }
-    
+
                         .p-orderlist[${this.id}] .p-orderlist-controls {
                             padding: var(--content-padding);
                             flex-direction: row;
                         }
-    
+
                         .p-orderlist[${this.id}] .p-orderlist-controls .p-button {
                             margin-right: var(--inline-spacing);
                             margin-bottom: 0;
                         }
-    
+
                         .p-orderlist[${this.id}] .p-orderlist-controls .p-button:last-child {
                             margin-right: 0;
                         }

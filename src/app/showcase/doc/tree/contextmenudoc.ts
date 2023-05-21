@@ -1,6 +1,6 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { Code } from '../../domain/code';
-import { MenuItem, MessageService, TreeNode } from 'primeng/api';
+import { MenuItem, MessageService, TreeNode } from 'primeng-atm/api';
 import { NodeService } from '../../service/nodeservice';
 
 @Component({
@@ -63,7 +63,7 @@ export class ContextMenuDoc implements OnInit {
 
         typescript: `
 import { Component, OnInit } from '@angular/core';
-import { MenuItem, MessageService, TreeNode } from 'primeng/api';
+import { MenuItem, MessageService, TreeNode } from 'primeng-atm/api';
 import { NodeService } from '../../service/nodeservice';
 
 @Component({

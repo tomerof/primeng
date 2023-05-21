@@ -6,7 +6,7 @@ import { AppDocModule } from '../../layout/doc/app.doc.module';
 import { AppCodeModule } from '../../layout/doc/code/app.code.component';
 import { ImportDoc } from './importdoc';
 import { BasicDoc } from './basicdoc';
-import { DropdownModule } from 'primeng/dropdown';
+import { DropdownModule } from 'primeng-atm/dropdown';
 import { EditableDoc } from './editabledoc';
 import { GroupDoc } from './groupdoc';
 import { TemplateDoc } from './templatedoc';

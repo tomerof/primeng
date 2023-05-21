@@ -6,7 +6,7 @@ import { AppCodeModule } from '../../layout/doc/code/app.code.component';
 import { ImportDoc } from './importdoc';
 import { BasicDoc } from './basicdoc';
 import { PropsDoc } from './propsdoc';
-import { AnimateModule } from 'primeng/animate';
+import { AnimateModule } from 'primeng-atm/animate';
 
 @NgModule({
     imports: [CommonModule, RouterModule, AppCodeModule, AppDocModule, AnimateModule],

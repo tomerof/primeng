@@ -6,8 +6,8 @@ import { AppCodeModule } from '../../layout/doc/code/app.code.component';
 import { ImportDoc } from './importdoc';
 import { BasicDoc } from './basicdoc';
 import { PropsDoc } from './propsdoc';
-import { AutoFocusModule } from 'primeng/autofocus';
-import { InputTextModule } from 'primeng/inputtext';
+import { AutoFocusModule } from 'primeng-atm/autofocus';
+import { InputTextModule } from 'primeng-atm/inputtext';
 
 @NgModule({
     imports: [CommonModule, RouterModule, AppCodeModule, AppDocModule, AutoFocusModule, InputTextModule],

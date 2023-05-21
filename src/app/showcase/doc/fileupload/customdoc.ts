@@ -1,5 +1,5 @@
 import { Component, Input } from '@angular/core';
-import { MessageService } from 'primeng/api';
+import { MessageService } from 'primeng-atm/api';
 import { Code } from '../../domain/code';
 
 @Component({
@@ -47,7 +47,7 @@ export class CustomDoc {
 </div>`,
         typescript: `
 import { Component, Input } from '@angular/core';
-import { MessageService } from 'primeng/api';
+import { MessageService } from 'primeng-atm/api';
 
 @Component({
     selector: 'file-upload-custom-demo',
@@ -68,7 +68,7 @@ export class CustomDoc {
         reader.onloadend = function () {
             const base64data = reader.result;
         };
-        
+
         this.messageService.add({ severity: 'info', summary: 'Success', detail: 'File Uploaded with Basic Mode' });
     }
 }`

@@ -14,7 +14,7 @@ import { Code } from '../../domain/code';
             <p-cascadeSelect [(ngModel)]="selectedCity" [options]="countries" optionLabel="cname" optionGroupLabel="name" [optionGroupChildren]="['states', 'cities']" [style]="{ minWidth: '14rem' }" placeholder="Select a City">
                 <ng-template pTemplate="option" let-option>
                     <div class="flex align-items-center gap-2">
-                        <img *ngIf="option.states" src="https://primefaces.org/cdn/primeng/images/demo/flag/flag_placeholder.png" [class]="'flag flag-' + option.code.toLowerCase()" />
+                        <img *ngIf="option.states" src="https://primefaces.org/cdn/primeng-atm/images/demo/flag/flag_placeholder.png" [class]="'flag flag-' + option.code.toLowerCase()" />
                         <i class="pi pi-compass mr-2" *ngIf="option.cities"></i>
                         <i class="pi pi-map-marker mr-2" *ngIf="option.cname"></i>
                         <span>{{ option.cname || option.name }}</span>
@@ -116,7 +116,7 @@ export class TemplateDoc {
 <p-cascadeSelect [(ngModel)]="selectedCity" [options]="countries" optionLabel="cname" optionGroupLabel="name" [optionGroupChildren]="['states', 'cities']" [style]="{ minWidth: '14rem' }" placeholder="Select a City">
     <ng-template pTemplate="option" let-option>
         <div class="flex align-items-center gap-2">
-            <img *ngIf="option.states" src="https://primefaces.org/cdn/primeng/images/demo/flag/flag_placeholder.png" [class]="'flag flag-' + option.code.toLowerCase()" />
+            <img *ngIf="option.states" src="https://primefaces.org/cdn/primeng-atm/images/demo/flag/flag_placeholder.png" [class]="'flag flag-' + option.code.toLowerCase()" />
             <i class="pi pi-compass mr-2" *ngIf="option.cities"></i>
             <i class="pi pi-map-marker mr-2" *ngIf="option.cname"></i>
             <span>{{ option.cname || option.name }}</span>
@@ -129,7 +129,7 @@ export class TemplateDoc {
     <p-cascadeSelect [(ngModel)]="selectedCity" [options]="countries" optionLabel="cname" optionGroupLabel="name" [optionGroupChildren]="['states', 'cities']" [style]="{ minWidth: '14rem' }" placeholder="Select a City">
         <ng-template pTemplate="option" let-option>
             <div class="flex align-items-center gap-2">
-                <img *ngIf="option.states" src="https://primefaces.org/cdn/primeng/images/demo/flag/flag_placeholder.png" [class]="'flag flag-' + option.code.toLowerCase()" />
+                <img *ngIf="option.states" src="https://primefaces.org/cdn/primeng-atm/images/demo/flag/flag_placeholder.png" [class]="'flag flag-' + option.code.toLowerCase()" />
                 <i class="pi pi-compass mr-2" *ngIf="option.cities"></i>
                 <i class="pi pi-map-marker mr-2" *ngIf="option.cname"></i>
                 <span>{{ option.cname || option.name }}</span>
@@ -149,7 +149,7 @@ export class CascadeselectTemplateDemo implements OnInit {
     countries: any[];
 
     selectedCity: any;
-    
+
     ngOnInit() {
         this.countries = [
             {

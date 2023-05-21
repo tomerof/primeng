@@ -1,8 +1,8 @@
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
-import { AccordionModule } from 'primeng/accordion';
-import { ButtonModule } from 'primeng/button';
+import { AccordionModule } from 'primeng-atm/accordion';
+import { ButtonModule } from 'primeng-atm/button';
 import { AppDocModule } from '../../layout/doc/app.doc.module';
 import { AppCodeModule } from '../../layout/doc/code/app.code.component';
 import { AccessibilityDoc } from './accessibilitydoc';

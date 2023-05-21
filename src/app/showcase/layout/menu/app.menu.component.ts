@@ -1,7 +1,7 @@
 import { isPlatformBrowser } from '@angular/common';
 import { Component, ElementRef, Inject, Input, PLATFORM_ID } from '@angular/core';
 import { Router } from '@angular/router';
-import { DomHandler } from 'primeng/dom';
+import { DomHandler } from 'primeng-atm/dom';
 import { Subscription } from 'rxjs';
 import { default as MenuData } from 'src/assets/showcase/data/menu.json';
 import { AppConfig } from '../../domain/appconfig';

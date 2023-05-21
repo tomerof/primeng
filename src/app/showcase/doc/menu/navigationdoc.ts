@@ -1,5 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { MenuItem } from 'primeng/api';
+import { MenuItem } from 'primeng-atm/api';
 import { Code } from '../../domain/code';
 
 @Component({
@@ -48,7 +48,7 @@ export class NavigationDoc implements OnInit {
 
         typescript: `
 import { Component, OnInit } from '@angular/core';
-import { MenuItem } from 'primeng/api';
+import { MenuItem } from 'primeng-atm/api';
 
 @Component({
     selector: 'menu-navigation-demo',
@@ -58,7 +58,7 @@ export class MenuNavigationDemo implements OnInit {
     items: MenuItem[];
 
     constructor(private messageService: MessageService) {}
-    
+
     ngOnInit() {
         this.items = [{
             label: 'File',

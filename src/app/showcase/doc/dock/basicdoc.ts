@@ -1,5 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { MenuItem } from 'primeng/api';
+import { MenuItem } from 'primeng-atm/api';
 import { Code } from '../../domain/code';
 
 @Component({
@@ -58,19 +58,19 @@ export class BasicDoc implements OnInit {
         this.items = [
             {
                 label: 'Finder',
-                icon: 'https://primefaces.org/cdn/primeng/images/dock/finder.svg'
+                icon: 'https://primefaces.org/cdn/primeng-atm/images/dock/finder.svg'
             },
             {
                 label: 'App Store',
-                icon: 'https://primefaces.org/cdn/primeng/images/dock/appstore.svg'
+                icon: 'https://primefaces.org/cdn/primeng-atm/images/dock/appstore.svg'
             },
             {
                 label: 'Photos',
-                icon: 'https://primefaces.org/cdn/primeng/images/dock/photos.svg'
+                icon: 'https://primefaces.org/cdn/primeng-atm/images/dock/photos.svg'
             },
             {
                 label: 'Trash',
-                icon: 'https://primefaces.org/cdn/primeng/images/dock/trash.png'
+                icon: 'https://primefaces.org/cdn/primeng-atm/images/dock/trash.png'
             }
         ];
     }
@@ -99,7 +99,7 @@ export class BasicDoc implements OnInit {
 
         typescript: `
 import { Component, OnInit } from '@angular/core';
-import { MenuItem } from 'primeng/api';
+import { MenuItem } from 'primeng-atm/api';
 
 @Component({
     selector: 'dock-basic-demo',
@@ -133,19 +133,19 @@ export class BasicDoc implements OnInit {
         this.items = [
             {
                 label: 'Finder',
-                icon: 'https://primefaces.org/cdn/primeng/images/dock/finder.svg'
+                icon: 'https://primefaces.org/cdn/primeng-atm/images/dock/finder.svg'
             },
             {
                 label: 'App Store',
-                icon: 'https://primefaces.org/cdn/primeng/images/dock/appstore.svg'
+                icon: 'https://primefaces.org/cdn/primeng-atm/images/dock/appstore.svg'
             },
             {
                 label: 'Photos',
-                icon: 'https://primefaces.org/cdn/primeng/images/dock/photos.svg'
+                icon: 'https://primefaces.org/cdn/primeng-atm/images/dock/photos.svg'
             },
             {
                 label: 'Trash',
-                icon: 'https://primefaces.org/cdn/primeng/images/dock/trash.png'
+                icon: 'https://primefaces.org/cdn/primeng-atm/images/dock/trash.png'
             }
         ];
     }
@@ -157,7 +157,7 @@ export class BasicDoc implements OnInit {
         width: 100%;
         height: 450px;
         position: relative;
-        background-image: url('https://primefaces.org/cdn/primeng/images/dock/window.jpg');
+        background-image: url('https://primefaces.org/cdn/primeng-atm/images/dock/window.jpg');
         background-repeat: no-repeat;
         background-size: cover;
     }

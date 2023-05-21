@@ -1,9 +1,9 @@
 import { NgModule, Component, ElementRef, Input, Output, EventEmitter, ViewChild, ChangeDetectionStrategy, ViewEncapsulation, TemplateRef, ContentChildren, QueryList } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { MenuItem, PrimeTemplate } from 'primeng/api';
-import { ButtonModule } from 'primeng/button';
-import { TieredMenuModule, TieredMenu } from 'primeng/tieredmenu';
-import { ChevronDownIcon } from 'primeng/icons/chevrondown';
+import { MenuItem, PrimeTemplate } from 'primeng-atm/api';
+import { ButtonModule } from 'primeng-atm/button';
+import { TieredMenuModule, TieredMenu } from 'primeng-atm/tieredmenu';
+import { ChevronDownIcon } from 'primeng-atm/icons/chevrondown';
 
 type SplitButtonIconPosition = 'left' | 'right';
 

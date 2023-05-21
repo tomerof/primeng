@@ -1,5 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { Message } from 'primeng/api';
+import { Message } from 'primeng-atm/api';
 import { Code } from '../../domain/code';
 
 @Component({
@@ -44,8 +44,8 @@ export class InlineDoc {
         basic: `
 <div class="flex justify-content-center gap-2">
     <p-message severity="info" text="Message Content"></p-message>
-    <p-message severity="success" text="Message Content"></p-message>  
-    <p-message severity="warn" text="Message Content"></p-message>  
+    <p-message severity="success" text="Message Content"></p-message>
+    <p-message severity="warn" text="Message Content"></p-message>
     <p-message severity="error" text="Message Content"></p-message>
 </div>
 
@@ -68,8 +68,8 @@ export class InlineDoc {
 <div class="card">
     <div class="flex justify-content-center gap-2">
         <p-message severity="info" text="Message Content"></p-message>
-        <p-message severity="success" text="Message Content"></p-message>  
-        <p-message severity="warn" text="Message Content"></p-message>  
+        <p-message severity="success" text="Message Content"></p-message>
+        <p-message severity="warn" text="Message Content"></p-message>
         <p-message severity="error" text="Message Content"></p-message>
     </div>
 

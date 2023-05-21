@@ -1,7 +1,7 @@
 import { NgModule, Component, Input, Output, EventEmitter, forwardRef, ChangeDetectorRef, ContentChild, TemplateRef, ChangeDetectionStrategy, ViewEncapsulation } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { ObjectUtils } from 'primeng/utils';
-import { RippleModule } from 'primeng/ripple';
+import { ObjectUtils } from 'primeng-atm/utils';
+import { RippleModule } from 'primeng-atm/ripple';
 import { NG_VALUE_ACCESSOR, ControlValueAccessor } from '@angular/forms';
 
 export const SELECTBUTTON_VALUE_ACCESSOR: any = {

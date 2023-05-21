@@ -68,7 +68,7 @@ import { CustomerService } from '../../service/customerservice';
                                         <p-multiSelect [ngModel]="value" [options]="representatives" placeholder="Any" (onChange)="filter($event.value)" optionLabel="name">
                                             <ng-template let-option pTemplate="item">
                                                 <div class="inline-block vertical-align-middle">
-                                                    <img [alt]="option.label" src="https://primefaces.org/cdn/primeng/images/demo/avatar/{{ option.image }}" width="24" class="vertical-align-middle" />
+                                                    <img [alt]="option.label" src="https://primefaces.org/cdn/primeng-atm/images/demo/avatar/{{ option.image }}" width="24" class="vertical-align-middle" />
                                                     <span class="ml-1 mt-1">{{ option.name }}</span>
                                                 </div>
                                             </ng-template>
@@ -135,12 +135,12 @@ import { CustomerService } from '../../service/customerservice';
                         </td>
                         <td>
                             <span class="p-column-title">Country</span>
-                            <img src="https://primefaces.org/cdn/primeng/images/demo/flag/flag_placeholder.png" [class]="'flag flag-' + customer.country.code" style="width: 20px" />
+                            <img src="https://primefaces.org/cdn/primeng-atm/images/demo/flag/flag_placeholder.png" [class]="'flag flag-' + customer.country.code" style="width: 20px" />
                             <span class="ml-1 vertical-align-middle">{{ customer.country.name }}</span>
                         </td>
                         <td>
                             <span class="p-column-title">Representative</span>
-                            <img [alt]="customer.representative.name" src="https://primefaces.org/cdn/primeng/images/demo/avatar/{{ customer.representative.image }}" width="32" style="vertical-align: middle" />
+                            <img [alt]="customer.representative.name" src="https://primefaces.org/cdn/primeng-atm/images/demo/avatar/{{ customer.representative.image }}" width="32" style="vertical-align: middle" />
                             <span class="ml-1 vertical-align-middle">{{ customer.representative.name }}</span>
                         </td>
                         <td>
@@ -306,7 +306,7 @@ export class CustomersDoc implements OnInit {
                             <p-multiSelect [ngModel]="value" [options]="representatives" placeholder="Any" (onChange)="filter($event.value)" optionLabel="name">
                                 <ng-template let-option pTemplate="item">
                                     <div class="inline-block vertical-align-middle">
-                                        <img [alt]="option.label" src="https://primefaces.org/cdn/primeng/images/demo/avatar/{{ option.image }}" width="24" class="vertical-align-middle" />
+                                        <img [alt]="option.label" src="https://primefaces.org/cdn/primeng-atm/images/demo/avatar/{{ option.image }}" width="24" class="vertical-align-middle" />
                                         <span class="ml-1 mt-1">{{ option.name }}</span>
                                     </div>
                                 </ng-template>
@@ -373,12 +373,12 @@ export class CustomersDoc implements OnInit {
             </td>
             <td>
                 <span class="p-column-title">Country</span>
-                <img src="https://primefaces.org/cdn/primeng/images/demo/flag/flag_placeholder.png" [class]="'flag flag-' + customer.country.code" style="width: 20px" />
+                <img src="https://primefaces.org/cdn/primeng-atm/images/demo/flag/flag_placeholder.png" [class]="'flag flag-' + customer.country.code" style="width: 20px" />
                 <span class="ml-1 vertical-align-middle">{{ customer.country.name }}</span>
             </td>
             <td>
                 <span class="p-column-title">Representative</span>
-                <img [alt]="customer.representative.name" src="https://primefaces.org/cdn/primeng/images/demo/avatar/{{ customer.representative.image }}" width="32" style="vertical-align: middle" />
+                <img [alt]="customer.representative.name" src="https://primefaces.org/cdn/primeng-atm/images/demo/avatar/{{ customer.representative.image }}" width="32" style="vertical-align: middle" />
                 <span class="ml-1 vertical-align-middle">{{ customer.representative.name }}</span>
             </td>
             <td>
@@ -467,7 +467,7 @@ export class CustomersDoc implements OnInit {
                                 <p-multiSelect [ngModel]="value" [options]="representatives" placeholder="Any" (onChange)="filter($event.value)" optionLabel="name">
                                     <ng-template let-option pTemplate="item">
                                         <div class="inline-block vertical-align-middle">
-                                            <img [alt]="option.label" src="https://primefaces.org/cdn/primeng/images/demo/avatar/{{ option.image }}" width="24" class="vertical-align-middle" />
+                                            <img [alt]="option.label" src="https://primefaces.org/cdn/primeng-atm/images/demo/avatar/{{ option.image }}" width="24" class="vertical-align-middle" />
                                             <span class="ml-1 mt-1">{{ option.name }}</span>
                                         </div>
                                     </ng-template>
@@ -534,12 +534,12 @@ export class CustomersDoc implements OnInit {
                 </td>
                 <td>
                     <span class="p-column-title">Country</span>
-                    <img src="https://primefaces.org/cdn/primeng/images/demo/flag/flag_placeholder.png" [class]="'flag flag-' + customer.country.code" style="width: 20px" />
+                    <img src="https://primefaces.org/cdn/primeng-atm/images/demo/flag/flag_placeholder.png" [class]="'flag flag-' + customer.country.code" style="width: 20px" />
                     <span class="ml-1 vertical-align-middle">{{ customer.country.name }}</span>
                 </td>
                 <td>
                     <span class="p-column-title">Representative</span>
-                    <img [alt]="customer.representative.name" src="https://primefaces.org/cdn/primeng/images/demo/avatar/{{ customer.representative.image }}" width="32" style="vertical-align: middle" />
+                    <img [alt]="customer.representative.name" src="https://primefaces.org/cdn/primeng-atm/images/demo/avatar/{{ customer.representative.image }}" width="32" style="vertical-align: middle" />
                     <span class="ml-1 vertical-align-middle">{{ customer.representative.name }}</span>
                 </td>
                 <td>
@@ -671,48 +671,48 @@ export class TableCustomersDemo implements OnInit{
             margin-left: auto;
         }
     }
-    
+
     .p-progressbar {
         height: .5rem;
         background-color: #D8DADC;
-    
+
         .p-progressbar-value {
             background-color: #607D8B;
         }
     }
-    
+
     .table-header {
         display: flex;
         justify-content: space-between;
     }
-    
+
     .p-calendar .p-datepicker {
         min-width: 25rem;
-    
+
         td {
             font-weight: 400;
         }
     }
-    
+
     .p-datatable.p-datatable-customers {
         .p-datatable-header {
             padding: 1rem;
             text-align: left;
             font-size: 1.5rem;
         }
-    
+
         .p-paginator {
             padding: 1rem;
         }
-    
+
         .p-datatable-thead > tr > th {
             text-align: left;
         }
-    
+
         .p-datatable-tbody > tr > td {
             cursor: auto;
         }
-    
+
         .p-dropdown-label:not(.p-placeholder) {
             text-transform: uppercase;
         }
@@ -721,7 +721,7 @@ export class TableCustomersDemo implements OnInit{
     .p-w-100 {
         width: 100%;
     }
-    
+
     /* Responsive */
     .p-datatable-customers .p-datatable-tbody > tr > td .p-column-title {
         display: none;
@@ -736,23 +736,23 @@ export class TableCustomersDemo implements OnInit{
                 .p-datatable-tfoot > tr > td {
                     display: none !important;
                 }
-    
+
                 .p-datatable-tbody > tr {
                     border-bottom: 1px solid var(--layer-2);
-    
+
                     > td {
                         text-align: left;
                         width: 100%;
                         display: flex;
                         align-items: center;
                         border: 0 none;
-    
+
                         .p-column-title {
                             min-width: 30%;
                             display: inline-block;
                             font-weight: bold;
                         }
-        
+
                         p-progressbar {
                             width: 100%;
                         }
@@ -764,7 +764,7 @@ export class TableCustomersDemo implements OnInit{
                 }
             }
         }
-    } 
+    }
 }`,
         service: ['CustomerService']
     };

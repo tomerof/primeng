@@ -1,6 +1,6 @@
 import { CommonModule } from '@angular/common';
 import { AfterViewInit, Directive, ElementRef, Input, NgModule, Renderer2 } from '@angular/core';
-import { DomHandler } from 'primeng/dom';
+import { DomHandler } from 'primeng-atm/dom';
 
 @Directive({
     selector: '[pAnimate]',

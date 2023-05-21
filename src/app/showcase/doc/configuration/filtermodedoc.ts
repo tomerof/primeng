@@ -16,7 +16,7 @@ export class FilterModeDoc {
     @Input() title: string;
 
     code: Code = {
-        typescript: `import { PrimeNGConfig } from 'primeng/api';
+        typescript: `import { PrimeNGConfig } from 'primeng-atm/api';
 
 @Component({
     selector: 'app-root',

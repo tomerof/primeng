@@ -14,6 +14,6 @@ export class ImportDoc {
     @Input() title: string;
 
     code: Code = {
-        typescript: `import { SidebarModule } from 'primeng/sidebar';`
+        typescript: `import { SidebarModule } from 'primeng-atm/sidebar';`
     };
 }

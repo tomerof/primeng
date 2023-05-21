@@ -14,6 +14,6 @@ export class ImportDoc {
     @Input() title: string;
 
     code: Code = {
-        typescript: `import { SelectButtonModule } from 'primeng/selectbutton';`
+        typescript: `import { SelectButtonModule } from 'primeng-atm/selectbutton';`
     };
 }

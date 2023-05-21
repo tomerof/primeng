@@ -1,16 +1,16 @@
 import { NgModule, Component, Input, ElementRef, ChangeDetectionStrategy, ViewEncapsulation, TemplateRef, AfterContentInit, ContentChildren, QueryList, Output, EventEmitter, ChangeDetectorRef, ViewChild, Inject } from '@angular/core';
 import { CommonModule, DOCUMENT } from '@angular/common';
-import { SharedModule, PrimeTemplate, PrimeNGConfig } from 'primeng/api';
+import { SharedModule, PrimeTemplate, PrimeNGConfig } from 'primeng-atm/api';
 import { trigger, style, transition, animate, AnimationEvent } from '@angular/animations';
 import { SafeUrl } from '@angular/platform-browser';
-import { DomHandler } from 'primeng/dom';
-import { ZIndexUtils } from 'primeng/utils';
-import { RefreshIcon } from 'primeng/icons/refresh';
-import { EyeIcon } from 'primeng/icons/eye';
-import { UndoIcon } from 'primeng/icons/undo';
-import { SearchMinusIcon } from 'primeng/icons/searchminus';
-import { SearchPlusIcon } from 'primeng/icons/searchplus';
-import { TimesIcon } from 'primeng/icons/times';
+import { DomHandler } from 'primeng-atm/dom';
+import { ZIndexUtils } from 'primeng-atm/utils';
+import { RefreshIcon } from 'primeng-atm/icons/refresh';
+import { EyeIcon } from 'primeng-atm/icons/eye';
+import { UndoIcon } from 'primeng-atm/icons/undo';
+import { SearchMinusIcon } from 'primeng-atm/icons/searchminus';
+import { SearchPlusIcon } from 'primeng-atm/icons/searchplus';
+import { TimesIcon } from 'primeng-atm/icons/times';
 
 @Component({
     selector: 'p-image',

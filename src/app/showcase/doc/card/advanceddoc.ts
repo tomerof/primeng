@@ -10,7 +10,7 @@ import { Code } from '../../domain/code';
         <div class="card flex justify-content-center">
             <p-card header="Advanced Card" subheader="Card Subheader" [style]="{ width: '360px' }">
                 <ng-template pTemplate="header">
-                    <img alt="Card" src="https://primefaces.org/cdn/primeng/images/usercard.png" />
+                    <img alt="Card" src="https://primefaces.org/cdn/primeng-atm/images/usercard.png" />
                 </ng-template>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore sed consequuntur error repudiandae numquam deserunt quisquam repellat libero asperiores earum nam nobis, culpa ratione quam perferendis esse, cupiditate neque
@@ -34,7 +34,7 @@ export class AdvancedDoc {
         basic: `
 <p-card header="Advanced Card" subheader="Card Subheader" [style]="{ width: '360px' }">
     <ng-template pTemplate="header">
-        <img alt="Card" src="https://primefaces.org/cdn/primeng/images/usercard.png" />
+        <img alt="Card" src="https://primefaces.org/cdn/primeng-atm/images/usercard.png" />
     </ng-template>
     <p>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore sed consequuntur error repudiandae numquam deserunt quisquam repellat libero asperiores earum nam nobis, culpa ratione quam perferendis esse, cupiditate neque
@@ -50,7 +50,7 @@ export class AdvancedDoc {
 <div class="card flex justify-content-center">
     <p-card header="Advanced Card" subheader="Card Subheader" [style]="{ width: '360px' }">
         <ng-template pTemplate="header">
-            <img alt="Card" src="https://primefaces.org/cdn/primeng/images/usercard.png" />
+            <img alt="Card" src="https://primefaces.org/cdn/primeng-atm/images/usercard.png" />
         </ng-template>
         <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore sed consequuntur error repudiandae numquam deserunt quisquam repellat libero asperiores earum nam nobis, culpa ratione quam perferendis esse, cupiditate neque

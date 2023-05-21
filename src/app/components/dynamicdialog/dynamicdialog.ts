@@ -19,15 +19,15 @@ import {
     ViewEncapsulation,
     ViewRef
 } from '@angular/core';
-import { PrimeNGConfig, SharedModule } from 'primeng/api';
-import { DomHandler } from 'primeng/dom';
-import { ZIndexUtils } from 'primeng/utils';
+import { PrimeNGConfig, SharedModule } from 'primeng-atm/api';
+import { DomHandler } from 'primeng-atm/dom';
+import { ZIndexUtils } from 'primeng-atm/utils';
 import { DynamicDialogConfig } from './dynamicdialog-config';
 import { DynamicDialogRef } from './dynamicdialog-ref';
 import { DynamicDialogContent } from './dynamicdialogcontent';
-import { TimesIcon } from 'primeng/icons/times';
-import { WindowMaximizeIcon } from 'primeng/icons/windowmaximize';
-import { WindowMinimizeIcon } from 'primeng/icons/windowminimize';
+import { TimesIcon } from 'primeng-atm/icons/times';
+import { WindowMaximizeIcon } from 'primeng-atm/icons/windowmaximize';
+import { WindowMinimizeIcon } from 'primeng-atm/icons/windowminimize';
 
 const showAnimation = animation([style({ transform: '{{transform}}', opacity: 0 }), animate('{{transition}}', style({ transform: 'none', opacity: 1 }))]);
 
@@ -61,6 +61,7 @@ const hideAnimation = animation([animate('{{transition}}', style({ transform: '{
                 (@animation.start)="onAnimationStart($event)"
                 (@animation.done)="onAnimationEnd($event)"
                 role="dialog"
+                aria-modal="true"
                 *ngIf="visible"
                 [style.width]="config.width"
                 [style.height]="config.height"

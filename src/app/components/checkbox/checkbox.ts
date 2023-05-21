@@ -1,9 +1,9 @@
 import { CommonModule } from '@angular/common';
 import { ChangeDetectionStrategy, ChangeDetectorRef, Component, ContentChildren, ElementRef, EventEmitter, forwardRef, Input, NgModule, Output, QueryList, TemplateRef, ViewChild, ViewEncapsulation } from '@angular/core';
 import { ControlValueAccessor, FormControl, NG_VALUE_ACCESSOR } from '@angular/forms';
-import { ObjectUtils } from 'primeng/utils';
-import { PrimeTemplate, SharedModule } from 'primeng/api';
-import { CheckIcon } from 'primeng/icons/check';
+import { ObjectUtils } from 'primeng-atm/utils';
+import { PrimeTemplate, SharedModule } from 'primeng-atm/api';
+import { CheckIcon } from 'primeng-atm/icons/check';
 
 export const CHECKBOX_VALUE_ACCESSOR: any = {
     provide: NG_VALUE_ACCESSOR,
@@ -36,9 +36,9 @@ export const CHECKBOX_VALUE_ACCESSOR: any = {
                 />
             </div>
             <div class="p-checkbox-box" (click)="onClick($event, cb, true)" [ngClass]="{ 'p-highlight': checked(), 'p-disabled': disabled, 'p-focus': focused }">
-                
+
             <ng-container *ngIf="checked()">
-                <ng-container *ngIf="!checkboxIconTemplate"> 
+                <ng-container *ngIf="!checkboxIconTemplate">
                     <span *ngIf="checkboxIcon" class="p-checkbox-icon" [ngClass]="checkboxIcon"></span>
                     <CheckIcon *ngIf="!checkboxIcon" [styleClass]="'p-checkbox-icon'"/>
                 </ng-container>
