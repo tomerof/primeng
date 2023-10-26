@@ -27,4 +27,5 @@ export class DynamicDialogConfig<T = any> {
     minimizeIcon?: string;
     position?: string;
     ariaLabelledBy?: string;
+    ariaLabel?: string;
 }

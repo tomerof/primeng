@@ -39,7 +39,8 @@ export class BasicDoc implements OnDestroy {
             contentStyle: { overflow: 'auto' },
             baseZIndex: 10000,
             maximizable: true,
-            ariaLabelledBy: 'product-selection-dialog-title'
+            ariaLabelledBy: 'product-selection-dialog-title',
+            ariaLabel: 'My Dialog'
         });
 
         this.ref.onClose.subscribe((product: Product) => {
