@@ -1,6 +1,6 @@
 {
     "name": "primeng-atm",
-    "version": "15.4.1",
+    "version": "15.4.3",
     "license": "SEE LICENSE IN LICENSE.md",
     "scripts": {
         "ng": "ng",
